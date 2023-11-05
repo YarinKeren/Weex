@@ -1,0 +1,482 @@
+{
+  "name": "Deltify",
+  "theme": "wap-1-theme",
+  "description": "E-Commerce",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/deltify_k23xlj.jpg",
+  "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524920/deltify_1_erqouo.png",
+  "cmps": [
+    {
+      "_id": "A1B2C3D4E5",
+      "type": "container",
+      "name": "shopify-nav",
+      "theme": "wap-1-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698308785/shopifynav_faeqsi.jpg",
+      "className": "shopify-nav",
+      "style": {},
+      "createdBy": {
+        "_id": "W9X8Y7Z6U5",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "F6G7H8J9K0",
+          "info": { "txt": "Home", "href": "#home" },
+          "style": {},
+          "className": "shopify-link1"
+        },
+        {
+          "type": "link",
+          "_id": "O9P8N7M6L5",
+          "info": { "txt": "Services", "href": "#services" },
+          "style": {},
+          "className": "shopify-link2"
+        },
+        {
+          "type": "link",
+          "_id": "I4U3Y2T1R0",
+          "info": { "txt": "About", "href": "#about" },
+          "style": {},
+          "className": "shopify-link3"
+        },
+        {
+          "type": "img",
+          "_id": "E0D9C8B7A6",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577089/ngxbxi3mbklkp3hfy4av.png"
+          },
+          "style": {},
+          "className": "shopify-logo"
+        },
+        {
+          "type": "btn",
+          "_id": "S6V5X4W3Q2",
+          "info": { "txt": "Sign Up", "href": "#signup" },
+          "style": {},
+          "className": "shopify-button"
+        }
+      ]
+    },
+    {
+      "_id": "P3A2Y4D5S6",
+      "type": "container",
+      "name": "shopify-hero",
+      "theme": "wap-1-theme",
+      "className": "shopify-hero",
+      "style": {},
+      "createdBy": {
+        "_id": "F4R3T2B1N0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "G5H4J3K2L1",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577130/azw4daswc3ej8l2ljxbr.png"
+          },
+          "style": {},
+          "className": "shopify-hero-img"
+        },
+        {
+          "type": "container",
+          "_id": "M1N2O3P4Q5",
+          "style": {},
+          "className": "shopify-hero-div",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "R5S4T3U2V1",
+              "info": { "txt": "Let’s sky rocket your revenue" },
+              "style": {},
+              "className": "shopify-hero-div-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "W1X2C3Z4A5",
+              "info": {
+                "txt": "Welcome to your gateway to effortless online success! At our cutting-edge platform, we specialize in crafting customized Shopify stores tailored just for you, eliminating the hassle and technical intricacies that often come with e-commerce ventures."
+              },
+              "style": {},
+              "className": "shopify-hero-div-txt2"
+            },
+            {
+              "type": "container",
+              "_id": "D3F2G1H0I9",
+              "style": {},
+              "className": "shopify-hero-tick-div1",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "W3A2CCC5W",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577173/zksw6zl6nfiyojluqc3c.png"
+                  },
+                  "style": {},
+                  "className": "shopify-img-items1"
+                },
+                {
+                  "type": "title",
+                  "_id": "Z1AAAAX2D1",
+                  "info": {
+                    "txt": "Thousands of happy clients"
+                  },
+                  "style": {},
+                  "className": "shopify-title-items1"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "J9K8L7M6N5",
+              "style": {},
+              "className": "shopify-hero-tick-div1",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "WJA522WWJ",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577173/zksw6zl6nfiyojluqc3c.png"
+                  },
+                  "style": {},
+                  "className": "shopify-img-items2"
+                },
+                {
+                  "type": "title",
+                  "_id": "91AJJJ2D9",
+                  "info": {
+                    "txt": "100% Success rate!"
+                  },
+                  "style": {},
+                  "className": "shopify-title-items2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "O5P4A3S2D1",
+              "style": {},
+              "className": "shopify-hero-tick-div1",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "187PPPPWP",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577173/zksw6zl6nfiyojluqc3c.png"
+                  },
+                  "style": {},
+                  "className": "shopify-img-items3"
+                },
+                {
+                  "type": "title",
+                  "_id": "CC44WQWQ5",
+                  "info": {
+                    "txt": "24/7 support online and on the phone"
+                  },
+                  "style": {},
+                  "className": "shopify-title-items3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "A7Bt9RzV",
+      "type": "container",
+      "name": "shopify-section",
+      "theme": "wap-1-theme",
+      "className": "shopify-section",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309561/shopsect_i1h4hc.jpg",
+      "createdBy": {
+        "_id": "E5Hj6PzL",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "D4mK0OyX",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698580165/jia87p26mpj15ohuvsk1.png"
+          },
+          "style": {},
+          "className": "shopify-section-img"
+        },
+        {
+          "type": "container",
+          "_id": "U9pV1ZbW",
+          "style": {},
+          "className": "shopify-section-div",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "G2kQ5rA6",
+              "info": { "txt": "EXPERT STORE DESIGNING" },
+              "style": {},
+              "className": "shopify-section-div-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "T8yN3oL7",
+              "info": {
+                "txt": "Shopify stores that are proven in its power to convert"
+              },
+              "style": {},
+              "className": "shopify-section-txt2"
+            },
+            {
+              "type": "txt",
+              "_id": "C6lI4sM8",
+              "info": {
+                "txt": "There are enough stresses involved in running a successful ecommerce site - the design and efficacy of your store shouldn't be one of them, We offers whitening in a professional Solid Brush for fast, safe, and effective results after 10 days."
+              },
+              "style": {},
+              "className": "shopify-section-txt3"
+            },
+            {
+              "type": "txt",
+              "_id": "J3bQ2eF9",
+              "info": {
+                "txt": "There are enough stresses involved in running a successful ecommerce site - the design and efficacy of your store shouldn't be one of them, We offers whitening in a professional Solid Brush for fast, safe, and effective results after 10 days."
+              },
+              "style": {},
+              "className": "shopify-section-txt3"
+            },
+            {
+              "type": "btn",
+              "_id": "X5dH7gP0",
+              "info": { "txt": "CONTACT US", "href": "link_placeholder" },
+              "style": {},
+              "className": "shopify-section-button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "a1b2c3d4e5",
+      "type": "container",
+      "name": "Shopify Pricing Section",
+      "theme": "wap-1-theme",
+      "className": "shopify-pricing-section",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309272/shopifypricing_nh30vz.jpg",
+      "createdBy": {
+        "_id": "a6b7c8d9e0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "f1g2h3i4j5",
+          "style": {},
+          "className": "shopify-pricing-card",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "k1l2m3n4o5",
+              "info": { "txt": "Sole Proprietor" },
+              "style": {},
+              "className": "pricing-card-plan-txt"
+            },
+            {
+              "type": "title",
+              "_id": "p1q2r3s4t5",
+              "info": { "txt": "$29/month" },
+              "style": {},
+              "className": "pricing-card-price-txt"
+            },
+            {
+              "type": "txt",
+              "_id": "u1v2w3x4y5",
+              "info": {
+                "txt": "Perfect for individuals just starting their eCommerce journey. This plan offers all the basic tools to get your store off the ground"
+              },
+              "style": {},
+              "className": "pricing-card-info-txt"
+            },
+            {
+              "type": "btn",
+              "_id": "z1a2b3c4d5",
+              "info": { "txt": "Start Your Journey", "href": "http://www.google.com/" },
+              "style": {},
+              "className": "pricing-card-btn"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "e1f2g3h4i5",
+          "style": {},
+          "className": "shopify-pricing-card",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "j1k2l3m4n5",
+              "info": { "txt": "Small Business" },
+              "style": {},
+              "className": "pricing-card-plan-txt"
+            },
+            {
+              "type": "title",
+              "_id": "o1p2q3r4s5",
+              "info": { "txt": "$79/month" },
+              "style": {},
+              "className": "pricing-card-price-txt"
+            },
+            {
+              "type": "txt",
+              "_id": "t1u2v3w4x5",
+              "info": {
+                "txt": "Ideal for growing businesses aiming for a wider reach of customers. This Includes analytics and advanced customization features."
+              },
+              "style": {},
+              "className": "pricing-card-info-txt"
+            },
+            {
+              "type": "btn",
+              "_id": "y1z2a3b4c5",
+              "info": { "txt": "Scale Your Business", "href": "http://www.google.com/" },
+              "style": {},
+              "className": "pricing-card-btn"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "d1e2f3g4h5",
+          "style": {},
+          "className": "shopify-pricing-card",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "i1j2k3l4m5",
+              "info": { "txt": "Enterprise" },
+              "style": {},
+              "className": "pricing-card-plan-txt"
+            },
+            {
+              "type": "title",
+              "_id": "n1o2p3q4r5",
+              "info": { "txt": "Custom Pricing" },
+              "style": {},
+              "className": "pricing-card-price-txt"
+            },
+            {
+              "type": "txt",
+              "_id": "s1t2u3v4w5",
+              "info": {
+                "txt": "Tailored solutions to meet the demanding needs of large-scale operations, including premium support and custom integrations."
+              },
+              "style": {},
+              "className": "pricing-card-info-txt"
+            },
+            {
+              "type": "btn",
+              "_id": "x1y2z3a4b5",
+              "info": { "txt": "Get Custom Quote", "href": "http://www.google.com/" },
+              "style": {},
+              "className": "pricing-card-btn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "3R3Rm31RRcN767Cm25Nn",
+      "type": "carousel",
+      "name": "carousel-one",
+      "theme": "carousel-one-theme",
+      "className": "carousel-one",
+      "style": {},
+      "imgUrl": "",
+      "createdBy": {
+        "_id": "aABbrecjam9mm0019E0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "W2kV5pnrX8Zq6aF4",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047843/pexels-jj-jordan-9304725_ikpfi6.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img1"
+        },
+        {
+          "type": "img",
+          "_id": "N4jV8xwkY2Am5qL6",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047853/pexels-karolina-grabowska-4238994_kgql8c.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img2"
+        },
+        {
+          "type": "img",
+          "_id": "M2pX5aslH6Tn4fJ8",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047860/pexels-alexander-ant-7004697_trgjen.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img3"
+        },
+        {
+          "type": "img",
+          "_id": "K8dP3qsiL1Zn7vR2",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047864/pexels-karolina-grabowska-4386404_nkmsvv.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img4"
+        },
+        {
+          "type": "img",
+          "_id": "ciAc99CDP3993cmcmcz0JCE84",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047843/pexels-jj-jordan-9304725_ikpfi6.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img5"
+        },
+        {
+          "type": "img",
+          "_id": "DDKD4jVcsidjcsdf92222qL6",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047853/pexels-karolina-grabowska-4238994_kgql8c.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img6"
+        },
+        {
+          "type": "img",
+          "_id": "ALFIpX5aslFNUC83836JCc",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047860/pexels-alexander-ant-7004697_trgjen.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img7"
+        },
+        {
+          "type": "img",
+          "_id": "zx8d2zx3jdijfiwdhjf838",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047864/pexels-karolina-grabowska-4386404_nkmsvv.jpg"
+          },
+          "style": {},
+          "className": "carousel-one-img8"
+        }
+      ]
+    }
+  ],
+  "owner": "",
+  "isPublished": false
+}

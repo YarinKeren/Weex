@@ -23,7 +23,6 @@ if (process.env.NODE_ENV === 'production') {
 
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
-import { carRoutes } from './api/car/car.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
 
 // routes
@@ -32,7 +31,7 @@ app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
-app.use('/api/car', carRoutes)
+app.use('/api/wap', wapRoutes)
 setupSocketAPI(server)
 
 // Make every server-side-route to match the index.html
@@ -43,6 +42,7 @@ app.get('/**', (req, res) => {
 })
 
 import { logger } from './services/logger.service.js'
+import { wapRoutes } from './api/wap/wap.routes.js'
 const port = process.env.PORT || 3030
 server.listen(port, () => {
   logger.info('Server is running on port: ' + port)

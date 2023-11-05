@@ -1,0 +1,250 @@
+{
+  "name": "Portfolio",
+  "theme": "wap-6-theme",
+  "description": "Personal Website",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/portf_helhlv.jpg",
+  "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698525273/portfolio_1_kujhnd.png",
+  "cmps": [
+    {
+      "_id": "N8M4e2G5Z9",
+      "type": "container",
+      "name": "portfolio-hero",
+      "theme": "wap-6-theme",
+      "className": "portfolio-hero",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698308655/portfoliohero_gor1vh.jpg",
+      "createdBy": {
+        "_id": "Q5J3z6R1W8",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "T1E6v2P9A3",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577018/mgvsanhxe5921ryy9laf.png"
+          },
+          "style": {},
+          "className": "portfolio-image-item"
+        },
+        {
+          "type": "txt",
+          "_id": "K4U0b7D2Y6",
+          "info": { "txt": "I design products that delight people." },
+          "style": {},
+          "className": "portfolio-text1"
+        },
+        {
+          "type": "img",
+          "_id": "L9Z5x4C8O2",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576931/d1lrkp4c5mgrpikzyynn.png"
+          },
+          "style": {},
+          "className": "portfolio-image-item2"
+        },
+        {
+          "type": "txt",
+          "_id": "B3V8n0G7J2",
+          "info": {
+            "txt": "4.9 out of 5 based on 768 reviews"
+          },
+          "style": {},
+          "className": "portfolio-text2"
+        },
+        {
+          "type": "btn",
+          "_id": "I2F7m6L5K0",
+          "info": { "txt": "Book a Call", "href": "link_placeholder" },
+          "style": {},
+          "className": "portfolio-btn"
+        },
+        {
+          "type": "txt",
+          "_id": "H6N1v5P0Z3",
+          "info": {
+            "txt": "'Hi! I'm Will Burner, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.'"
+          },
+          "style": {},
+          "className": "portfolio-text3"
+        }
+      ]
+    },
+    {
+      "_id": "5dJ7h32bKtXa",
+      "type": "container",
+      "name": "portfolio-section",
+      "theme": "wap-6-theme",
+      "className": "portfolio-section",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309394/portofliosection_tzja9e.jpg",
+      "createdBy": {
+        "_id": "8Yg2zX4pL9Oe",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "3Bj9lN6zV4Hp",
+          "info": { "txt": "Numbers that seal the deal" },
+          "style": {},
+          "className": "portfolio-text-1"
+        },
+        {
+          "type": "container",
+          "_id": "4Ml7gQ2zE9Ur",
+          "style": {},
+          "className": "portfolio-section-box-1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "3zzZpp3nP",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/ftjff3xtxzgzm99s8jra.png"
+              },
+              "style": {},
+              "className": "portfolio-img-items1"
+            },
+            {
+              "type": "title",
+              "_id": "CC4djsn11fF",
+              "info": { "txt": "40+" },
+              "style": {},
+              "className": "portfolio-title-items1"
+            },
+            {
+              "type": "txt",
+              "_id": "yY3dcc1fnN",
+              "info": { "txt": "Over the past 5 years, I’ve worked with more than 40 companies." },
+              "style": {},
+              "className": "portfolio-txt-items1"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "2Ht4oO5yP6Id",
+          "style": {},
+          "className": "portfolio-section-box-2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "344zKV91Ddfd3n4",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/z7wzcvkxxsmntjepxgp4.png"
+              },
+              "style": {},
+              "className": "portfolio-img-items2"
+            },
+            {
+              "type": "title",
+              "_id": "3NVv4dvsn22",
+              "info": { "txt": "4.9/5" },
+              "style": {},
+              "className": "portfolio-title-items2"
+            },
+            {
+              "type": "txt",
+              "_id": "ncjs9910FllL1",
+              "info": { "txt": "Clients have consistently rated me 5/5, except one Brett." },
+              "style": {},
+              "className": "portfolio-txt-items2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "7Gj2dX9aT3Wp",
+          "style": {},
+          "className": "portfolio-section-box-3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "1900Ds30A3D4",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/is9blxisntjxo6dvm2jl.png"
+              },
+              "style": {},
+              "className": "portfolio-img-items3"
+            },
+            {
+              "type": "title",
+              "_id": "18230Ds3OA3o4",
+              "info": { "txt": "2M+" },
+              "style": {},
+              "className": "portfolio-title-items3"
+            },
+            {
+              "type": "txt",
+              "_id": "2xzzX8230FOf8",
+              "info": { "txt": "I’ve driven over 2M conversions through content." },
+              "style": {},
+              "className": "portfolio-txt-items3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "2bT6kS7A",
+      "type": "container",
+      "name": "portfolio-review-section",
+      "theme": "wap-6-theme",
+      "className": "portfolio-review-section",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309498/portreview_qbqm6h.jpg",
+      "createdBy": {
+        "_id": "Y4jH9bM2",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "f4L3xQ9R",
+          "info": { "txt": "What people are saying" },
+          "style": {},
+          "className": "portfolio-review-text-1"
+        },
+        {
+          "type": "img",
+          "_id": "e7T1pK5U",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576931/d1lrkp4c5mgrpikzyynn.png"
+          },
+          "style": {},
+          "className": "portfolio-review-image"
+        },
+        {
+          "type": "txt",
+          "_id": "s8N2dZ0V",
+          "info": {
+            "txt": "'Our design process was very patchwork and impromptu before we met Will. He’s helped us build a solid design system and optimize our website for conversions.'"
+          },
+          "style": {},
+          "className": "portfolio-review-text-2"
+        },
+        {
+          "type": "txt",
+          "_id": "q6H5aW1B",
+          "info": { "txt": "Peter Sink -  Marketing Executive, Bubblewrap" },
+          "style": {},
+          "className": "portfolio-review-text-3"
+        },
+        {
+          "type": "img",
+          "_id": "o9G4cL2F",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576931/gwbmghia8uit4sylmf2b.png"
+          },
+          "style": {},
+          "className": "portfolio-review-image-profile"
+        }
+      ]
+    }
+  ],
+  "owner": "",
+  "isPublished": false
+}

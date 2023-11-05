@@ -1,0 +1,387 @@
+{
+  "name": "Soundbeam",
+  "theme": "wap-3-theme",
+  "description": "E-Commerce",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/soundbeam_ahquqc.jpg",
+  "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524705/headphonesmobile_1_zokai9.png",
+  "cmps": [
+    {
+      "_id": "Z1X2C3V4B5",
+      "type": "container",
+      "name": "headphones-nav",
+      "theme": "wap-3-theme",
+      "category": "navigation",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409292/h0uijllex9ubhycxw93i.png",
+      "className": "headphones-nav",
+      "style": {},
+      "createdBy": {
+        "_id": "N6M7L8K9J0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "Q2W3E4R5T6",
+          "info": { "txt": "SoundBeam", "href": "#SoundBeam" },
+          "style": {},
+          "className": "headphones-link1"
+        },
+        {
+          "type": "link",
+          "_id": "U0I9O8P7A6",
+          "info": { "txt": "Home", "href": "#home" },
+          "style": {},
+          "className": "headphones-link2"
+        },
+        {
+          "type": "link",
+          "_id": "S5D4F3G2H1",
+          "info": { "txt": "Prices", "href": "#SoundBeam" },
+          "style": {},
+          "className": "headphones-link3"
+        },
+        {
+          "type": "link",
+          "_id": "J0Z9X8C7V6",
+          "info": { "txt": "About", "href": "#about" },
+          "style": {},
+          "className": "headphones-link4"
+        },
+        {
+          "type": "btn",
+          "_id": "B5N4M3L2K1",
+          "info": { "txt": "Order Now", "href": "#Order Now" },
+          "style": {},
+          "className": "headphones-button"
+        }
+      ]
+    },
+    {
+      "_id": "E3B1y4N7J9",
+      "type": "container",
+      "name": "headphones-hero",
+      "theme": "wap-3-theme",
+      "category": "hero",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409293/z1ycae3p8f2xzhgtlzsk.png",
+      "className": "headphones-hero",
+      "style": {},
+      "createdBy": {
+        "_id": "X4H8a9L5K0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "O9Z6t2C5P1",
+          "info": { "txt": "Soundbeam ERD - 3083" },
+          "style": {},
+          "className": "headphones-hero-div-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "G7F0u5V3B2",
+          "info": { "txt": "Reinventing Sound Experience" },
+          "style": {},
+          "className": "headphones-hero-div-txt2"
+        },
+        {
+          "type": "txt",
+          "_id": "A2S1y6L9O3",
+          "info": { "txt": "One step at a time." },
+          "style": {},
+          "className": "headphones-hero-div-txt3"
+        },
+        {
+          "type": "btn",
+          "_id": "U6T5r4M2N8",
+          "info": { "txt": "Order Now", "href": "#OrderNow" },
+          "style": {},
+          "className": "headphones-hero-btn"
+        }
+      ]
+    },
+    {
+      "_id": "d3JfN9Zo",
+      "type": "container",
+      "name": "headphones-section",
+      "theme": "wap-3-theme",
+      "category": "section",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409293/n2s6pn7qxql9qbgswzot.png",
+      "className": "headphones-section",
+      "style": {},
+      "createdBy": {
+        "_id": "B7Lk4XcP",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "h8Ei2Gq0",
+          "style": {},
+          "className": "headphones-section-div-1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "m0Kz5CvB",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/jlhzdi4jqo2t4pmlusdp.png"
+              },
+              "style": {},
+              "className": "headphones-section-img-1"
+            },
+            {
+              "type": "txt",
+              "_id": "o6WqR4Jp",
+              "info": { "txt": "High Quality Sound" },
+              "style": {},
+              "className": "headphones-section-txt-1"
+            },
+            {
+              "type": "txt",
+              "_id": "t7Uj9HxS",
+              "info": {
+                "txt": "Immerse in pristine audio with premium headphones, delivering unparalleled sound quality and immersive listening experiences."
+              },
+              "style": {},
+              "className": "headphones-section-txt-2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "f5Dz6NwL",
+          "style": {},
+          "className": "headphones-section-div-2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "v8Xp1YbQ",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/rqihnrvhpubfjelj3vlh.png"
+              },
+              "style": {},
+              "className": "headphones-section-img-2"
+            },
+            {
+              "type": "txt",
+              "_id": "c9Zw3LrM",
+              "info": { "txt": "Easy Wireless Listening" },
+              "style": {},
+              "className": "headphones-section-txt-3"
+            },
+            {
+              "type": "txt",
+              "_id": "k2Pv7TxF",
+              "info": {
+                "txt": "Seamlessly enjoy wireless freedom with effortless connectivity, ensuring easy and convenient listening experiences anywhere."
+              },
+              "style": {},
+              "className": "headphones-section-txt-4"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "j3Dq8UzA",
+          "style": {},
+          "className": "headphones-section-div-3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "n4Gr5IyH",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/qwehqmxjjttt1rvdd11z.png"
+              },
+              "style": {},
+              "className": "headphones-section-img-3"
+            },
+            {
+              "type": "txt",
+              "_id": "p5Os6VeB",
+              "info": { "txt": "Easy Wireless Listening" },
+              "style": {},
+              "className": "headphones-section-txt-5"
+            },
+            {
+              "type": "txt",
+              "_id": "u6Yl7WdC",
+              "info": {
+                "txt": "Seamlessly enjoy wireless freedom with effortless connectivity."
+              },
+              "style": {},
+              "className": "headphones-section-txt-6"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "w7Zx8EjG",
+          "style": {},
+          "className": "headphones-section-div-4",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "l8Vb9KiL",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/zlsntmrwuxlwwegnpaal.png"
+              },
+              "style": {},
+              "className": "headphones-section-img-4"
+            },
+            {
+              "type": "txt",
+              "_id": "r9Ay0BxW",
+              "info": { "txt": "Sleek Updated Design" },
+              "style": {},
+              "className": "headphones-section-txt-7"
+            },
+            {
+              "type": "txt",
+              "_id": "s0Bz1FqP",
+              "info": {
+                "txt": "Experience cutting-edge style with the latest headphones, featuring a sleek, modern design."
+              },
+              "style": {},
+              "className": "headphones-section-txt-8"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "x1Da2HrO",
+          "style": {},
+          "className": "headphones-section-grey-line1",
+          "cmps": []
+        },
+        {
+          "type": "container",
+          "_id": "y2Eb3IsN",
+          "style": {},
+          "className": "headphones-section-grey-line2",
+          "cmps": []
+        },
+        {
+          "type": "container",
+          "_id": "z3Fc4JtK",
+          "style": {},
+          "className": "headphones-section-grey-line3",
+          "cmps": []
+        }
+      ]
+    },
+    {
+      "_id": "D7yM4k",
+      "type": "container",
+      "name": "headphones-section-2",
+      "theme": "wap-3-theme",
+      "category": "section",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409293/sktghgmxsabpslpjyjfv.png",
+      "className": "headphones-section-2",
+      "style": {},
+      "createdBy": {
+        "_id": "X2tU5v",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "U3jL8t",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698406739/voev2zcrwenwafkr6pqs.png"
+          },
+          "style": {},
+          "className": "headphones-section-2-img"
+        },
+        {
+          "type": "container",
+          "_id": "M5hN9z",
+          "style": {},
+          "className": "headphones-section-2-div",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "C1yE7o",
+              "info": { "txt": "Music Like You've Never Heard Before" },
+              "style": {},
+              "className": "headphones-section-2-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "B4kF0i",
+              "info": {
+                "txt": "Discover uncharted musical realms with headphones that unveil nuances, revealing music you've never heard before."
+              },
+              "style": {},
+              "className": "headphones-section-2-txt2"
+            },
+            {
+              "type": "btn",
+              "_id": "R6pA3x",
+              "info": { "txt": "Order Now", "href": "#OrderNow" },
+              "style": {},
+              "className": "headphones-section-2-btn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "kVMZ2",
+      "type": "container",
+      "name": "headphones-footer",
+      "theme": "wap-3-theme",
+      "imgUrl": "",
+      "category": "footer",
+      "className": "headphones-footer",
+      "style": {},
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "headphones-footer-link1",
+          "info": { "txt": "Home", "href": "#Home" },
+          "style": {},
+          "className": "headphones-footer-link1"
+        },
+        {
+          "type": "link",
+          "_id": "headphones-footer-link2",
+          "info": { "txt": "Benefits", "href": "#benefits" },
+          "style": {},
+          "className": "headphones-footer-link2"
+        },
+        {
+          "type": "link",
+          "_id": "headphones-footer-link3",
+          "info": { "txt": "Reviews", "href": "#Reviews" },
+          "style": {},
+          "className": "headphones-footer-link3"
+        },
+        {
+          "type": "link",
+          "_id": "headphones-footer-link4",
+          "info": { "txt": "Shipping", "href": "#about" },
+          "style": {},
+          "className": "headphones-footer-link4"
+        },
+        {
+          "type": "txt",
+          "_id": "headphones-footer-txt1",
+          "info": { "txt": "2023 by SOUNDBEAM, powered by WeeX" },
+          "style": {},
+          "className": "headphones-footer-txt1"
+        }
+      ]
+    }
+  ],
+  "owner": "",
+  "isPublished": false
+}

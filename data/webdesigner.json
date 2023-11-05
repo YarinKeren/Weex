@@ -1,0 +1,575 @@
+{
+  "name": "web designer",
+  "theme": "wap-7-theme",
+  "description": "Personal Website",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698797266/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-01_%D7%91-2.07.36_elkgvw.jpg",
+  "mobileImgUrl": "",
+  "cmps": [
+    {
+      "_id": "A1B2C3D4E5",
+      "type": "container",
+      "name": "designer-nav",
+      "theme": "wap-7-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698796596/byte-nav_yjtqex.jpg",
+      "className": "designer-nav",
+      "style": {},
+      "createdBy": {
+        "_id": "F6G7H8I9J0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "K4L5M6N7O8",
+          "info": { "txt": "BYTE" },
+          "style": {},
+          "className": "designer-logo"
+        },
+        {
+          "type": "link",
+          "_id": "P2Q3R4S5T6",
+          "info": { "txt": "SERVICES", "href": "#services" },
+          "style": {},
+          "className": "designer-nav-link1"
+        },
+        {
+          "type": "link",
+          "_id": "U7V8W9X0Y1",
+          "info": { "txt": "ABOUT", "href": "#about" },
+          "style": {},
+          "className": "designer-nav-link2"
+        },
+        {
+          "type": "link",
+          "_id": "N7M8L9K0J1",
+          "info": { "txt": "CONTACT", "href": "#contact" },
+          "style": {},
+          "className": "designer-nav-link3"
+        }
+      ]
+    },
+    {
+      "_id": "S3D4F5G6H7",
+      "type": "container",
+      "name": "designer-hero",
+      "theme": "wap-7-theme",
+      "className": "designer-hero",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698798870/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-01_%D7%91-2.34.20_c9mcfg.jpg",
+      "createdBy": {
+        "_id": "Y7U8I9O0P1",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "A1B2C3D4E5",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698798709/designer-hero-img_m7jzfw.jpg"
+          },
+          "style": {},
+          "className": "designer-hero-img"
+        },
+        {
+          "type": "txt",
+          "_id": "F6G7H8I9J0",
+          "info": { "txt": "Web designer & Weex developer" },
+          "style": {},
+          "className": "designer-text1"
+        },
+        {
+          "type": "txt",
+          "_id": "K1L2M3N4O5",
+          "info": {
+            "txt": "Diving into the world of design, I've had the privilege of working on diverse projects, each leaving a unique mark."
+          },
+          "style": {},
+          "className": "designer-text2"
+        },
+        {
+          "type": "btn",
+          "_id": "P6Q7R8S9T0",
+          "info": { "txt": "VIEW PROJECTS", "href": "#projects" },
+          "style": {},
+          "className": "designer-hero-btn"
+        }
+      ]
+    },
+    {
+      "_id": "R1S7T8U9X2",
+      "type": "container",
+      "name": "designer-social",
+      "theme": "wap-7-theme",
+      "imgUrl": "",
+      "className": "designer-social",
+      "style": {},
+      "createdBy": {
+        "_id": "C1D2E3F4G5",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "N6O7P8Q9R0",
+          "info": { "iconName": "facebook" },
+          "style": {},
+          "className": "designer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "S1T2U3V4W5",
+          "info": { "iconName": "instagram" },
+          "style": {},
+          "className": "designer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "S1T6U6V6W6",
+          "info": { "iconName": "linkedin" },
+          "style": {},
+          "className": "designer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "O1P1Q3R4S5",
+          "info": { "iconName": "energy" },
+          "style": {},
+          "className": "designer-icon"
+        }
+      ]
+    },
+    {
+      "_id": "AD8z6N5v3l",
+      "type": "container",
+      "name": "designer-video-section",
+      "theme": "wap-7-theme",
+      "imgUrl": "",
+      "className": "video-feature-section",
+      "style": {},
+      "createdBy": {
+        "_id": "Y3uH9k",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "T1yAsE8rD",
+          "info": {
+            "txt": "With over 8 years of design experience, I bring a creative edge to every project I touch. My design journey has led me to collaborate with startups and renowned brands alike, where I've crafted visuals that tell compelling stories."
+          },
+          "style": {},
+          "className": "video-feature-section-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "T2kCF1cj",
+          "info": {
+            "txt": "Diving into the world of design, I've had the privilege of working on diverse projects, each leaving a unique mark."
+          },
+          "style": {},
+          "className": "video-feature-section-txt2"
+        },
+        {
+          "type": "video",
+          "_id": "OVppm9fT6m",
+          "info": {
+            "src": "https://res.cloudinary.com/ds8ryiaxd/video/upload/v1698956999/designer-template-video_xy5bpq.mp4",
+            "controls": true,
+            "autoplay": false,
+            "loop": false
+          },
+          "style": {},
+          "className": "video-feature-section-video"
+        }
+      ]
+    },
+    {
+      "_id": "V1W2X3Y4Z5",
+      "type": "container",
+      "name": "designer-gallery",
+      "theme": "wap-7-theme",
+      "className": "designer-gallery",
+      "style": {},
+      "imgUrl": "",
+      "createdBy": {
+        "_id": "A6B7C8D9E0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "F1G2H3I4J5",
+          "info": {
+            "txt": "Work."
+          },
+          "style": {},
+          "className": "designer-gallery-tite"
+        },
+        {
+          "type": "container",
+          "_id": "V1N2O2R1Q0",
+          "style": {},
+          "className": "designer-gallery-img1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "Z1A2B3C4D5",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851118/asset_13_mta12e.jpg"
+              },
+              "style": {},
+              "className": "designer-gallery-img1-item"
+            },
+            {
+              "type": "title",
+              "_id": "R5S4T3U2V1",
+              "info": { "txt": "Nexus" },
+              "style": {},
+              "className": "designer-gallery-title1-item"
+            },
+            {
+              "type": "txt",
+              "_id": "R3S2T3U2C2",
+              "info": {
+                "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+              },
+              "style": {},
+              "className": "designer-gallery-txt1-item"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "OON12OR5Q9",
+          "style": {},
+          "className": "designer-gallery-img2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "K6L7M8N9O0",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851117/asset_10_re44fm.jpg"
+              },
+              "style": {},
+              "className": "designer-gallery-img2-item"
+            },
+            {
+              "type": "title",
+              "_id": "R5S4TVVVV8",
+              "info": { "txt": "Chroma" },
+              "style": {},
+              "className": "designer-gallery-title2-item"
+            },
+            {
+              "type": "txt",
+              "_id": "RRRRT2U2C2",
+              "info": {
+                "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+              },
+              "style": {},
+              "className": "designer-gallery-txt2-item"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "OOG40OR7BB",
+          "style": {},
+          "className": "designer-gallery-img3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "P1Q2R3S4T5",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851116/asset_12_qafmh8.jpg"
+              },
+              "style": {},
+              "className": "designer-gallery-img3-item"
+            },
+            {
+              "type": "title",
+              "_id": "EES4T2U2HH",
+              "info": { "txt": "Aurora" },
+              "style": {},
+              "className": "designer-gallery-title3-item"
+            },
+            {
+              "type": "txt",
+              "_id": "EES2E2U232",
+              "info": {
+                "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+              },
+              "style": {},
+              "className": "designer-gallery-txt3-item"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "COG45300CC",
+          "style": {},
+          "className": "designer-gallery-img4",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "U6V7W8X9Y0",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851116/asset_11_lwgfgn.jpg"
+              },
+              "style": {},
+              "className": "designer-gallery-img4-item"
+            },
+            {
+              "type": "title",
+              "_id": "EESCCC09TT",
+              "info": { "txt": "Zenith" },
+              "style": {},
+              "className": "designer-gallery-title4-item"
+            },
+            {
+              "type": "txt",
+              "_id": "11S2EEUSSS",
+              "info": {
+                "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+              },
+              "style": {},
+              "className": "designer-gallery-txt4-item"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "21cB2e3D3uAL4fdae",
+      "type": "schedule",
+      "name": "schedule-meeting-section",
+      "theme": "schedule-meeting-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699024739/schedule-one_sup9y1.jpg",
+      "className": "schedule-meeting-section",
+      "style": {},
+      "createdBy": {
+        "_id": "U3sE4A5d7oR",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "info": {
+        "schedule": {
+          "eventDuration": 30,
+          "daysForward": 6,
+          "data": [],
+          "days": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
+          "startHour": 9,
+          "endHour": 17,
+          "meetings": []
+        }
+      }
+    },
+    {
+      "_id": "E6F7G8H9I0",
+      "type": "container",
+      "name": "designer-contact",
+      "theme": "wap-7-theme",
+      "imgUrl": "",
+      "className": "designer-contact",
+      "style": {},
+      "createdBy": {
+        "_id": "J1K2L3M4N5",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "O6P7Q8R9S0",
+          "info": { "txt": "Let’s work together" },
+          "style": {},
+          "className": "designer-contact-title"
+        },
+        {
+          "type": "txt",
+          "_id": "T1U2V3W4X5",
+          "info": {
+            "txt": "Let's embark on a creative journey together, turning your ideas into captivating visuals."
+          },
+          "style": {},
+          "className": "designer-contact-tagline"
+        },
+        {
+          "type": "link",
+          "_id": "Y6Z7A8B9C0",
+          "info": { "txt": "LETS TALK", "href": "#" },
+          "style": {},
+          "className": "designer-contact-link"
+        }
+      ]
+    },
+    {
+      "_id": "F1R2M3S4",
+      "type": "container",
+      "name": "simple-form",
+      "theme": "form-1-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698926393/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-02_%D7%91-13.59.36_pnawej.jpg",
+      "className": "simple-form-class",
+      "style": {},
+      "createdBy": {
+        "_id": "U1S2E3R4",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "form",
+          "_id": "cmmS0KNMcj993k33jjc",
+          "style": {},
+          "className": "form-one-div",
+          "cmps": [
+            {
+              "_id": "D1N1P4U4L4",
+              "type": "title",
+              "info": { "txt": "Stay Tuned" },
+              "style": {},
+              "className": "form-title-1"
+            },
+            {
+              "_id": "I1CP12X4T1",
+              "type": "txt",
+              "info": { "txt": "Subscribe now and get my new designs directly to your Email" },
+              "style": {},
+              "className": "form-tagline-1"
+            },
+            {
+              "_id": "I1N2P3U4T1",
+              "type": "input",
+              "info": { "placeholder": "First Name", "type": "text" },
+              "style": {},
+              "className": "form-input-1"
+            },
+            {
+              "_id": "I1N2P3U4T2",
+              "type": "input",
+              "info": { "placeholder": "Last Name", "type": "text" },
+              "style": {},
+              "className": "form-input-2"
+            },
+            {
+              "_id": "I1N2P3U4T3",
+              "type": "input",
+              "info": { "placeholder": "Email", "type": "email" },
+              "style": {},
+              "className": "form-input-3"
+            },
+            {
+              "_id": "V444Uj8CLD9WXXWT3",
+              "type": "btn",
+              "info": { "txt": "Submit", "kind": "submit" },
+              "style": {},
+              "className": "form-input-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "m3232iDM4999dm",
+      "type": "container",
+      "name": "designer-footer",
+      "theme": "wap-7-theme",
+      "imgUrl": "",
+      "className": "designer-footer",
+      "style": {},
+      "createdBy": {
+        "_id": "kd02j2k2eSSL0",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "3Z11HH89H8cHH",
+          "style": {},
+          "className": "designer-footer-div1",
+          "cmps": [
+            {
+              "type": "link",
+              "_id": "93CDaq2k2ezcLO",
+              "info": { "txt": "Home", "href": "#Home" },
+              "style": {},
+              "className": "designer-footer-link1"
+            },
+            {
+              "type": "link",
+              "_id": "11cCM29Opdk2eqd3",
+              "info": { "txt": "Benefits", "href": "#benefits" },
+              "style": {},
+              "className": "designer-footer-link2"
+            },
+            {
+              "type": "link",
+              "_id": "djfks930JA29JCv7",
+              "info": { "txt": "Reviews", "href": "#Reviews" },
+              "style": {},
+              "className": "designer-footer-link3"
+            },
+            {
+              "type": "link",
+              "_id": "778ccC2810lNXA11",
+              "info": { "txt": "Shipping", "href": "#about" },
+              "style": {},
+              "className": "designer-footer-link4"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "ZZzhn9920ncaX2s",
+          "style": {},
+          "className": "designer-footer-div2",
+          "cmps": [
+            {
+              "type": "icon",
+              "_id": "Nmf93nnnn88GGGD",
+              "info": { "iconName": "facebook" },
+              "style": {},
+              "className": "designer-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "1mfDNC9111GD",
+              "info": { "iconName": "instagram" },
+              "style": {},
+              "className": "designer-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "iif93nnNIII2G",
+              "info": { "iconName": "linkedin" },
+              "style": {},
+              "className": "designer-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "SSf932mc9999OO",
+              "info": { "iconName": "energy" },
+              "style": {},
+              "className": "designer-footer-icon"
+            }
+          ]
+        },
+        {
+          "type": "txt",
+          "_id": "BJC9BBDM111PPB",
+          "info": { "txt": "Powered by WeeX 2023" },
+          "style": {},
+          "className": "designer-footer-txt1"
+        }
+      ]
+    }
+  ],
+  "owner": "",
+  "isPublished": false
+}
