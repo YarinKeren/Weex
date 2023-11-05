@@ -2,6 +2,7 @@
   "name": "Car Specialist",
   "description": "Landing Page",
   "theme": "wap-5-theme",
+  "originalTheme": "wap-5-theme",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698505373/carspecial_yz2qhn.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524535/carmobile_du9jga.png",
   "cmps": [

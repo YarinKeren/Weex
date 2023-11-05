@@ -47,6 +47,7 @@ async function remove(wapId) {
 
 async function add(wap) {
   try {
+    console.log('wap', wap)
     const collection = await dbService.getCollection('wap')
     await collection.insertOne(wap)
     return wap
@@ -62,12 +63,14 @@ async function update(wap) {
     //   vendor: wap.vendor,
     //   price: wap.price,
     // }
+    const wapToUpdate = { ...wap }
+    delete wapToUpdate._id
+
     const collection = await dbService.getCollection('wap')
-    await collection.updateOne({ _id: ObjectId(wap._id) })
-    // await collection.updateOne({ _id: ObjectId(wap._id) }, { $set: wapToSave })
+    await collection.updateOne({ _id: ObjectId(wap._id) }, { $set: wapToUpdate })
     return wap
   } catch (err) {
-    logger.error(`cannot update wap ${wapId}`, err)
+    logger.error(`cannot update wap ${wap._id}`, err)
     throw err
   }
 }

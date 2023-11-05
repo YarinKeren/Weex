@@ -1,6 +1,7 @@
 {
   "name": "Deltify",
   "theme": "wap-1-theme",
+  "originalTheme": "wap-1-theme",
   "description": "E-Commerce",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/deltify_k23xlj.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524920/deltify_1_erqouo.png",

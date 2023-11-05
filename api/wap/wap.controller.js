@@ -9,7 +9,8 @@ export async function getWaps(req, res) {
     //   txt: req.query.txt || '',
     //   pageIdx: req.query.pageIdx,
     // }
-    const waps = await wapService.query(filterBy)
+    const waps = await wapService.query()
+    // const waps = await wapService.query(filterBy)
     res.json(waps)
   } catch (err) {
     logger.error('Failed to get waps(controller-getWaps)', err)
@@ -35,6 +36,7 @@ export async function addWap(req, res) {
     const wap = req.body
     wap.owner = loggedinUser
     const addedWap = await wapService.add(wap)
+    console.log('addedWap', addedWap)
     // socketService.broadcast({ type: 'wap-added', data: addedWap, userId: loggedinUser._id })
     res.json(addedWap)
   } catch (err) {

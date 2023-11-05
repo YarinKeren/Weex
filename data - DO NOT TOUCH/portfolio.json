@@ -1,6 +1,7 @@
 {
   "name": "Portfolio",
   "theme": "wap-6-theme",
+  "originalTheme": "wap-6-theme",
   "description": "Personal Website",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/portf_helhlv.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698525273/portfolio_1_kujhnd.png",

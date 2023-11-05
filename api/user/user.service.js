@@ -9,7 +9,7 @@ export const userService = {
   update, // Update (Edit profile)
   remove, // Delete (remove user)
   query, // List (of users)
-  getByUsername, // Used for Login
+  getByEmail, // Used for Login
 }
 
 async function query(filterBy = {}) {
@@ -37,11 +37,11 @@ async function getById(userId) {
     const user = await collection.findOne({ _id: ObjectId(userId) })
     delete user.password
 
-    user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
-    user.givenReviews = user.givenReviews.map(review => {
-      delete review.byUser
-      return review
-    })
+    // user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
+    // user.givenReviews = user.givenReviews.map(review => {
+    //   delete review.byUser
+    //   return review
+    // })
 
     return user
   } catch (err) {
@@ -49,13 +49,13 @@ async function getById(userId) {
     throw err
   }
 }
-async function getByUsername(username) {
+async function getByEmail(email) {
   try {
     const collection = await dbService.getCollection('user')
-    const user = await collection.findOne({ username })
+    const user = await collection.findOne({ email })
     return user
   } catch (err) {
-    logger.error(`while finding user by username: ${username}`, err)
+    logger.error(`while finding user by email: ${email}`, err)
     throw err
   }
 }
@@ -91,11 +91,11 @@ async function add(user) {
   try {
     // peek only updatable fields!
     const userToAdd = {
-      username: user.username,
+      email: user.email,
       password: user.password,
       fullname: user.fullname,
       imgUrl: user.imgUrl,
-      score: 100,
+      dashboard: user.dashboard,
     }
     const collection = await dbService.getCollection('user')
     await collection.insertOne(userToAdd)

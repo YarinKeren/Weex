@@ -10,9 +10,9 @@ const router = express.Router()
 
 router.get('/', log, getWaps)
 router.get('/:id', getWapById)
-router.post('/', requireAuth, addWap)
-router.put('/:id', requireAuth, updateWap)
-router.delete('/:id', requireAuth, removeWap)
+router.post('/', addWap)
+router.put('/:id', updateWap)
+router.delete('/:id', removeWap)
 // router.delete('/:id', requireAuth, requireAdmin, removeWap) // only admins can delete waps
 
 // router.post('/:id/msg', requireAuth, addWapMsg)
