@@ -5,6 +5,14 @@
   "description": "E-Commerce",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/soundbeam_ahquqc.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524705/headphonesmobile_1_zokai9.png",
+  "owner": {
+    "_id": "6547ca0ec90ea308d8073df7",
+    "fullname": "Admin",
+    "email": "admin",
+    "password": "admin",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
+  },
+  "isPublished": false,
   "cmps": [
     {
       "_id": "Z1X2C3V4B5",
@@ -382,7 +390,5 @@
         }
       ]
     }
-  ],
-  "owner": "",
-  "isPublished": false
+  ]
 }

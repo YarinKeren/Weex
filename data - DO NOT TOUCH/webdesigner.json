@@ -5,6 +5,14 @@
   "description": "Personal Website",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698797266/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-01_%D7%91-2.07.36_elkgvw.jpg",
   "mobileImgUrl": "",
+  "owner": {
+    "_id": "6547ca0ec90ea308d8073df7",
+    "fullname": "Admin",
+    "email": "admin",
+    "password": "admin",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
+  },
+  "isPublished": false,
   "cmps": [
     {
       "_id": "A1B2C3D4E5",
@@ -570,7 +578,5 @@
         }
       ]
     }
-  ],
-  "owner": "",
-  "isPublished": false
+  ]
 }
