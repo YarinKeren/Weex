@@ -1,0 +1,59 @@
+{
+  "_id": "1y284har8089f89sdnin",
+  "type": "container",
+  "name": "simple-chat",
+  "theme": "chat-5-theme",
+  "imgUrl": "https://res.cloudinary.com/yaronshapira-com/image/upload/v1674689963/chat-cmp_hcvevc.png",
+  "className": "simple-chat-container",
+  "style": {},
+  "cmps": [
+    {
+      "_id": "sUpErDuPeRmshdjafui11",
+      "type": "chat",
+      "style": {},
+      "className": "simple-chat-class",
+      "cmps": [
+        {
+          "_id": "fsdf43yhhjgf879i76jgh3g45g5h",
+          "type": "btn",
+          "name": "open-chat",
+          "info": {
+            "txt": "Chat"
+          },
+          "style": {},
+          "className": "open-chat-btn"
+        },
+        {
+          "_id": "832r7fbsdf78dfvt23cvsdf",
+          "type": "img",
+          "name": "chat-icon",
+          "info": {
+            "url": "https://res.cloudinary.com/yaronshapira-com/image/upload/v1674600456/man_1_arrdyn.png"
+          },
+          "style": {},
+          "className": "chat-icon"
+        },
+        {
+          "_id": "gdjkhsfs7sd6r3453g278bf843gbf78fbf7843h78f",
+          "type": "title",
+          "name": "chat-title",
+          "info": {
+            "txt": "Support"
+          },
+          "style": {},
+          "className": "chat-title"
+        },
+        {
+          "_id": "ghfjdgfdhgd99y4bgih43gdfg43",
+          "type": "input",
+          "name": "chat-input",
+          "info": {
+            "placeholder": "Type your message here..."
+          },
+          "style": {},
+          "className": "chat-input"
+        }
+      ]
+    }
+  ]
+}
