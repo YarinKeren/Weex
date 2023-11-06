@@ -29,6 +29,18 @@ export async function getWapById(req, res) {
   }
 }
 
+export async function getWapByUrl(req, res) {
+  try {
+    const wapUrl = req.params.url
+
+    const wap = await wapService.getByUrl(wapUrl)
+    res.json(wap)
+  } catch (err) {
+    logger.error('Failed to get wap(controller-getByUrl)', err)
+    res.status(400).send({ err: 'Failed to get wap' })
+  }
+}
+
 export async function addWap(req, res) {
   const { loggedinUser } = req
 

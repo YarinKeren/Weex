@@ -1,7 +1,7 @@
 import express from 'express'
 import { log } from '../../middlewares/logger.middleware.js'
 import { requireAuth } from '../../middlewares/requireAuth.middleware.js'
-import { getWaps, getWapById, addWap, updateWap, removeWap } from './wap.controller.js'
+import { getWaps, getWapById, getWapByUrl, addWap, updateWap, removeWap } from './wap.controller.js'
 
 const router = express.Router()
 
@@ -10,6 +10,7 @@ const router = express.Router()
 
 router.get('/', log, getWaps)
 router.get('/:id', getWapById)
+router.get('/url/:url', getWapByUrl)
 router.post('/', addWap)
 router.put('/:id', updateWap)
 router.delete('/:id', removeWap)

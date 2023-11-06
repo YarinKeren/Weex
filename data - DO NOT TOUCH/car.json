@@ -5,6 +5,14 @@
   "originalTheme": "wap-5-theme",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698505373/carspecial_yz2qhn.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524535/carmobile_du9jga.png",
+  "owner": {
+    "_id": "6547ca0ec90ea308d8073df7",
+    "fullname": "Admin",
+    "email": "admin",
+    "password": "admin",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
+  },
+  "isPublished": false,
   "cmps": [
     {
       "_id": "1y284har8089f89sdnin",
@@ -429,7 +437,5 @@
         }
       ]
     }
-  ],
-  "owner": "",
-  "isPublished": false
+  ]
 }

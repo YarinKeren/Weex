@@ -7,6 +7,7 @@ export const wapService = {
   remove,
   query,
   getById,
+  getByUrl,
   add,
   update,
 }
@@ -30,6 +31,17 @@ async function getById(wapId) {
     return wap
   } catch (err) {
     logger.error(`while finding wap ${wapId}(service-getById)`, err)
+    throw err
+  }
+}
+
+async function getByUrl(wapUrl) {
+  try {
+    const collection = await dbService.getCollection('wap')
+    const wap = collection.findOne({ wapUrl })
+    return wap
+  } catch (err) {
+    logger.error(`while finding wap ${wapUrl}(service-getByUrl)`, err)
     throw err
   }
 }
