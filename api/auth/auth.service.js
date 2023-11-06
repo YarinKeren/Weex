@@ -52,12 +52,12 @@ function validateToken(loginToken) {
     const loggedinUser = JSON.parse(json)
     return loggedinUser
   } catch (err) {
-    console.log('Invalid login token')
+    // console.log('Invalid login token')
   }
   return null
 }
 
-// Signup fake users
+// Signup fake users - DO NOT DELETE - for testing
 // ;(async () => {
 //   await signup({
 //     fullname: 'Guest',
@@ -75,26 +75,26 @@ function validateToken(loginToken) {
 //   })
 // })()
 
-function _getEmptyTasks() {
-  // Used for new users, generates empty tasks columns
-  return {
-    todo: {
-      id: utilService.makeId(),
-      title: 'To Do',
-      items: [],
-      name: 'todo',
-    },
-    'in-progress': {
-      id: utilService.makeId(),
-      title: 'In Progress',
-      items: [],
-      name: 'in-progress',
-    },
-    done: {
-      id: utilService.makeId(),
-      title: 'Done',
-      items: [],
-      name: 'done',
-    },
-  }
-}
+// function _getEmptyTasks() {
+//   // Used for new users, generates empty tasks columns
+//   return {
+//     todo: {
+//       id: utilService.makeId(),
+//       title: 'To Do',
+//       items: [],
+//       name: 'todo',
+//     },
+//     'in-progress': {
+//       id: utilService.makeId(),
+//       title: 'In Progress',
+//       items: [],
+//       name: 'in-progress',
+//     },
+//     done: {
+//       id: utilService.makeId(),
+//       title: 'Done',
+//       items: [],
+//       name: 'done',
+//     },
+//   }
+// }
