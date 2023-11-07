@@ -22,11 +22,13 @@ if (process.env.NODE_ENV === 'production') {
   app.use(cors(corsOptions))
 }
 
+import { aiRoutes } from './api/ai/ai.routes.js'
 import { wapRoutes } from './api/wap/wap.routes.js'
 import { logger } from './services/logger.service.js'
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
+import { locationRoutes } from './api/loc/loc.routes.js'
 import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
 
 // routes
@@ -34,6 +36,8 @@ app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/wap', wapRoutes)
+app.use('/api/loc', locationRoutes)
+app.use('/api/ai', aiRoutes)
 setupSocketAPI(server)
 
 app.get('/**', (req, res) => {
