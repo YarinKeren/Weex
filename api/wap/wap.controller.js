@@ -32,7 +32,6 @@ export async function getWapById(req, res) {
 export async function getWapByUrl(req, res) {
   try {
     const wapUrl = req.params.url
-
     const wap = await wapService.getByUrl(wapUrl)
     res.json(wap)
   } catch (err) {
@@ -46,7 +45,7 @@ export async function addWap(req, res) {
 
   try {
     const wap = req.body
-    wap.owner = loggedinUser
+    // wap.owner = loggedinUser
     const addedWap = await wapService.add(wap)
     console.log('addedWap', addedWap)
     // socketService.broadcast({ type: 'wap-added', data: addedWap, userId: loggedinUser._id })

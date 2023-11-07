@@ -16,23 +16,23 @@ export function setupSocketAPI(http) {
       logger.info(`Socket disconnected [id: ${socket.id}]`)
     })
 
-    socket.on('chat-set-topic', topic => {
-      if (socket.myTopic === topic) return
-      if (socket.myTopic) {
-        socket.leave(socket.myTopic)
-        logger.info(`Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`)
-      }
-      socket.join(topic)
-      socket.myTopic = topic
-    })
+    // socket.on('chat-set-topic', topic => {
+    //   if (socket.myTopic === topic) return
+    //   if (socket.myTopic) {
+    //     socket.leave(socket.myTopic)
+    //     logger.info(`Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`)
+    //   }
+    //   socket.join(topic)
+    //   socket.myTopic = topic
+    // })
 
-    socket.on('chat-send-msg', msg => {
-      logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
-      // emits to all sockets:
-      // gIo.emit('chat addMsg', msg)
-      // emits only to sockets in the same room
-      gIo.to(socket.myTopic).emit('chat-add-msg', msg)
-    })
+    // socket.on('chat-send-msg', msg => {
+    //   logger.info(`New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`)
+    //   // emits to all sockets:
+    //   // gIo.emit('chat addMsg', msg)
+    //   // emits only to sockets in the same room
+    //   gIo.to(socket.myTopic).emit('chat-add-msg', msg)
+    // })
 
     socket.on('user-watch', userId => {
       logger.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
@@ -59,6 +59,17 @@ export function setupSocketAPI(http) {
       console.log(ownerMsg)
       logger.info(`New chat msg from socket [id: ${socket.id}], emitting to ${to}`)
       gIo.sockets.to(to).emit('owner-add-msg', { by: 'owner', txt: `${ownerMsg}`, date: new Date().getTime() })
+    })
+
+    socket.on('send-schedule', ({ data, to }) => {
+      logger.info(`New appointment from socket [id:${socket.id}]`)
+      console.log(to)
+      console.log(data)
+      emitToUser({
+        type: 'add-schedule',
+        data,
+        userId: to,
+      })
     })
 
     // Auth
