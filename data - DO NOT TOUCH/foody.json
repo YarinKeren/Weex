@@ -1,0 +1,1900 @@
+{
+  "_id": {
+    "$oid": "654b530e3d5aa4234f533aed"
+  },
+  "name": "Foody restaurant",
+  "description": "Landing Page",
+  "theme": "wap-8-theme",
+  "originalTheme": "wap-8-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699437593/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-11.59.44_vb7n7x.jpg",
+  "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699436344/foody-mobile-preview_idv0ox.png",
+  "cmps": [
+    {
+      "_id": "uT1MmH",
+      "type": "container",
+      "name": "foody nav",
+      "theme": "wap-8-theme",
+      "className": "foody-nav",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699281321/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-06_%D7%91-16.35.11_hq2xyi.jpg",
+      "createdBy": {
+        "_id": "xYz7890q",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "nM31pE58",
+          "info": {
+            "txt": "Foody"
+          },
+          "style": {},
+          "className": "foody-logo"
+        },
+        {
+          "type": "container",
+          "_id": "sD45fG67",
+          "style": {},
+          "className": "foody-links-nav",
+          "cmps": [
+            {
+              "type": "link",
+              "_id": "oP69qL02",
+              "info": {
+                "txt": "HOME",
+                "href": "#home"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "vC81wR34",
+              "info": {
+                "txt": "ABOUT",
+                "href": "#about"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "uT56zK90",
+              "info": {
+                "txt": "SERVICES",
+                "href": "#services"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "RmR303RcnueR",
+              "info": {
+                "txt": "RESERVATION",
+                "href": "#reservation"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "EEE99EJNE9IEi",
+              "info": {
+                "txt": "TEAM",
+                "href": "#team"
+              },
+              "style": {},
+              "className": "foody-link"
+            }
+          ]
+        },
+        {
+          "type": "btn",
+          "_id": "fefJ6f2fmQ82f3",
+          "info": {
+            "txt": "Our Menu",
+            "href": "#menu"
+          },
+          "style": {},
+          "className": "foody-nav-btn"
+        },
+        {
+          "type": "mobile menu",
+          "_id": "qwwqQWRDjvnbnbigNVC8U30mQ82f3B",
+          "style": {},
+          "className": "foody-humburget-menu",
+          "cmps": [
+            {
+              "type": "link",
+              "_id": "vjfiuvOIJVFhhhhhhhgDIN839248JFVU",
+              "info": {
+                "txt": "HOME",
+                "href": "#home"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "CJFUIVJFU949494988svv3332cvvaaggR8NVJUFNV",
+              "info": {
+                "txt": "ABOUT",
+                "href": "#about"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "NOSFV90fjoowc2222njcdnvn888888cdijs",
+              "info": {
+                "txt": "SERVICES",
+                "href": "#services"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "vjvjBe949jbhkmbhnigjJUFRF4J2WOFNOIKJSN",
+              "info": {
+                "txt": "RESERVATION",
+                "href": "#reservation"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "WQYWQUWUYQywqunj82832892332932cndj29NKJHONn555",
+              "info": {
+                "txt": "TEAM",
+                "href": "#team"
+              },
+              "style": {},
+              "className": "foody-link"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "HtFSqe",
+      "type": "container",
+      "name": "foody hero",
+      "theme": "wap-8-theme",
+      "className": "foody-hero",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699293585/foody-hero_bbfl6w.jpg",
+      "createdBy": {
+        "_id": "wZt4561r",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "jH7qN82dF0",
+          "style": {},
+          "className": "foody-grid",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "mK93gL48",
+              "info": {
+                "txt": "Delicious"
+              },
+              "style": {},
+              "className": "foody-delicious"
+            },
+            {
+              "type": "img",
+              "_id": "xL35bQ72",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288070/foody-hero-img-1_vplhr1.png"
+              },
+              "style": {},
+              "className": "foody-hero-img-1"
+            },
+            {
+              "type": "img",
+              "_id": "zP56vM81",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288070/foody-hero-img-2_ohpdyo.png"
+              },
+              "style": {},
+              "className": "foody-hero-img-2"
+            },
+            {
+              "type": "title",
+              "_id": "pPd3DFDCj49djis",
+              "info": {
+                "txt": "Foody"
+              },
+              "style": {},
+              "className": "foody-foody"
+            },
+            {
+              "type": "title",
+              "_id": "6O6I5I54Ooi4mie9jC5J54",
+              "info": {
+                "txt": "Dishes"
+              },
+              "style": {},
+              "className": "foody-dishes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "jLkYHe",
+      "type": "container",
+      "name": "foody-social",
+      "theme": "wap-8-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699299359/foody-social_ifixxo.jpg",
+      "className": "foody-social",
+      "style": {},
+      "createdBy": {
+        "_id": "vn21nbFiCK1D2EBc3Fc4G5",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "cONo6Ooof47P8Qvvbv9R0",
+          "info": {
+            "iconName": "facebook"
+          },
+          "style": {},
+          "className": "foody-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "bkofw9093e8iMJMC1T2vU3V4W5D",
+          "info": {
+            "iconName": "instagram"
+          },
+          "style": {},
+          "className": "foody-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "SD5cx5DD4531GGkoGvfwSW5D",
+          "info": {
+            "iconName": "linkedin"
+          },
+          "style": {},
+          "className": "foody-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "3VcV5Vc52F325f351VV45VV",
+          "info": {
+            "iconName": "twitter"
+          },
+          "style": {},
+          "className": "foody-icon"
+        }
+      ]
+    },
+    {
+      "_id": "6tydwZ",
+      "type": "container",
+      "name": "Foody About Us",
+      "theme": "wap-8-theme",
+      "className": "foody-section",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/kextrjshpmzaw1hohbkf.png",
+      "createdBy": {
+        "_id": "qNcRmTlOuPvSgIx",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "bDfHjVkZmXnApQs",
+          "style": {},
+          "className": "foody-section-div",
+          "cmps": [
+            {
+              "type": "txt",
+              "_id": "yUoPwErItYuAsDf",
+              "info": {
+                "txt": "ABOUT US"
+              },
+              "style": {},
+              "className": "foody-section-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "GkHsJpRxVmYnAtQ",
+              "info": {
+                "txt": "The only thing we’re serious about is food."
+              },
+              "style": {},
+              "className": "foody-section-txt2"
+            },
+            {
+              "type": "txt",
+              "_id": "zXcVbNmQlKjHgFd",
+              "info": {
+                "txt": "Fusce quam praesent enim enim. Arcu ornare maecenas mauris tellus ut mollis. Laoreet enim amet donec nulla risus erat sed. Scelerisque ac cum nulla massa ultricies etiam augue justo, amet. Fermentum ac viverra tincidunt neque, tristique duis nunc lacus quam. Pharetra, in pharetra"
+              },
+              "style": {},
+              "className": "foody-section-txt3"
+            },
+            {
+              "type": "btn",
+              "_id": "tYhUfGiKlOpWsDq",
+              "info": {
+                "txt": "Reserve a Table",
+                "href": "#ReserveTable"
+              },
+              "style": {},
+              "className": "foody-section-btn"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "_id": "mZnXbCbQxWvRsAp",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699281946/gfifjaytsyanmrox4pev.png"
+          },
+          "style": {},
+          "className": "foody-section-img"
+        }
+      ]
+    },
+    {
+      "_id": "kECrmd",
+      "type": "container",
+      "name": "Foody 3 cards",
+      "theme": "wap-8-theme",
+      "className": "foody-section-2",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/s0iqbzr2tqmzqon1jkcp.png",
+      "createdBy": {
+        "_id": "aSdFgHjKpLoIuYz",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "vCxZbQnAsRmWpDt",
+          "style": {},
+          "className": "foody-section-2-div1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "dVfRgThYiUoPlKq",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699286107/gups0yvhzuvchysb413h.png"
+              },
+              "style": {},
+              "className": "foody-section-2-div1-img"
+            },
+            {
+              "type": "txt",
+              "_id": "eFrGhJiKwLqZsXx",
+              "info": {
+                "txt": "QUALITY FOOD"
+              },
+              "style": {},
+              "className": "foody-section-2-div1-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "sDgHfJkLpQwErTy",
+              "info": {
+                "txt": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit."
+              },
+              "style": {},
+              "className": "foody-section-2-div1-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "pQrStUvWxYzAaBc",
+          "style": {},
+          "className": "foody-section-2-div2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "kLmNoPqRsTuVwXy",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699286108/rmak5kyudfay9ft8sqji.png"
+              },
+              "style": {},
+              "className": "foody-section-2-div2-img"
+            },
+            {
+              "type": "txt",
+              "_id": "eFgHiJkLmNpQrSt",
+              "info": {
+                "txt": "SUPER TASTE"
+              },
+              "style": {},
+              "className": "foody-section-2-div2-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "zXcVbNmQwErTyUi",
+              "info": {
+                "txt": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit."
+              },
+              "style": {},
+              "className": "foody-section-2-div2-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "dFg645adsfnaidoyarinrTy",
+          "style": {},
+          "className": "foody-section-2-div3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "xYzAsDfGhJkLpQw",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699286108/fi9uwnqfdvoq0mwdw8lx.png"
+              },
+              "style": {},
+              "className": "foody-section-2-div3-img"
+            },
+            {
+              "type": "txt",
+              "_id": "eFgHiJkLmNpQrSt",
+              "info": {
+                "txt": "FAST DELIVERY"
+              },
+              "style": {},
+              "className": "foody-section-2-div3-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "zXcVbNmQwErTyUi",
+              "info": {
+                "txt": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit."
+              },
+              "style": {},
+              "className": "foody-section-2-div3-txt2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "dNQBve",
+      "type": "container",
+      "name": "Foody team",
+      "theme": "wap-8-theme",
+      "className": "foody-team",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/drhqsw5jayzz9c8ym657.png",
+      "createdBy": {
+        "_id": "qWrTsDuFvBnMkLo",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "xYzAsDfGhJkLpQw",
+          "info": {
+            "txt": "OUR TEAM"
+          },
+          "style": {},
+          "className": "foody-team-title"
+        },
+        {
+          "type": "txt",
+          "_id": "pLoKiJuHyGtFrEd",
+          "info": {
+            "txt": "Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."
+          },
+          "style": {},
+          "className": "foody-team-subtitle"
+        },
+        {
+          "type": "container",
+          "_id": "qAzXsWdCeVfRgBh",
+          "style": {},
+          "className": "foody-team-big-div",
+          "cmps": [
+            {
+              "type": "container",
+              "_id": "mgaoi43VTYMpQwErTy",
+              "style": {},
+              "className": "foody-team-div1",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "qAzXsWdCeVfRgBh",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699292788/bkaunnrw2ipnld3pjrrq.png"
+                  },
+                  "style": {},
+                  "className": "foody-team-div1-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "wNmQoPlKfadsfa342jHgBsDf",
+                  "info": {
+                    "txt": "Yarin Tokoshi"
+                  },
+                  "style": {},
+                  "className": "foody-team-div1-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "oPiYuTrEsAwDfGh",
+                  "info": {
+                    "txt": "Head Chef"
+                  },
+                  "style": {},
+                  "className": "foody-team-div1-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "plarma453kasdaErTy",
+              "style": {},
+              "className": "foody-team-div2",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "tHbVnZmXsDcFgJk",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699292788/q3j05xtqmf4hje84jbce.png"
+                  },
+                  "style": {},
+                  "className": "foody-team-div2-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "rTyUwQeRiOpAsDf",
+                  "info": {
+                    "txt": "Alfie Katayoshi"
+                  },
+                  "style": {},
+                  "className": "foody-team-div2-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "sDfGhJkLpQwErTy",
+                  "info": {
+                    "txt": "Head Chef"
+                  },
+                  "style": {},
+                  "className": "foody-team-div2-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "qWrTsDuFvBnMkLo",
+              "style": {},
+              "className": "foody-team-div3",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "xYzAsDfGhJkLpQw",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699292788/mia297wap8occsy4etpj.png"
+                  },
+                  "style": {},
+                  "className": "foody-team-div3-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "pLoKiJuHyGtFrEd",
+                  "info": {
+                    "txt": "Ido Yotoyoshi"
+                  },
+                  "style": {},
+                  "className": "foody-team-div3-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "vnkjandfa9201asdfwErTy",
+                  "info": {
+                    "txt": "Head Chef"
+                  },
+                  "style": {},
+                  "className": "foody-team-div3-txt2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "VTCoxS",
+      "type": "container",
+      "name": "Foody menu",
+      "theme": "wap-8-theme",
+      "className": "foody-menu",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/jc56uceadu9e8lvbzdcr.png",
+      "createdBy": {
+        "_id": "tHbVnZmXsDcFgJk",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "rTyUwQeRiOpAsDf",
+          "info": {
+            "txt": "POPULAR DISHES"
+          },
+          "style": {},
+          "className": "foody-menu-title"
+        },
+        {
+          "type": "txt",
+          "_id": "sDfGhJkLpQwErTy",
+          "info": {
+            "txt": "Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."
+          },
+          "style": {},
+          "className": "foody-menu-subtitle"
+        },
+        {
+          "type": "container",
+          "_id": "qAzXsWdCeVfRgBh",
+          "style": {},
+          "className": "foody-menu-big-div",
+          "cmps": [
+            {
+              "type": "container",
+              "_id": "wNmQoPlgadfgakmnBsDf",
+              "style": {},
+              "className": "foody-menu-div1",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "xYzAsDfGhJkLpQw",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/wexxmjyqpjzltgtsa8iw.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div1-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "eRtYuIwQoPlKaSd",
+                  "info": {
+                    "txt": "BEEF BURGER MEAL"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div1-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "cFgHjKpLqZwExRs",
+                  "info": {
+                    "txt": "20 - 25 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div1-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "5454gfdfg3g344ggfd",
+              "style": {},
+              "className": "foody-menu-div2",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "qWrTsDuFvBnMkLo",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/poszrw4ern01n5cnews2.jpg"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div2-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "xYzAsDfGhJkLpQw",
+                  "info": {
+                    "txt": "ROASTED LAMB RUMP"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div2-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "pLoKiJuHyGtFrEd",
+                  "info": {
+                    "txt": "45 - 50 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div2-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "dFgHjKlMdsafas3242QwErTy",
+              "style": {},
+              "className": "foody-menu-div3",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "zXcVbNmQlKjHgFd",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/xn69artyjny6dhfckb9f.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div3-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "aSdFgHjKpLoIuYz",
+                  "info": {
+                    "txt": "PAN SEARED SEA BASS"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div3-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "vCxZbQnAsRmWpDt",
+                  "info": {
+                    "txt": "45 - 50 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div3-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "eFrGhJiKwLqZsXx",
+              "style": {},
+              "className": "foody-menu-div4",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "dVfRgThYiUoPlKq",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/tqve2har0jrjpx9fmk6t.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div4-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "sDgHfJkLpQwErTy",
+                  "info": {
+                    "txt": "CITRUS CURED SALMON"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div4-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "bNmXzQxWvRsAtGu",
+                  "info": {
+                    "txt": "10 - 22 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div4-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "hYiUoPjKlMnBqAz",
+              "style": {},
+              "className": "foody-menu-div5",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "pQrStUvWxYzAaBc",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/zbfygv5m5m0bnxqxpjdq.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div5-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "kLmNoPqRsTuVwXy",
+                  "info": {
+                    "txt": "STUFFED STRAWBERRY"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div5-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "eFgHiJkLmNpQrSt",
+                  "info": {
+                    "txt": "12 - 19 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div5-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "zXcVbNmQwErTyUi",
+              "style": {},
+              "className": "foody-menu-div6",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "dfahgaHjKdudugagjkna93pQwErTy",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288380/grdrkpvejhcoy1hvqunm.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div6-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "xYzAsDfGhJkLpQw",
+                  "info": {
+                    "txt": "GRILLED FISH"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div6-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "oPiYuTrEsAwDfGh",
+                  "info": {
+                    "txt": "25 - 40 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div6-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "tHbVnZmXsDcFgJk",
+              "style": {},
+              "className": "foody-menu-div7",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "rTyUwQeRiOpAsDf",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288380/frdwehsmxs4jbc4xf9nn.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div7-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "sDfGhJkLpQwErTy",
+                  "info": {
+                    "txt": "ITALIAN SPAGHETTI"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div7-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "qAzXsWdCeVfRgBh",
+                  "info": {
+                    "txt": "30 - 40 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div7-txt2"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "wNmQoPlasda35KjHgBsDf",
+              "style": {},
+              "className": "foody-menu-div8",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "xYzAsDfGhJkLpQw",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/t271ttstvr7f1zbprmgh.png"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div8-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "eRtYuIwQoPlKaSd",
+                  "info": {
+                    "txt": "SALMON PARTY"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div8-txt1"
+                },
+                {
+                  "type": "txt",
+                  "_id": "cFgHjKpLqZwExRs",
+                  "info": {
+                    "txt": "15 - 25 Min"
+                  },
+                  "style": {},
+                  "className": "foody-menu-div8-txt2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "wCTb01",
+      "type": "container",
+      "name": "foody features",
+      "theme": "wap-8-theme",
+      "className": "foody-features",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699309508/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-0.25.00_v4whvu.jpg",
+      "createdBy": {
+        "_id": "aXu1592vYzA3",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "mN64fC29ZrT7",
+          "style": {},
+          "className": "foody-feature-container",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "vQ92xL56OpL1",
+              "info": {
+                "txt": "14"
+              },
+              "style": {},
+              "className": "foody-feature-num"
+            },
+            {
+              "type": "txt",
+              "_id": "sP84hJ38KbW9",
+              "info": {
+                "txt": "Restaurants"
+              },
+              "style": {},
+              "className": "foody-feature-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "L3kT9oZ7X2eP1qS",
+          "style": {},
+          "className": "foody-feature-container",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "Q4wB0xL2S9fN7hV",
+              "info": {
+                "txt": "20"
+              },
+              "style": {},
+              "className": "foody-feature-num"
+            },
+            {
+              "type": "txt",
+              "_id": "E1pZ3dM5K8aY6oR",
+              "info": {
+                "txt": "Chef in kitchen"
+              },
+              "style": {},
+              "className": "foody-feature-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "G7uT2nF4W6cQ9sA",
+          "style": {},
+          "className": "foody-img-container",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "V6mb1rbT8bH35bG3yC",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699310406/foody-feature-img_qomdi5.png"
+              },
+              "style": {},
+              "className": "feature-main-img"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "P5iH3mX8D1vJ4zB",
+          "style": {},
+          "className": "foody-feature-container",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "S8kQ0yL3T6eM1vG",
+              "info": {
+                "txt": "08"
+              },
+              "style": {},
+              "className": "foody-feature-num"
+            },
+            {
+              "type": "txt",
+              "_id": "N2cF9xV4bP5hR7t",
+              "info": {
+                "txt": "Years of experience"
+              },
+              "style": {},
+              "className": "foody-feature-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "rR8J2vG6pR5kQ8bH4CPx",
+          "style": {},
+          "className": "foody-feature-container",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "M1nY4uT7I9gK3fE",
+              "info": {
+                "txt": "200"
+              },
+              "style": {},
+              "className": "foody-feature-num"
+            },
+            {
+              "type": "txt",
+              "_id": "O3lZ5rH8W6qM2dJ",
+              "info": {
+                "txt": "Food dishes"
+              },
+              "style": {},
+              "className": "foody-feature-txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "nKM6aE",
+      "type": "container",
+      "name": "foody testimonial",
+      "theme": "wap-8-theme",
+      "className": "foody-testimonial",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-testimonial_c73w9p.jpg",
+      "createdBy": {
+        "_id": "V6mJ1rT8H5bG3yC",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "j9inojnjio098JUIIMD6sY6oR",
+          "style": {},
+          "className": "foody-testimonial-header",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "Q4wB0xL2S9fN7hV",
+              "info": {
+                "txt": "CUSTOMERS REVIEW"
+              },
+              "style": {},
+              "className": "header-title"
+            },
+            {
+              "type": "txt",
+              "_id": "hqhjq29is02Qq922499499in9INMLLB4D4SM1vG",
+              "info": {
+                "txt": "Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."
+              },
+              "style": {},
+              "className": "header-tagline"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "Ycd31995tG79c930qOMd255566677caduni3",
+          "style": {},
+          "className": "foody-testimonial-cards-container",
+          "cmps": [
+            {
+              "type": "container",
+              "_id": "E1pZ3dM5K8aY6oR",
+              "style": {},
+              "className": "foody-testimonial-card",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "G7uT2nF4W6cQ9sA",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-review-img1_c4s3o4.png"
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "S8kQ0yL3T6eM1vG",
+                  "info": {
+                    "txt": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus."
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-txt"
+                },
+                {
+                  "type": "title",
+                  "_id": "P5iH3mX8D1vJ4zB",
+                  "info": {
+                    "txt": "Esther Howard"
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-title"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "N2cF9xV4bP5hR7t",
+              "style": {},
+              "className": "foody-testimonial-card",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "F9iH2sG7L5dK8xR",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-review-img3_ctlsba.png"
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "MDIJ9j492j9jivn2i8j0cduni3",
+                  "info": {
+                    "txt": "Sit lacus enim enim donec porttitor quis at consequat. Ut ut et erat nunc quisque ut. Ullamcorper in sit lectus nisi, leo diam volutpat vitae. Amet sed sem cursus facilisi amet suscipit."
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-txt"
+                },
+                {
+                  "type": "title",
+                  "_id": "K3nV6yT4W8qE1mJ",
+                  "info": {
+                    "txt": "Guy Hawkins"
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-title"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "T4fW7zY5X9rG2nK",
+              "style": {},
+              "className": "foody-testimonial-card",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "D4eV9yX2R6tH1qL",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-review-img2_hhu8by.png"
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "U7bF8zC4X9eG3yJ",
+                  "info": {
+                    "txt": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus."
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-txt"
+                },
+                {
+                  "type": "title",
+                  "_id": "M5kQ6aW3S8vB2pN",
+                  "info": {
+                    "txt": "Jane Cooper"
+                  },
+                  "style": {},
+                  "className": "foody-testimonial-card-title"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "29QD8p",
+      "type": "container",
+      "name": "Foody schedule",
+      "theme": "wap-8-theme",
+      "className": "foody-schedule",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699361060/gaihknhfjuxmrxady0ns.png",
+      "createdBy": {
+        "_id": "oPiYuTrEsAwDfGh",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "tHbVnZmXsDcFgJk",
+          "info": {
+            "txt": "RESERVE A TABLE"
+          },
+          "style": {},
+          "className": "foody-schedule-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "KYzAsgjknaGhJkLpQw",
+          "info": {
+            "txt": "We are open every day from 9am till 5pm, bookings are available for a week in advance."
+          },
+          "style": {},
+          "className": "foody-schedule-txt2"
+        },
+        {
+          "_id": "KVATyUwQeRidslfngs83OpAsDf",
+          "type": "schedule",
+          "name": "foody-schedule-meeting-section",
+          "theme": "schedule-meeting-theme",
+          "imgUrl": "",
+          "className": "foody-schedule-meeting-section",
+          "style": {},
+          "createdBy": {
+            "_id": "dfgsm345fGhJkLpQwErTy",
+            "fullname": "",
+            "imgUrl": ""
+          },
+          "info": {
+            "schedule": {
+              "eventDuration": 30,
+              "daysForward": 6,
+              "data": [
+                {
+                  "id": 0,
+                  "startTime": "2023-11-08T07:00:00.000Z",
+                  "endTime": "2023-11-08T07:30:00.000Z"
+                },
+                {
+                  "id": 1,
+                  "startTime": "2023-11-08T07:30:00.000Z",
+                  "endTime": "2023-11-08T08:00:00.000Z"
+                },
+                {
+                  "id": 2,
+                  "startTime": "2023-11-08T08:00:00.000Z",
+                  "endTime": "2023-11-08T08:30:00.000Z"
+                },
+                {
+                  "id": 3,
+                  "startTime": "2023-11-08T08:30:00.000Z",
+                  "endTime": "2023-11-08T09:00:00.000Z"
+                },
+                {
+                  "id": 4,
+                  "startTime": "2023-11-08T09:00:00.000Z",
+                  "endTime": "2023-11-08T09:30:00.000Z"
+                },
+                {
+                  "id": 5,
+                  "startTime": "2023-11-08T09:30:00.000Z",
+                  "endTime": "2023-11-08T10:00:00.000Z"
+                },
+                {
+                  "id": 6,
+                  "startTime": "2023-11-08T10:00:00.000Z",
+                  "endTime": "2023-11-08T10:30:00.000Z"
+                },
+                {
+                  "id": 7,
+                  "startTime": "2023-11-08T10:30:00.000Z",
+                  "endTime": "2023-11-08T11:00:00.000Z"
+                },
+                {
+                  "id": 8,
+                  "startTime": "2023-11-08T11:00:00.000Z",
+                  "endTime": "2023-11-08T11:30:00.000Z"
+                },
+                {
+                  "id": 9,
+                  "startTime": "2023-11-08T11:30:00.000Z",
+                  "endTime": "2023-11-08T12:00:00.000Z"
+                },
+                {
+                  "id": 10,
+                  "startTime": "2023-11-08T12:00:00.000Z",
+                  "endTime": "2023-11-08T12:30:00.000Z"
+                },
+                {
+                  "id": 11,
+                  "startTime": "2023-11-08T12:30:00.000Z",
+                  "endTime": "2023-11-08T13:00:00.000Z"
+                },
+                {
+                  "id": 12,
+                  "startTime": "2023-11-08T13:00:00.000Z",
+                  "endTime": "2023-11-08T13:30:00.000Z"
+                },
+                {
+                  "id": 13,
+                  "startTime": "2023-11-08T13:30:00.000Z",
+                  "endTime": "2023-11-08T14:00:00.000Z"
+                },
+                {
+                  "id": 14,
+                  "startTime": "2023-11-08T14:00:00.000Z",
+                  "endTime": "2023-11-08T14:30:00.000Z"
+                },
+                {
+                  "id": 15,
+                  "startTime": "2023-11-08T14:30:00.000Z",
+                  "endTime": "2023-11-08T15:00:00.000Z"
+                },
+                {
+                  "id": 16,
+                  "startTime": "2023-11-09T07:00:00.000Z",
+                  "endTime": "2023-11-09T07:30:00.000Z"
+                },
+                {
+                  "id": 17,
+                  "startTime": "2023-11-09T07:30:00.000Z",
+                  "endTime": "2023-11-09T08:00:00.000Z"
+                },
+                {
+                  "id": 18,
+                  "startTime": "2023-11-09T08:00:00.000Z",
+                  "endTime": "2023-11-09T08:30:00.000Z"
+                },
+                {
+                  "id": 19,
+                  "startTime": "2023-11-09T08:30:00.000Z",
+                  "endTime": "2023-11-09T09:00:00.000Z"
+                },
+                {
+                  "id": 20,
+                  "startTime": "2023-11-09T09:00:00.000Z",
+                  "endTime": "2023-11-09T09:30:00.000Z"
+                },
+                {
+                  "id": 21,
+                  "startTime": "2023-11-09T09:30:00.000Z",
+                  "endTime": "2023-11-09T10:00:00.000Z"
+                },
+                {
+                  "id": 22,
+                  "startTime": "2023-11-09T10:00:00.000Z",
+                  "endTime": "2023-11-09T10:30:00.000Z"
+                },
+                {
+                  "id": 23,
+                  "startTime": "2023-11-09T10:30:00.000Z",
+                  "endTime": "2023-11-09T11:00:00.000Z"
+                },
+                {
+                  "id": 24,
+                  "startTime": "2023-11-09T11:00:00.000Z",
+                  "endTime": "2023-11-09T11:30:00.000Z"
+                },
+                {
+                  "id": 25,
+                  "startTime": "2023-11-09T11:30:00.000Z",
+                  "endTime": "2023-11-09T12:00:00.000Z"
+                },
+                {
+                  "id": 26,
+                  "startTime": "2023-11-09T12:00:00.000Z",
+                  "endTime": "2023-11-09T12:30:00.000Z"
+                },
+                {
+                  "id": 27,
+                  "startTime": "2023-11-09T12:30:00.000Z",
+                  "endTime": "2023-11-09T13:00:00.000Z"
+                },
+                {
+                  "id": 28,
+                  "startTime": "2023-11-09T13:00:00.000Z",
+                  "endTime": "2023-11-09T13:30:00.000Z"
+                },
+                {
+                  "id": 29,
+                  "startTime": "2023-11-09T13:30:00.000Z",
+                  "endTime": "2023-11-09T14:00:00.000Z"
+                },
+                {
+                  "id": 30,
+                  "startTime": "2023-11-09T14:00:00.000Z",
+                  "endTime": "2023-11-09T14:30:00.000Z"
+                },
+                {
+                  "id": 31,
+                  "startTime": "2023-11-09T14:30:00.000Z",
+                  "endTime": "2023-11-09T15:00:00.000Z"
+                },
+                {
+                  "id": 32,
+                  "startTime": "2023-11-12T07:00:00.000Z",
+                  "endTime": "2023-11-12T07:30:00.000Z"
+                },
+                {
+                  "id": 33,
+                  "startTime": "2023-11-12T07:30:00.000Z",
+                  "endTime": "2023-11-12T08:00:00.000Z"
+                },
+                {
+                  "id": 34,
+                  "startTime": "2023-11-12T08:00:00.000Z",
+                  "endTime": "2023-11-12T08:30:00.000Z"
+                },
+                {
+                  "id": 35,
+                  "startTime": "2023-11-12T08:30:00.000Z",
+                  "endTime": "2023-11-12T09:00:00.000Z"
+                },
+                {
+                  "id": 36,
+                  "startTime": "2023-11-12T09:00:00.000Z",
+                  "endTime": "2023-11-12T09:30:00.000Z"
+                },
+                {
+                  "id": 37,
+                  "startTime": "2023-11-12T09:30:00.000Z",
+                  "endTime": "2023-11-12T10:00:00.000Z"
+                },
+                {
+                  "id": 38,
+                  "startTime": "2023-11-12T10:00:00.000Z",
+                  "endTime": "2023-11-12T10:30:00.000Z"
+                },
+                {
+                  "id": 39,
+                  "startTime": "2023-11-12T10:30:00.000Z",
+                  "endTime": "2023-11-12T11:00:00.000Z"
+                },
+                {
+                  "id": 40,
+                  "startTime": "2023-11-12T11:00:00.000Z",
+                  "endTime": "2023-11-12T11:30:00.000Z"
+                },
+                {
+                  "id": 41,
+                  "startTime": "2023-11-12T11:30:00.000Z",
+                  "endTime": "2023-11-12T12:00:00.000Z"
+                },
+                {
+                  "id": 42,
+                  "startTime": "2023-11-12T12:00:00.000Z",
+                  "endTime": "2023-11-12T12:30:00.000Z"
+                },
+                {
+                  "id": 43,
+                  "startTime": "2023-11-12T12:30:00.000Z",
+                  "endTime": "2023-11-12T13:00:00.000Z"
+                },
+                {
+                  "id": 44,
+                  "startTime": "2023-11-12T13:00:00.000Z",
+                  "endTime": "2023-11-12T13:30:00.000Z"
+                },
+                {
+                  "id": 45,
+                  "startTime": "2023-11-12T13:30:00.000Z",
+                  "endTime": "2023-11-12T14:00:00.000Z"
+                },
+                {
+                  "id": 46,
+                  "startTime": "2023-11-12T14:00:00.000Z",
+                  "endTime": "2023-11-12T14:30:00.000Z"
+                },
+                {
+                  "id": 47,
+                  "startTime": "2023-11-12T14:30:00.000Z",
+                  "endTime": "2023-11-12T15:00:00.000Z"
+                },
+                {
+                  "id": 48,
+                  "startTime": "2023-11-13T07:00:00.000Z",
+                  "endTime": "2023-11-13T07:30:00.000Z"
+                },
+                {
+                  "id": 49,
+                  "startTime": "2023-11-13T07:30:00.000Z",
+                  "endTime": "2023-11-13T08:00:00.000Z"
+                },
+                {
+                  "id": 50,
+                  "startTime": "2023-11-13T08:00:00.000Z",
+                  "endTime": "2023-11-13T08:30:00.000Z"
+                },
+                {
+                  "id": 51,
+                  "startTime": "2023-11-13T08:30:00.000Z",
+                  "endTime": "2023-11-13T09:00:00.000Z"
+                },
+                {
+                  "id": 52,
+                  "startTime": "2023-11-13T09:00:00.000Z",
+                  "endTime": "2023-11-13T09:30:00.000Z"
+                },
+                {
+                  "id": 53,
+                  "startTime": "2023-11-13T09:30:00.000Z",
+                  "endTime": "2023-11-13T10:00:00.000Z"
+                },
+                {
+                  "id": 54,
+                  "startTime": "2023-11-13T10:00:00.000Z",
+                  "endTime": "2023-11-13T10:30:00.000Z"
+                },
+                {
+                  "id": 55,
+                  "startTime": "2023-11-13T10:30:00.000Z",
+                  "endTime": "2023-11-13T11:00:00.000Z"
+                },
+                {
+                  "id": 56,
+                  "startTime": "2023-11-13T11:00:00.000Z",
+                  "endTime": "2023-11-13T11:30:00.000Z"
+                },
+                {
+                  "id": 57,
+                  "startTime": "2023-11-13T11:30:00.000Z",
+                  "endTime": "2023-11-13T12:00:00.000Z"
+                },
+                {
+                  "id": 58,
+                  "startTime": "2023-11-13T12:00:00.000Z",
+                  "endTime": "2023-11-13T12:30:00.000Z"
+                },
+                {
+                  "id": 59,
+                  "startTime": "2023-11-13T12:30:00.000Z",
+                  "endTime": "2023-11-13T13:00:00.000Z"
+                },
+                {
+                  "id": 60,
+                  "startTime": "2023-11-13T13:00:00.000Z",
+                  "endTime": "2023-11-13T13:30:00.000Z"
+                },
+                {
+                  "id": 61,
+                  "startTime": "2023-11-13T13:30:00.000Z",
+                  "endTime": "2023-11-13T14:00:00.000Z"
+                },
+                {
+                  "id": 62,
+                  "startTime": "2023-11-13T14:00:00.000Z",
+                  "endTime": "2023-11-13T14:30:00.000Z"
+                },
+                {
+                  "id": 63,
+                  "startTime": "2023-11-13T14:30:00.000Z",
+                  "endTime": "2023-11-13T15:00:00.000Z"
+                },
+                {
+                  "id": 64,
+                  "startTime": "2023-11-14T07:00:00.000Z",
+                  "endTime": "2023-11-14T07:30:00.000Z"
+                },
+                {
+                  "id": 65,
+                  "startTime": "2023-11-14T07:30:00.000Z",
+                  "endTime": "2023-11-14T08:00:00.000Z"
+                },
+                {
+                  "id": 66,
+                  "startTime": "2023-11-14T08:00:00.000Z",
+                  "endTime": "2023-11-14T08:30:00.000Z"
+                },
+                {
+                  "id": 67,
+                  "startTime": "2023-11-14T08:30:00.000Z",
+                  "endTime": "2023-11-14T09:00:00.000Z"
+                },
+                {
+                  "id": 68,
+                  "startTime": "2023-11-14T09:00:00.000Z",
+                  "endTime": "2023-11-14T09:30:00.000Z"
+                },
+                {
+                  "id": 69,
+                  "startTime": "2023-11-14T09:30:00.000Z",
+                  "endTime": "2023-11-14T10:00:00.000Z"
+                },
+                {
+                  "id": 70,
+                  "startTime": "2023-11-14T10:00:00.000Z",
+                  "endTime": "2023-11-14T10:30:00.000Z"
+                },
+                {
+                  "id": 71,
+                  "startTime": "2023-11-14T10:30:00.000Z",
+                  "endTime": "2023-11-14T11:00:00.000Z"
+                },
+                {
+                  "id": 72,
+                  "startTime": "2023-11-14T11:00:00.000Z",
+                  "endTime": "2023-11-14T11:30:00.000Z"
+                },
+                {
+                  "id": 73,
+                  "startTime": "2023-11-14T11:30:00.000Z",
+                  "endTime": "2023-11-14T12:00:00.000Z"
+                },
+                {
+                  "id": 74,
+                  "startTime": "2023-11-14T12:00:00.000Z",
+                  "endTime": "2023-11-14T12:30:00.000Z"
+                },
+                {
+                  "id": 75,
+                  "startTime": "2023-11-14T12:30:00.000Z",
+                  "endTime": "2023-11-14T13:00:00.000Z"
+                },
+                {
+                  "id": 76,
+                  "startTime": "2023-11-14T13:00:00.000Z",
+                  "endTime": "2023-11-14T13:30:00.000Z"
+                },
+                {
+                  "id": 77,
+                  "startTime": "2023-11-14T13:30:00.000Z",
+                  "endTime": "2023-11-14T14:00:00.000Z"
+                },
+                {
+                  "id": 78,
+                  "startTime": "2023-11-14T14:00:00.000Z",
+                  "endTime": "2023-11-14T14:30:00.000Z"
+                },
+                {
+                  "id": 79,
+                  "startTime": "2023-11-14T14:30:00.000Z",
+                  "endTime": "2023-11-14T15:00:00.000Z"
+                }
+              ],
+              "days": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
+              "startHour": 9,
+              "endHour": 17,
+              "meetings": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_id": "1dF9M6",
+      "type": "container",
+      "name": "foody-map",
+      "theme": "wap-8-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699378470/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-19.34.20_nsc3x2.jpg",
+      "className": "foody-map",
+      "style": {},
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "sdfaij3452",
+          "info": {
+            "txt": "RESTURANT LOCATION"
+          },
+          "style": {},
+          "className": "foody-map-txt-1"
+        },
+        {
+          "type": "txt",
+          "_id": "asdfaoij4352015pk",
+          "info": {
+            "txt": "Menachem Begin 2, Ramat Gan, Israel"
+          },
+          "style": {},
+          "className": "foody-map-txt-2"
+        },
+        {
+          "type": "txt",
+          "_id": "sadfaskln345091na",
+          "info": {
+            "txt": "Open every day between 9am till 5pm"
+          },
+          "style": {},
+          "className": "foody-map-txt-3"
+        },
+        {
+          "type": "map",
+          "_id": "dfasdfajn345291n",
+          "className": "foody-map-container",
+          "info": {
+            "name": "",
+            "location": {
+              "latitude": 32.09259,
+              "longitude": 34.826289
+            },
+            "style": {}
+          }
+        },
+        {
+          "type": "img",
+          "_id": "asfgare3eVfRgBh",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699317132/tc2hqx8stk2liqpchfuy.png"
+          },
+          "style": {},
+          "className": "foody-map-img"
+        }
+      ]
+    },
+    {
+      "_id": "U8Ynjd",
+      "type": "container",
+      "name": "foody-footer",
+      "theme": "wap-8-theme",
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699361060/vu24pcojp7zwy2bcsaze.png",
+      "className": "foody-footer",
+      "style": {},
+      "createdBy": {
+        "_id": "asdfasdlk2n34n1",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "gadih345jnab2kjn",
+          "style": {},
+          "className": "foody-footer-div-1",
+          "cmps": [
+            {
+              "type": "link",
+              "_id": "fjbgakjb32489234",
+              "info": {
+                "txt": "Home",
+                "href": "#Home"
+              },
+              "style": {},
+              "className": "foody-footer-link1"
+            },
+            {
+              "type": "link",
+              "_id": "dsfga4353nsawe",
+              "info": {
+                "txt": "Services",
+                "href": "#ervices"
+              },
+              "style": {},
+              "className": "foody-footer-link2"
+            },
+            {
+              "type": "link",
+              "_id": "ah345eryaeryaar345",
+              "info": {
+                "txt": "Reservation",
+                "href": "#Reservation"
+              },
+              "style": {},
+              "className": "foody-footer-link3"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "sdfhsmdtwerw23342",
+          "style": {},
+          "className": "foody-footer-div2",
+          "cmps": [
+            {
+              "type": "icon",
+              "_id": "jknlasdfas982342ab",
+              "info": {
+                "iconName": "facebook"
+              },
+              "style": {},
+              "className": "foody-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "gafdga2342kos",
+              "info": {
+                "iconName": "instagram"
+              },
+              "style": {},
+              "className": "foody-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "kjabsdfkjasbdf892342",
+              "info": {
+                "iconName": "linkedin"
+              },
+              "style": {},
+              "className": "foody-footer-icon"
+            }
+          ]
+        },
+        {
+          "type": "txt",
+          "_id": "adfsga546362kisa",
+          "info": {
+            "txt": "Powered by WeeX 2023"
+          },
+          "style": {},
+          "className": "designer-footer-txt1"
+        }
+      ]
+    }
+  ],
+  "owner": {
+    "_id": "654b530e3d5aa4234f533aed",
+    "name": "",
+    "imgUrl": "",
+    "cmps": [],
+    "owner": {
+      "_id": "654b52493d5aa4234f533aec",
+      "email": "idohalbany97@gmail.com",
+      "fullname": "ido halbany",
+      "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+      "dashboard": {
+        "tasks": {
+          "todo": {
+            "id": "0jyx4f",
+            "title": "To Do",
+            "items": [],
+            "name": "todo"
+          },
+          "in-progress": {
+            "id": "WOYBW5",
+            "title": "In Progress",
+            "items": [],
+            "name": "in-progress"
+          },
+          "done": {
+            "id": "ZwWnK6",
+            "title": "Done",
+            "items": [],
+            "name": "done"
+          }
+        },
+        "wapsStats": {
+          "published": [],
+          "inProgress": []
+        }
+      }
+    },
+    "isPublished": false
+  },
+  "isPublished": false
+}

@@ -1,18 +1,13 @@
 {
+  "_id": {
+    "$oid": "654b59a53d5aa4234f533aef"
+  },
   "name": "Car Specialist",
   "description": "Landing Page",
   "theme": "wap-5-theme",
   "originalTheme": "wap-5-theme",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698505373/carspecial_yz2qhn.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524535/carmobile_du9jga.png",
-  "owner": {
-    "_id": "6547ca0ec90ea308d8073df7",
-    "fullname": "Admin",
-    "email": "admin",
-    "password": "admin",
-    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
-  },
-  "isPublished": false,
   "cmps": [
     {
       "_id": "1y284har8089f89sdnin",
@@ -90,28 +85,40 @@
         {
           "type": "link",
           "_id": "Z2X3C4V5B6",
-          "info": { "txt": "HOME", "href": "#home" },
+          "info": {
+            "txt": "HOME",
+            "href": "#home"
+          },
           "style": {},
           "className": "car-nav-link1"
         },
         {
           "type": "link",
           "_id": "Q1W2E3R4T5",
-          "info": { "txt": "SERVICES", "href": "#about" },
+          "info": {
+            "txt": "SERVICES",
+            "href": "#about"
+          },
           "style": {},
           "className": "car-nav-link2"
         },
         {
           "type": "link",
           "_id": "L0K9J8H7G6",
-          "info": { "txt": "ABOUT US", "href": "#services" },
+          "info": {
+            "txt": "ABOUT US",
+            "href": "#services"
+          },
           "style": {},
           "className": "car-nav-link3"
         },
         {
           "type": "link",
           "_id": "M5N4B3V2C1",
-          "info": { "txt": "CONTACT", "href": "#contact" },
+          "info": {
+            "txt": "CONTACT",
+            "href": "#contact"
+          },
           "style": {},
           "className": "car-nav-link4"
         }
@@ -140,14 +147,18 @@
             {
               "type": "txt",
               "_id": "F3W2Q1Z0X9",
-              "info": { "txt": "JADE & ANDY" },
+              "info": {
+                "txt": "JADE & ANDY"
+              },
               "style": {},
               "className": "car-hero-div-txt1"
             },
             {
               "type": "txt",
               "_id": "B2C3D4E5F6",
-              "info": { "txt": "VINTAGE CAR SPECIALIST" },
+              "info": {
+                "txt": "VINTAGE CAR SPECIALIST"
+              },
               "style": {},
               "className": "car-hero-div-txt2"
             }
@@ -207,7 +218,9 @@
         {
           "type": "title",
           "_id": "W1pV7d",
-          "info": { "txt": "SERVICES" },
+          "info": {
+            "txt": "SERVICES"
+          },
           "style": {},
           "className": "car-section-title"
         },
@@ -229,7 +242,9 @@
             {
               "type": "title",
               "_id": "T6yG0l",
-              "info": { "txt": "REPAIR" },
+              "info": {
+                "txt": "REPAIR"
+              },
               "style": {},
               "className": "car-section-div-title1"
             },
@@ -262,7 +277,9 @@
             {
               "type": "title",
               "_id": "U9sH1k",
-              "info": { "txt": "UPHOLSTERY" },
+              "info": {
+                "txt": "UPHOLSTERY"
+              },
               "style": {},
               "className": "car-section-div-title2"
             },
@@ -295,14 +312,18 @@
             {
               "type": "title",
               "_id": "Y1bW9e",
-              "info": { "txt": "PAINTWORK" },
+              "info": {
+                "txt": "PAINTWORK"
+              },
               "style": {},
               "className": "car-section-div-title3"
             },
             {
               "type": "txt",
               "_id": "R0cQ6a",
-              "info": { "txt": "Spray paint, Custom Stencilling & Variety of Custom Made Artwork" },
+              "info": {
+                "txt": "Spray paint, Custom Stencilling & Variety of Custom Made Artwork"
+              },
               "style": {},
               "className": "car-section-div-txt3"
             }
@@ -327,7 +348,9 @@
         {
           "type": "title",
           "_id": "car-section-2-title",
-          "info": { "txt": "OUR WORK" },
+          "info": {
+            "txt": "OUR WORK"
+          },
           "style": {},
           "className": "car-section-2-title"
         },
@@ -409,14 +432,18 @@
             {
               "type": "txt",
               "_id": "JFUBSD73",
-              "info": { "txt": "OUR STORE IN LONDON" },
+              "info": {
+                "txt": "OUR STORE IN LONDON"
+              },
               "style": {},
               "className": "car-map-txt-1"
             },
             {
               "type": "txt",
               "_id": "ASD7423KL",
-              "info": { "txt": "Victoria Embarkment 75th" },
+              "info": {
+                "txt": "Victoria Embarkment 75th"
+              },
               "style": {},
               "className": "car-map-txt-2"
             },
@@ -437,5 +464,87 @@
         }
       ]
     }
-  ]
+  ],
+  "owner": {
+    "_id": {
+      "$oid": "654b59a53d5aa4234f533aef"
+    },
+    "name": "",
+    "imgUrl": "",
+    "cmps": [],
+    "owner": {
+      "_id": "654b52493d5aa4234f533aec",
+      "email": "idohalbany97@gmail.com",
+      "fullname": "ido halbany",
+      "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+      "dashboard": {
+        "tasks": {
+          "todo": {
+            "id": "0jyx4f",
+            "title": "To Do",
+            "items": [],
+            "name": "todo"
+          },
+          "in-progress": {
+            "id": "WOYBW5",
+            "title": "In Progress",
+            "items": [],
+            "name": "in-progress"
+          },
+          "done": {
+            "id": "ZwWnK6",
+            "title": "Done",
+            "items": [],
+            "name": "done"
+          }
+        },
+        "wapsStats": {
+          "published": [],
+          "inProgress": [
+            {
+              "name": "",
+              "imgUrl": "",
+              "cmps": [],
+              "owner": {
+                "_id": "654b52493d5aa4234f533aec",
+                "email": "idohalbany97@gmail.com",
+                "fullname": "ido halbany",
+                "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+                "dashboard": {
+                  "tasks": {
+                    "todo": {
+                      "id": "0jyx4f",
+                      "title": "To Do",
+                      "items": [],
+                      "name": "todo"
+                    },
+                    "in-progress": {
+                      "id": "WOYBW5",
+                      "title": "In Progress",
+                      "items": [],
+                      "name": "in-progress"
+                    },
+                    "done": {
+                      "id": "ZwWnK6",
+                      "title": "Done",
+                      "items": [],
+                      "name": "done"
+                    }
+                  },
+                  "wapsStats": {
+                    "published": [],
+                    "inProgress": []
+                  }
+                }
+              },
+              "isPublished": false,
+              "_id": "654b530e3d5aa4234f533aed"
+            }
+          ]
+        }
+      }
+    },
+    "isPublished": false
+  },
+  "isPublished": false
 }

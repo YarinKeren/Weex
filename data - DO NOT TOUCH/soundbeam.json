@@ -1,18 +1,13 @@
 {
+  "_id": {
+    "$oid": "654b5a893d5aa4234f533af1"
+  },
   "name": "Soundbeam",
   "originalTheme": "wap-3-theme",
   "theme": "wap-3-theme",
   "description": "E-Commerce",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698504587/soundbeam_ahquqc.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524705/headphonesmobile_1_zokai9.png",
-  "owner": {
-    "_id": "6547ca0ec90ea308d8073df7",
-    "fullname": "Admin",
-    "email": "admin",
-    "password": "admin",
-    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
-  },
-  "isPublished": false,
   "cmps": [
     {
       "_id": "Z1X2C3V4B5",
@@ -32,35 +27,50 @@
         {
           "type": "link",
           "_id": "Q2W3E4R5T6",
-          "info": { "txt": "SoundBeam", "href": "#SoundBeam" },
+          "info": {
+            "txt": "SoundBeam",
+            "href": "#SoundBeam"
+          },
           "style": {},
           "className": "headphones-link1"
         },
         {
           "type": "link",
           "_id": "U0I9O8P7A6",
-          "info": { "txt": "Home", "href": "#home" },
+          "info": {
+            "txt": "Home",
+            "href": "#home"
+          },
           "style": {},
           "className": "headphones-link2"
         },
         {
           "type": "link",
           "_id": "S5D4F3G2H1",
-          "info": { "txt": "Prices", "href": "#SoundBeam" },
+          "info": {
+            "txt": "Prices",
+            "href": "#SoundBeam"
+          },
           "style": {},
           "className": "headphones-link3"
         },
         {
           "type": "link",
           "_id": "J0Z9X8C7V6",
-          "info": { "txt": "About", "href": "#about" },
+          "info": {
+            "txt": "About",
+            "href": "#about"
+          },
           "style": {},
           "className": "headphones-link4"
         },
         {
           "type": "btn",
           "_id": "B5N4M3L2K1",
-          "info": { "txt": "Order Now", "href": "#Order Now" },
+          "info": {
+            "txt": "Order Now",
+            "href": "#Order Now"
+          },
           "style": {},
           "className": "headphones-button"
         }
@@ -84,28 +94,37 @@
         {
           "type": "txt",
           "_id": "O9Z6t2C5P1",
-          "info": { "txt": "Soundbeam ERD - 3083" },
+          "info": {
+            "txt": "Soundbeam ERD - 3083"
+          },
           "style": {},
           "className": "headphones-hero-div-txt1"
         },
         {
           "type": "txt",
           "_id": "G7F0u5V3B2",
-          "info": { "txt": "Reinventing Sound Experience" },
+          "info": {
+            "txt": "Reinventing Sound Experience"
+          },
           "style": {},
           "className": "headphones-hero-div-txt2"
         },
         {
           "type": "txt",
           "_id": "A2S1y6L9O3",
-          "info": { "txt": "One step at a time." },
+          "info": {
+            "txt": "One step at a time."
+          },
           "style": {},
           "className": "headphones-hero-div-txt3"
         },
         {
           "type": "btn",
           "_id": "U6T5r4M2N8",
-          "info": { "txt": "Order Now", "href": "#OrderNow" },
+          "info": {
+            "txt": "Order Now",
+            "href": "#OrderNow"
+          },
           "style": {},
           "className": "headphones-hero-btn"
         }
@@ -144,7 +163,9 @@
             {
               "type": "txt",
               "_id": "o6WqR4Jp",
-              "info": { "txt": "High Quality Sound" },
+              "info": {
+                "txt": "High Quality Sound"
+              },
               "style": {},
               "className": "headphones-section-txt-1"
             },
@@ -177,7 +198,9 @@
             {
               "type": "txt",
               "_id": "c9Zw3LrM",
-              "info": { "txt": "Easy Wireless Listening" },
+              "info": {
+                "txt": "Easy Wireless Listening"
+              },
               "style": {},
               "className": "headphones-section-txt-3"
             },
@@ -210,7 +233,9 @@
             {
               "type": "txt",
               "_id": "p5Os6VeB",
-              "info": { "txt": "Easy Wireless Listening" },
+              "info": {
+                "txt": "Easy Wireless Listening"
+              },
               "style": {},
               "className": "headphones-section-txt-5"
             },
@@ -243,7 +268,9 @@
             {
               "type": "txt",
               "_id": "r9Ay0BxW",
-              "info": { "txt": "Sleek Updated Design" },
+              "info": {
+                "txt": "Sleek Updated Design"
+              },
               "style": {},
               "className": "headphones-section-txt-7"
             },
@@ -314,7 +341,9 @@
             {
               "type": "txt",
               "_id": "C1yE7o",
-              "info": { "txt": "Music Like You've Never Heard Before" },
+              "info": {
+                "txt": "Music Like You've Never Heard Before"
+              },
               "style": {},
               "className": "headphones-section-2-txt1"
             },
@@ -330,7 +359,10 @@
             {
               "type": "btn",
               "_id": "R6pA3x",
-              "info": { "txt": "Order Now", "href": "#OrderNow" },
+              "info": {
+                "txt": "Order Now",
+                "href": "#OrderNow"
+              },
               "style": {},
               "className": "headphones-section-2-btn"
             }
@@ -356,39 +388,95 @@
         {
           "type": "link",
           "_id": "headphones-footer-link1",
-          "info": { "txt": "Home", "href": "#Home" },
+          "info": {
+            "txt": "Home",
+            "href": "#Home"
+          },
           "style": {},
           "className": "headphones-footer-link1"
         },
         {
           "type": "link",
           "_id": "headphones-footer-link2",
-          "info": { "txt": "Benefits", "href": "#benefits" },
+          "info": {
+            "txt": "Benefits",
+            "href": "#benefits"
+          },
           "style": {},
           "className": "headphones-footer-link2"
         },
         {
           "type": "link",
           "_id": "headphones-footer-link3",
-          "info": { "txt": "Reviews", "href": "#Reviews" },
+          "info": {
+            "txt": "Reviews",
+            "href": "#Reviews"
+          },
           "style": {},
           "className": "headphones-footer-link3"
         },
         {
           "type": "link",
           "_id": "headphones-footer-link4",
-          "info": { "txt": "Shipping", "href": "#about" },
+          "info": {
+            "txt": "Shipping",
+            "href": "#about"
+          },
           "style": {},
           "className": "headphones-footer-link4"
         },
         {
           "type": "txt",
           "_id": "headphones-footer-txt1",
-          "info": { "txt": "2023 by SOUNDBEAM, powered by WeeX" },
+          "info": {
+            "txt": "2023 by SOUNDBEAM, powered by WeeX"
+          },
           "style": {},
           "className": "headphones-footer-txt1"
         }
       ]
     }
-  ]
+  ],
+  "owner": {
+    "_id": {
+      "$oid": "654b5a893d5aa4234f533af1"
+    },
+    "name": "",
+    "imgUrl": "",
+    "cmps": [],
+    "owner": {
+      "_id": "654b52493d5aa4234f533aec",
+      "email": "idohalbany97@gmail.com",
+      "fullname": "ido halbany",
+      "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+      "dashboard": {
+        "tasks": {
+          "todo": {
+            "id": "0jyx4f",
+            "title": "To Do",
+            "items": [],
+            "name": "todo"
+          },
+          "in-progress": {
+            "id": "WOYBW5",
+            "title": "In Progress",
+            "items": [],
+            "name": "in-progress"
+          },
+          "done": {
+            "id": "ZwWnK6",
+            "title": "Done",
+            "items": [],
+            "name": "done"
+          }
+        },
+        "wapsStats": {
+          "published": [],
+          "inProgress": []
+        }
+      }
+    },
+    "isPublished": false
+  },
+  "isPublished": false
 }
