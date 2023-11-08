@@ -50,9 +50,7 @@ function validateToken(loginToken) {
     const json = cryptr.decrypt(loginToken)
     const loggedinUser = JSON.parse(json)
     return loggedinUser
-  } catch (err) {
-    // console.log('Invalid login token')
-  }
+  } catch (err) {}
   return null
 }
 

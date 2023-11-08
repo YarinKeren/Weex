@@ -1,16 +1,10 @@
 import { wapService } from './wap.service.js'
 import { logger } from '../../services/logger.service.js'
-import { socketService } from '../../services/socket.service.js'
 
 export async function getWaps(req, res) {
   try {
     logger.debug('Getting Waps:', req.query)
-    // const filterBy = {
-    //   txt: req.query.txt || '',
-    //   pageIdx: req.query.pageIdx,
-    // }
     const waps = await wapService.query()
-    // const waps = await wapService.query(filterBy)
     res.json(waps)
   } catch (err) {
     logger.error('Failed to get waps(controller-getWaps)', err)
@@ -41,13 +35,9 @@ export async function getWapByUrl(req, res) {
 }
 
 export async function addWap(req, res) {
-  const { loggedinUser } = req
-
   try {
     const wap = req.body
-    // wap.owner = loggedinUser
     const addedWap = await wapService.add(wap)
-    console.log('addedWap', addedWap)
     // socketService.broadcast({ type: 'wap-added', data: addedWap, userId: loggedinUser._id })
     res.json(addedWap)
   } catch (err) {
@@ -68,7 +58,6 @@ export async function updateWap(req, res) {
 }
 
 export async function removeWap(req, res) {
-  const { loggedinUser } = req
   try {
     const wapId = req.params.id
     const removedId = await wapService.remove(wapId)
@@ -79,33 +68,3 @@ export async function removeWap(req, res) {
     res.status(400).send({ err: 'Failed to remove wap' })
   }
 }
-
-// export async function addCarMsg(req, res) {
-//   const { loggedinUser } = req
-//   try {
-//     const carId = req.params.id
-//     const msg = {
-//       txt: req.body.txt,
-//       by: loggedinUser,
-//     }
-//     const savedMsg = await carService.addCarMsg(carId, msg)
-//     res.json(savedMsg)
-//   } catch (err) {
-//     logger.error('Failed to update car', err)
-//     res.status(400).send({ err: 'Failed to update car' })
-//   }
-// }
-
-// export async function removeCarMsg(req, res) {
-//   const { loggedinUser } = req
-//   try {
-//     const carId = req.params.id
-//     const { msgId } = req.params
-
-//     const removedId = await carService.removeCarMsg(carId, msgId)
-//     res.send(removedId)
-//   } catch (err) {
-//     logger.error('Failed to remove car msg', err)
-//     res.status(400).send({ err: 'Failed to remove car msg' })
-//   }
-// }
