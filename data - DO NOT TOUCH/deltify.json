@@ -7,10 +7,36 @@
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524920/deltify_1_erqouo.png",
   "owner": {
     "_id": "6547ca0ec90ea308d8073df7",
-    "fullname": "Admin",
     "email": "admin",
-    "password": "admin",
-    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
+    "password": "$2b$10$vDMUGV6hLRXLUEbvfyTM0.GzSz2gERUAE0gtneMdcve.wRp1QDrDK",
+    "fullname": "Admin",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+    "dashboard": {
+      "tasks": {
+        "todo": {
+          "id": "QhMDwo",
+          "title": "To Do",
+          "items": [],
+          "name": "todo"
+        },
+        "in-progress": {
+          "id": "RCJFT1",
+          "title": "In Progress",
+          "items": [],
+          "name": "in-progress"
+        },
+        "done": {
+          "id": "OCFp5b",
+          "title": "Done",
+          "items": [],
+          "name": "done"
+        }
+      },
+      "wapsStats": {
+        "published": [],
+        "inProgress": []
+      }
+    }
   },
   "isPublished": false,
   "cmps": [
