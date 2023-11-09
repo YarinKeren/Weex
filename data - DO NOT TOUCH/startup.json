@@ -1,0 +1,977 @@
+{
+  "name": "Startup Venoe",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699461615/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-18.39.13_qpwuus.jpg",
+  "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699461693/startup-mobile-preview_uhsjdm.png",
+  "cmps": [
+    {
+      "_id": "Yqud21",
+      "type": "container",
+      "name": "startup nav",
+      "theme": "wap-9-theme",
+      "className": "startup-nav",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699462136/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-18.48.47_np70lh.jpg",
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "F2qD8mT5Y7aB4nG",
+          "info": {
+            "txt": "VENOE"
+          },
+          "style": {},
+          "className": "startup-nav-logo"
+        },
+        {
+          "type": "container",
+          "_id": "H3sZ9rE1vJ6pK2W",
+          "style": {},
+          "className": "startup-nav-links",
+          "cmps": [
+            {
+              "type": "link",
+              "_id": "Y5tG7uN4X2lC3qM",
+              "info": {
+                "txt": "Solutions",
+                "href": "#solutions"
+              },
+              "style": {},
+              "className": "startup-nav-link"
+            },
+            {
+              "type": "link",
+              "_id": "X4nR8jP1S6bV9yQ",
+              "info": {
+                "txt": "Pricing",
+                "href": "#pricing"
+              },
+              "style": {},
+              "className": "startup-nav-link"
+            },
+            {
+              "type": "link",
+              "_id": "D4eV9yX2R6tH1qL",
+              "info": {
+                "txt": "Team",
+                "href": "#team"
+              },
+              "style": {},
+              "className": "startup-nav-link"
+            },
+            {
+              "type": "btn",
+              "_id": "M5kQd6aW3S8vddB2pN",
+              "info": {
+                "txt": "Register"
+              },
+              "style": {},
+              "className": "startup-nav-btn"
+            },
+            {
+              "type": "btn",
+              "_id": "vfnvfu6f93Vk93499f3O9ojiwUDUDUDA001N",
+              "info": {
+                "txt": "Contact"
+              },
+              "style": {},
+              "className": "startup-nav-btn"
+            }
+          ]
+        },
+        {
+          "type": "mobile menu",
+          "_id": "QaaaAq5eV67FMVSIsKnF67744nbnb9r99rjkmll0lLKB",
+          "style": {},
+          "className": "startup-humburger-menu",
+          "cmps": [
+            {
+              "type": "link",
+              "_id": "32v32jf32svKIM32IKMMVMVMVMVMV8JF2VU",
+              "info": {
+                "txt": "Solutions",
+                "href": "#solutions"
+              },
+              "style": {},
+              "className": "startup-nav-link"
+            },
+            {
+              "type": "link",
+              "_id": "MVVMMVMVD0303030300303030",
+              "info": {
+                "txt": "Pricing",
+                "href": "#pricing"
+              },
+              "style": {},
+              "className": "startup-nav-link"
+            },
+            {
+              "type": "link",
+              "_id": "NOV90fjooccc2222njcdnvn8S88S88S8Ccdijs",
+              "info": {
+                "txt": "SERVICES",
+                "href": "#services"
+              },
+              "style": {},
+              "className": "foody-link"
+            },
+            {
+              "type": "link",
+              "_id": "vje949jbCVLPcKKnvisgjJUFRF4J2JSsfffccN",
+              "info": {
+                "txt": "Team",
+                "href": "#team"
+              },
+              "style": {},
+              "className": "startup-nav-link"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "OEOtKl",
+      "type": "container",
+      "name": "startup hero",
+      "theme": "wap-9-theme",
+      "className": "startup-hero",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699466890/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-20.07.58_kqdtge.jpg",
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "B5gZ7idom2yR1Q8wN2tM",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699466347/startup-hero-img_eowyhx.webp"
+          },
+          "style": {},
+          "className": "startup-hero-img"
+        },
+        {
+          "type": "container",
+          "_id": "R2tidoJ8kF1Y6uB9aD",
+          "style": {},
+          "className": "startup-hero-content",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "W6xH4idon2pS7C2vQ3oE",
+              "info": {
+                "txt": "Startup Venoe"
+              },
+              "style": {},
+              "className": "startup-hero-title"
+            },
+            {
+              "type": "txt",
+              "_id": "V3kP6jHido9X4eLv1rS",
+              "info": {
+                "txt": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              },
+              "style": {},
+              "className": "startup-hero-txt"
+            },
+            {
+              "type": "btn",
+              "_id": "1F1113d121qD8mT5iGo4mshalY7aB4nG",
+              "info": {
+                "txt": "Register"
+              },
+              "style": {},
+              "className": "startup-hero-btn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "wM3MiG",
+      "type": "container",
+      "name": "startup solutions",
+      "theme": "wap-9-theme",
+      "className": "startup-solutions",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699469022/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-20.43.29_xuglgo.jpg",
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "N5mQ3vC8Z7xL4gPK8",
+          "info": {
+            "txt": "Solutions"
+          },
+          "style": {},
+          "className": "startup-solutions-title"
+        },
+        {
+          "type": "txt",
+          "_id": "J7pK2wS5X3nH9eTP4",
+          "info": {
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+          },
+          "style": {},
+          "className": "startup-solutions-txt"
+        },
+        {
+          "type": "container",
+          "_id": "R2tJ8kF1Y6uB9aDA1",
+          "style": {},
+          "className": "startup-solutions-container",
+          "cmps": [
+            {
+              "type": "container",
+              "_id": "F2qD8mT5Y7aB4nGU2",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "B5gZ7yR1Q8wN2tMV3",
+                  "info": {
+                    "txt": "Software"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "V3kP6jH9X4eL1rSX7",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "F2qDd8mT5ddddddY7a",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "B5gZdddddlllllllsssss7yR1Q8wN2tMV3",
+                  "info": {
+                    "txt": "UX/UI"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "V3kPddddlmmnvviej93jjinvr33333acRRRV",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "L3kT9oZ7X2eP1qSvX1",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "Q4wB0xL2S9fN7hVqT6",
+                  "info": {
+                    "txt": "Robotics"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "V6mJ1rT8H5bG3yCkZ3",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "E1pZ3dM5K8aY6oRbW4",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "G7uT2nF4W6cQ9sAuC7",
+                  "info": {
+                    "txt": "AI"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "P5iH3mX8D1vJ4zBmY2s",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "S8kQ0yL3T6eM1vGhN8",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "N2cF9xV4bP5hR7tK3j",
+                  "info": {
+                    "txt": "QA"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "O3lZ5rH8W6qM2dJpF1",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "vvvkksp09224422M1n42Y4uT7axI9gxK3fEsT5",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "J2vG6pR5kQ8bH4xA9lidolol",
+                  "info": {
+                    "txt": "Crypto"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "U7hC3mN5Z9aX2tDbV6idonotknow",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "A4wB6zY8oV3lQ1pP0ridommmmmml098765",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "F9iH2sG7L5dK8xRnJ3halbany",
+                  "info": {
+                    "txt": "Tokens"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "c9K3nV6yT4W8qE1mJxL4halllbanyy19",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "D4eV9yX2R6tH1qLuZ2",
+              "style": {},
+              "className": "startup-solutions-card",
+              "cmps": [
+                {
+                  "type": "title",
+                  "_id": "M5kQ6aWcnsjhalhalbanyny3S8vB2pNwC5",
+                  "info": {
+                    "txt": "Coding"
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-title"
+                },
+                {
+                  "type": "txt",
+                  "_id": "Uu8zC4Xxx99p92isnu888cii09iokl9eG3yJtK1",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-solutions-card-txt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "RJ6JYs",
+      "type": "container",
+      "name": "startup testimonials",
+      "theme": "wap-9-theme",
+      "className": "startup-testimonials",
+      "style": {},
+      "imgUrl": "",
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "484dC981932c44Dc8a195e56A57743B1",
+          "info": {
+            "txt": "Case studies"
+          },
+          "style": {},
+          "className": "startup-testimonials-title"
+        },
+        {
+          "type": "txt",
+          "_id": "B27b006268344832B45eCcB827B30e83",
+          "info": {
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          "style": {},
+          "className": "startup-testimonials-txt"
+        },
+        {
+          "type": "container",
+          "_id": "AfC0C6470782489bA8142b2b7bE0F761",
+          "style": {},
+          "className": "startup-testimonials-container",
+          "cmps": [
+            {
+              "type": "container",
+              "_id": "C3Eb7b0b515f467799Ae7bD066C51bAf",
+              "style": {},
+              "className": "startup-testimonials-card",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "9263007fmivofmvoie9999000ddJJJ135Cb",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699478222/startup-testi3_e8osde.svg"
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "295fAf8d7fB14390A770EcDcBb5150A9",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-txt"
+                },
+                {
+                  "type": "title",
+                  "_id": "B3DbA3B05b57457e9e46258b87Ec2fA1",
+                  "info": {
+                    "txt": "Alice Cornell"
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-title"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "9b6724401f8640BaB47379Da158aA100",
+              "style": {},
+              "className": "startup-testimonials-card",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "vnfiv939943josjv4IJODJKNFI20JKJVIJUJHVUNNNNnnn345Cb",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699478201/startup-testi2_ksncok.svg"
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "A8E8F51887494034Ad67DeA1A470D8A4",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-txt"
+                },
+                {
+                  "type": "title",
+                  "_id": "58947aE67a8b4eDb86D7C38d19488713",
+                  "info": {
+                    "txt": "Mike Snow"
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-title"
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "_id": "970a450bE8B6401e97A85192D62f4eDf",
+              "style": {},
+              "className": "startup-testimonials-card",
+              "cmps": [
+                {
+                  "type": "img",
+                  "_id": "6c1d2b49A4C44f329007298b8dEc6a9b",
+                  "info": {
+                    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699478166/startup-testi1_wvlsyg.svg"
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-img"
+                },
+                {
+                  "type": "txt",
+                  "_id": "6b9a66Ce27644d9cA80bEe426933D485",
+                  "info": {
+                    "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-txt"
+                },
+                {
+                  "type": "title",
+                  "_id": "Be8751A842Ee4b12894e6960119bF603",
+                  "info": {
+                    "txt": "Mimi Telly"
+                  },
+                  "style": {},
+                  "className": "startup-testimonials-card-title"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "9oMopF",
+      "type": "container",
+      "name": "startup-num-section",
+      "theme": "wap-9-theme",
+      "className": "startup-num-section",
+      "style": {},
+      "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309394/portofliosection_tzja9e.jpg",
+      "createdBy": {
+        "_id": "8Yg2zX4pL9Oe",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "3Bj9lN6zV4Hp",
+          "info": {
+            "txt": "Numbers that seal the deal"
+          },
+          "style": {},
+          "className": "startup-num-text-1"
+        },
+        {
+          "type": "container",
+          "_id": "4Ml7gQ2zE9Ur",
+          "style": {},
+          "className": "startup-num-section-box-1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "3zzZpp3nP",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/ftjff3xtxzgzm99s8jra.png"
+              },
+              "style": {},
+              "className": "startup-num-img-items1"
+            },
+            {
+              "type": "title",
+              "_id": "CC4djsn11fF",
+              "info": {
+                "txt": "40+"
+              },
+              "style": {},
+              "className": "startup-num-title-items1"
+            },
+            {
+              "type": "txt",
+              "_id": "yY3dcc1fnN",
+              "info": {
+                "txt": "worked with more than 40 companies Over the past 5 years."
+              },
+              "style": {},
+              "className": "startup-num-txt-items1"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "2Ht4oO5yP6Id",
+          "style": {},
+          "className": "startup-num-section-box-2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "344zKV91Ddfd3n4",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/z7wzcvkxxsmntjepxgp4.png"
+              },
+              "style": {},
+              "className": "startup-num-img-items2"
+            },
+            {
+              "type": "title",
+              "_id": "3NVv4dvsn22",
+              "info": {
+                "txt": "4.9/5"
+              },
+              "style": {},
+              "className": "startup-num-title-items2"
+            },
+            {
+              "type": "txt",
+              "_id": "ncjs9910FllL1",
+              "info": {
+                "txt": "Clients have consistently rated us 5/5, except one Brett."
+              },
+              "style": {},
+              "className": "startup-num-txt-items2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "7Gj2dX9aT3Wp",
+          "style": {},
+          "className": "startup-num-section-box-3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "1900Ds30cA3D4",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/is9blxisntjxo6dvm2jl.png"
+              },
+              "style": {},
+              "className": "startup-num-img-items3"
+            },
+            {
+              "type": "title",
+              "_id": "18230Ds3OA3o4",
+              "info": {
+                "txt": "2M+"
+              },
+              "style": {},
+              "className": "startup-num-title-items3"
+            },
+            {
+              "type": "txt",
+              "_id": "2xzzX8230FOf8",
+              "info": {
+                "txt": "We’ve driven over 2M conversions through content."
+              },
+              "style": {},
+              "className": "startup-num-txt-items3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "sklWE8",
+      "type": "container",
+      "name": "startup social",
+      "theme": "wap-9-theme",
+      "className": "startup-social",
+      "style": {},
+      "imgUrl": "",
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "FbE4B7E074Bb4eAc9050E588F5CcC8B8",
+          "info": {
+            "txt": "Liked us? Join the best !"
+          },
+          "style": {},
+          "className": "startup-social-title"
+        },
+        {
+          "type": "btn",
+          "_id": "DcB9A4F78e7a421c96148a9a3fBd4189",
+          "info": {
+            "txt": "Demo request"
+          },
+          "style": {},
+          "className": "startup-social-btn"
+        },
+        {
+          "type": "container",
+          "_id": "666cC5549849434b92D7897fD3F61e2e",
+          "style": {},
+          "className": "startup-social-container",
+          "cmps": [
+            {
+              "type": "icon",
+              "_id": "794715F97a5d48Ba8a7bBe25949cB1Ed",
+              "info": {
+                "iconName": "facebook"
+              },
+              "style": {},
+              "className": "startup-social-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "2d8130E1E7254764A76f215cA661Cf91",
+              "info": {
+                "iconName": "instagram"
+              },
+              "style": {},
+              "className": "startup-social-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "4a18Cc4561934cC1BdEd69Fc5b812f11",
+              "info": {
+                "iconName": "linkedin"
+              },
+              "style": {},
+              "className": "startup-social-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "C9C02d0cC7F4405c803358E61cC8837d",
+              "info": {
+                "iconName": "twitter"
+              },
+              "style": {},
+              "className": "startup-social-icon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "Fu2uc0",
+      "type": "container",
+      "name": "startup-footer",
+      "theme": "wap-9-theme",
+      "imgUrl": "",
+      "className": "startup-footer",
+      "style": {},
+      "createdBy": {
+        "_id": "",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "8028676d2dBe450dBc85E14aD482E2B3",
+          "style": {},
+          "className": "startup-footer-div-1",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "3fF2E40499604dB1A26037BaE958A49f",
+              "info": {
+                "txt": "VENOE"
+              },
+              "style": {},
+              "className": "startup-footer-title"
+            },
+            {
+              "type": "txt",
+              "_id": "42F066C47fE641568756075818FaD3B4",
+              "info": {
+                "txt": "Powered by WeeX 2023"
+              },
+              "style": {},
+              "className": "startup-footer-tagline"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "D00f1f67D29542C8A3C2Ba23C0F5Ce07",
+          "style": {},
+          "className": "startup-footer-div-2",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "8e101437B5294e948203Ee1661F31f4b",
+              "info": {
+                "txt": "Menu"
+              },
+              "style": {},
+              "className": "startup-footer-txt1"
+            },
+            {
+              "type": "link",
+              "_id": "Cd2d104cA4Fe42B49aCa37AeD20e73Bf",
+              "info": {
+                "txt": "Solutions",
+                "href": "#solutions"
+              },
+              "style": {},
+              "className": "startup-footer-link1"
+            },
+            {
+              "type": "link",
+              "_id": "7246617e7716454eBe93C08cE3Ab02Ab",
+              "info": {
+                "txt": "Pricing",
+                "href": "#pricing"
+              },
+              "style": {},
+              "className": "startup-footer-link2"
+            },
+            {
+              "type": "link",
+              "_id": "4c1eFaDf7eBc447cA6A642614eA43aD2",
+              "info": {
+                "txt": "Team",
+                "href": "#team"
+              },
+              "style": {},
+              "className": "startup-footer-link3"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "A70b473744524a788f8fFa1aC4Fd5338",
+          "style": {},
+          "className": "startup-footer-div3",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "fc2DDITITUm44b3fB7E5dijfiifidododnvtaliaa",
+              "info": {
+                "txt": "Follow us"
+              },
+              "style": {},
+              "className": "startup-footer-follow-us"
+            },
+            {
+              "type": "icon",
+              "_id": "Ec2a66724f744276Ab3fB7E5D375Bc1c",
+              "info": {
+                "iconName": "facebook"
+              },
+              "style": {},
+              "className": "startup-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "827dA351F7824725Ab99C99c4b9f8259",
+              "info": {
+                "iconName": "instagram"
+              },
+              "style": {},
+              "className": "startup-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "9f467cCeF9184f4cB6B9B40c469b81A1",
+              "info": {
+                "iconName": "linkedin"
+              },
+              "style": {},
+              "className": "startup-footer-icon"
+            },
+            {
+              "type": "icon",
+              "_id": "9f467cCeF9184f4cB6B9B40c469b81A1",
+              "info": {
+                "iconName": "twitter"
+              },
+              "style": {},
+              "className": "startup-footer-icon"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "owner": {
+    "_id": "654b52493d5aa4234f533aec",
+    "email": "idohalbany97@gmail.com",
+    "fullname": "ido halbany",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+    "dashboard": {
+      "tasks": {
+        "todo": {
+          "id": "0jyx4f",
+          "title": "To Do",
+          "items": [],
+          "name": "todo"
+        },
+        "in-progress": {
+          "id": "WOYBW5",
+          "title": "In Progress",
+          "items": [],
+          "name": "in-progress"
+        },
+        "done": {
+          "id": "ZwWnK6",
+          "title": "Done",
+          "items": [],
+          "name": "done"
+        }
+      },
+      "wapsStats": {
+        "published": [],
+        "inProgress": []
+      }
+    }
+  },
+  "isPublished": false,
+  "description": "Landing page"
+}
