@@ -5,12 +5,12 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 
 export const wapService = {
-  remove,
+  add,
   query,
+  update,
+  remove,
   getById,
   getByUrl,
-  add,
-  update,
 }
 
 async function query() {
