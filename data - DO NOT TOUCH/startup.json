@@ -1,7 +1,42 @@
 {
   "name": "Startup Venoe",
+  "isPublished": false,
+  "description": "Landing page",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699461615/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-18.39.13_qpwuus.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699461693/startup-mobile-preview_uhsjdm.png",
+  "owner": {
+    "_id": "6547ca0ec90ea308d8073df7",
+    "email": "admin",
+    "password": "$2b$10$vDMUGV6hLRXLUEbvfyTM0.GzSz2gERUAE0gtneMdcve.wRp1QDrDK",
+    "fullname": "Admin",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+    "dashboard": {
+      "tasks": {
+        "todo": {
+          "id": "QhMDwo",
+          "title": "To Do",
+          "items": [],
+          "name": "todo"
+        },
+        "in-progress": {
+          "id": "RCJFT1",
+          "title": "In Progress",
+          "items": [],
+          "name": "in-progress"
+        },
+        "done": {
+          "id": "OCFp5b",
+          "title": "Done",
+          "items": [],
+          "name": "done"
+        }
+      },
+      "wapsStats": {
+        "published": [],
+        "inProgress": []
+      }
+    }
+  },
   "cmps": [
     {
       "_id": "Yqud21",
@@ -939,39 +974,5 @@
         }
       ]
     }
-  ],
-  "owner": {
-    "_id": "654b52493d5aa4234f533aec",
-    "email": "idohalbany97@gmail.com",
-    "fullname": "ido halbany",
-    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
-    "dashboard": {
-      "tasks": {
-        "todo": {
-          "id": "0jyx4f",
-          "title": "To Do",
-          "items": [],
-          "name": "todo"
-        },
-        "in-progress": {
-          "id": "WOYBW5",
-          "title": "In Progress",
-          "items": [],
-          "name": "in-progress"
-        },
-        "done": {
-          "id": "ZwWnK6",
-          "title": "Done",
-          "items": [],
-          "name": "done"
-        }
-      },
-      "wapsStats": {
-        "published": [],
-        "inProgress": []
-      }
-    }
-  },
-  "isPublished": false,
-  "description": "Landing page"
+  ]
 }
