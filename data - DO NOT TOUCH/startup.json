@@ -2,6 +2,8 @@
   "name": "Startup Venoe",
   "isPublished": false,
   "description": "Landing page",
+  "theme": "wap-9-theme",
+  "originalTheme": "wap-9-theme",
   "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699461615/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-18.39.13_qpwuus.jpg",
   "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699461693/startup-mobile-preview_uhsjdm.png",
   "owner": {
