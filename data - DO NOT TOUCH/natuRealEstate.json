@@ -1,6 +1,42 @@
 {
+  "isPublished": false,
   "name": "NatuRealEstates",
+  "description": "Agency layout",
   "imgUrl": "",
+  "mobileImgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698524705/headphonesmobile_1_zokai9.png",
+  "owner": {
+    "_id": "6547ca0ec90ea308d8073df7",
+    "email": "admin",
+    "password": "$2b$10$vDMUGV6hLRXLUEbvfyTM0.GzSz2gERUAE0gtneMdcve.wRp1QDrDK",
+    "fullname": "Admin",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+    "dashboard": {
+      "tasks": {
+        "todo": {
+          "id": "QhMDwo",
+          "title": "To Do",
+          "items": [],
+          "name": "todo"
+        },
+        "in-progress": {
+          "id": "RCJFT1",
+          "title": "In Progress",
+          "items": [],
+          "name": "in-progress"
+        },
+        "done": {
+          "id": "OCFp5b",
+          "title": "Done",
+          "items": [],
+          "name": "done"
+        }
+      },
+      "wapsStats": {
+        "published": [],
+        "inProgress": []
+      }
+    }
+  },
   "cmps": [
     {
       "_id": "05EEDm",
@@ -724,8 +760,5 @@
         }
       ]
     }
-  ],
-  "owner": null,
-  "isPublished": false,
-  "description": "Agency layout"
+  ]
 }
