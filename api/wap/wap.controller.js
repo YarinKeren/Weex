@@ -3,8 +3,9 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getWaps(req, res) {
   try {
-    logger.debug('Getting Waps:', req.query)
+    logger.debug('Getting Waps:')
     const waps = await wapService.query()
+    console.log('waps', waps)
     res.json(waps)
   } catch (err) {
     logger.error('Failed to get waps(controller-getWaps)', err)
@@ -16,7 +17,13 @@ export async function getWapById(req, res) {
   try {
     const wapId = req.params.id
     const wap = await wapService.getById(wapId)
-    res.json(wap)
+
+    // For demo purposes only
+    delete wap._id
+    delete wap.owner
+    const demoWap = await wapService.add(wap)
+
+    res.json(demoWap)
   } catch (err) {
     logger.error('Failed to get wap(controller-getById)', err)
     res.status(400).send({ err: 'Failed to get wap' })
