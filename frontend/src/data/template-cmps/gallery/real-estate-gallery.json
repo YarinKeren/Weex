@@ -1,0 +1,112 @@
+{
+  "_id": "xvvvqmxqmxmNCUvvqmxqxqx8q8qx8vv3rfxqxmqxxqqx9xqvvvvv5",
+  "type": "container",
+  "name": "real estate gallery",
+  "theme": "wap-10-theme",
+  "className": "real-estate-gallery",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699800811/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-16.53.20_ma6itx.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "77747vfev893iojwknfw98fuinjvuicns9HUIF3J",
+      "style": {},
+      "className": "real-estate-gallery-img1",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "VEF9VIJ3KHCDS9CIKhufhufhhuvfhvvggvgvgvghd29uio845858hvsc",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787309/asset_6_tqnhhr.jpg"
+          },
+          "style": {},
+          "className": "real-estate-gallery-img1-item"
+        },
+        {
+          "type": "title",
+          "_id": "vjvj4444ffvv9494c49jjvjvj8tt8t8t8t8thhghghghghg777h5hhakkkdr",
+          "info": { "txt": "Seaside Laxury" },
+          "style": {},
+          "className": "real-estate-gallery-title1-item"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "vvnKOVKOKROPWPPWPWPvnvnnvv8v88v8v8v8v88j4u4rihf8yguyfgjshdsdfh9sH9FURIEHF8",
+      "style": {},
+      "className": "real-estate-gallery-img2",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "POPFPFIPERPPORROOROROOOOOOVOOVOVxoooooooxooooxooo34445566",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787308/asset_8_ncmecl.jpg"
+          },
+          "style": {},
+          "className": "real-estate-gallery-img2-item"
+        },
+        {
+          "type": "title",
+          "_id": "cuchd89298jok22huijk329huijnk29joi3kvefu9ifvvfvhufhuv13324342",
+          "info": { "txt": "Avant Garde" },
+          "style": {},
+          "className": "real-estate-gallery-title2-item"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "32H20ROVSBBBCCJJ4348329840839483huifhdfu8EHI2H2HH2H2HH2",
+      "style": {},
+      "className": "real-estate-gallery-img3",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "BIBIBIBIBIBIBIBIBIBID929JOKNCV98983332211CDS",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787306/asset_7_tvyrar.jpg"
+          },
+          "style": {},
+          "className": "real-estate-gallery-img3-item"
+        },
+        {
+          "type": "title",
+          "_id": "SS9S9S922J2J2J2VJJVJSARAHSARAHD99D9D9DSAHRAHSSS",
+          "info": { "txt": "Wooodlands Estate" },
+          "style": {},
+          "className": "real-estate-gallery-title3-item"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "VVIVJ0FVJ0Fsc325EJIDJVIJVYONIYONIYONIYONIiirirrjdisssss",
+      "style": {},
+      "className": "real-estate-gallery-img4",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "cusuvoYIDOVUUU9DUCU9SISISUUIDHVCVHSUN98jofn2320598557382cdsa",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787302/asset_9_uxjhps.jpg"
+          },
+          "style": {},
+          "className": "real-estate-gallery-img4-item"
+        },
+        {
+          "type": "title",
+          "_id": "fe90ujeoJ98IOJWJJHGHHGHGWWEUEUEUUEUWWWWEEEUWUUWNC3EESaaahjc9923CCC0aa9TT",
+          "info": { "txt": "Modern Flat" },
+          "style": {},
+          "className": "real-estate-gallery-title4-item"
+        }
+      ]
+    }
+  ]
+}

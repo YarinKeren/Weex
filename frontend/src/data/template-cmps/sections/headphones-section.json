@@ -1,0 +1,169 @@
+{
+  "_id": "d3JfN9Zo",
+  "type": "container",
+  "name": "headphones-section",
+  "theme": "wap-3-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409293/n2s6pn7qxql9qbgswzot.png",
+  "className": "headphones-section",
+  "style": {},
+  "createdBy": {
+    "_id": "B7Lk4XcP",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "h8Ei2Gq0",
+      "style": {},
+      "className": "headphones-section-div-1",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "m0Kz5CvB",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/jlhzdi4jqo2t4pmlusdp.png"
+          },
+          "style": {},
+          "className": "headphones-section-img-1"
+        },
+        {
+          "type": "txt",
+          "_id": "o6WqR4Jp",
+          "info": { "txt": "High Quality Sound" },
+          "style": {},
+          "className": "headphones-section-txt-1"
+        },
+        {
+          "type": "txt",
+          "_id": "t7Uj9HxS",
+          "info": {
+            "txt": "Immerse in pristine audio with premium headphones, delivering unparalleled sound quality and immersive listening experiences."
+          },
+          "style": {},
+          "className": "headphones-section-txt-2"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "f5Dz6NwL",
+      "style": {},
+      "className": "headphones-section-div-2",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "v8Xp1YbQ",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/rqihnrvhpubfjelj3vlh.png"
+          },
+          "style": {},
+          "className": "headphones-section-img-2"
+        },
+        {
+          "type": "txt",
+          "_id": "c9Zw3LrM",
+          "info": { "txt": "Easy Wireless Listening" },
+          "style": {},
+          "className": "headphones-section-txt-3"
+        },
+        {
+          "type": "txt",
+          "_id": "k2Pv7TxF",
+          "info": {
+            "txt": "Seamlessly enjoy wireless freedom with effortless connectivity, ensuring easy and convenient listening experiences anywhere."
+          },
+          "style": {},
+          "className": "headphones-section-txt-4"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "j3Dq8UzA",
+      "style": {},
+      "className": "headphones-section-div-3",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "n4Gr5IyH",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/qwehqmxjjttt1rvdd11z.png"
+          },
+          "style": {},
+          "className": "headphones-section-img-3"
+        },
+        {
+          "type": "txt",
+          "_id": "p5Os6VeB",
+          "info": { "txt": "Easy Wireless Listening" },
+          "style": {},
+          "className": "headphones-section-txt-5"
+        },
+        {
+          "type": "txt",
+          "_id": "u6Yl7WdC",
+          "info": {
+            "txt": "Seamlessly enjoy wireless freedom with effortless connectivity."
+          },
+          "style": {},
+          "className": "headphones-section-txt-6"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "w7Zx8EjG",
+      "style": {},
+      "className": "headphones-section-div-4",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "l8Vb9KiL",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698331112/zlsntmrwuxlwwegnpaal.png"
+          },
+          "style": {},
+          "className": "headphones-section-img-4"
+        },
+        {
+          "type": "txt",
+          "_id": "r9Ay0BxW",
+          "info": { "txt": "Sleek Updated Design" },
+          "style": {},
+          "className": "headphones-section-txt-7"
+        },
+        {
+          "type": "txt",
+          "_id": "s0Bz1FqP",
+          "info": {
+            "txt": "Experience cutting-edge style with the latest headphones, featuring a sleek, modern design."
+          },
+          "style": {},
+          "className": "headphones-section-txt-8"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "x1Da2HrO",
+      "style": {},
+      "className": "headphones-section-grey-line1",
+      "cmps": []
+    },
+    {
+      "type": "container",
+      "_id": "y2Eb3IsN",
+      "style": {},
+      "className": "headphones-section-grey-line2",
+      "cmps": []
+    },
+    {
+      "type": "container",
+      "_id": "z3Fc4JtK",
+      "style": {},
+      "className": "headphones-section-grey-line3",
+      "cmps": []
+    }
+  ]
+}

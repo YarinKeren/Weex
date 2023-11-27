@@ -1,0 +1,12 @@
+.loader {
+  height: 100vh;
+  background-color: #313135;
+
+  .loader-gif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: clamp(30rem, 30vw, 30rem);
+  }
+}

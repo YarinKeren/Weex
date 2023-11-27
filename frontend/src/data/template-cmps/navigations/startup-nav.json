@@ -1,0 +1,102 @@
+{
+  "_id": "B5gZ7yR1Q8wN2tM",
+  "type": "container",
+  "name": "startup nav",
+  "theme": "wap-9-theme",
+  "className": "startup-nav",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699462136/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-18.48.47_np70lh.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "F2qD8mT5Y7aB4nG",
+      "info": { "txt": "VENOE" },
+      "style": {},
+      "className": "startup-nav-logo"
+    },
+    {
+      "type": "container",
+      "_id": "H3sZ9rE1vJ6pK2W",
+      "style": {},
+      "className": "startup-nav-links",
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "Y5tG7uN4X2lC3qM",
+          "info": { "txt": "Solutions", "href": "#solutions" },
+          "style": {},
+          "className": "startup-nav-link"
+        },
+        {
+          "type": "link",
+          "_id": "X4nR8jP1S6bV9yQ",
+          "info": { "txt": "Pricing", "href": "#pricing" },
+          "style": {},
+          "className": "startup-nav-link"
+        },
+        {
+          "type": "link",
+          "_id": "D4eV9yX2R6tH1qL",
+          "info": { "txt": "Team", "href": "#team" },
+          "style": {},
+          "className": "startup-nav-link"
+        },
+        {
+          "type": "btn",
+          "_id": "M5kQd6aW3S8vddB2pN",
+          "info": { "txt": "Register" },
+          "style": {},
+          "className": "startup-nav-btn"
+        },
+        {
+          "type": "btn",
+          "_id": "vfnvfu6f93Vk93499f3O9ojiwUDUDUDA001N",
+          "info": { "txt": "Contact" },
+          "style": {},
+          "className": "startup-nav-btn"
+        }
+      ]
+    },
+    {
+      "type": "mobile menu",
+      "_id": "QaaaAq5eV67FMVSIsKnF67744nbnb9r99rjkmll0lLKB",
+      "style": {},
+      "className": "startup-humburger-menu",
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "32v32jf32svKIM32IKMMVMVMVMVMV8JF2VU",
+          "info": { "txt": "Solutions", "href": "#solutions" },
+          "style": {},
+          "className": "startup-nav-link"
+        },
+        {
+          "type": "link",
+          "_id": "MVVMMVMVD0303030300303030",
+          "info": { "txt": "Pricing", "href": "#pricing" },
+          "style": {},
+          "className": "startup-nav-link"
+        },
+        {
+          "type": "link",
+          "_id": "NOV90fjooccc2222njcdnvn8S88S88S8Ccdijs",
+          "info": { "txt": "SERVICES", "href": "#services" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "vje949jbCVLPcKKnvisgjJUFRF4J2JSsfffccN",
+          "info": { "txt": "Team", "href": "#team" },
+          "style": {},
+          "className": "startup-nav-link"
+        }
+      ]
+    }
+  ]
+}

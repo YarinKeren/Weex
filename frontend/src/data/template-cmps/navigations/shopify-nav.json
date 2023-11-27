@@ -1,0 +1,53 @@
+{
+  "_id": "abakanelibeigale",
+  "type": "container",
+  "name": "shopify-nav",
+  "theme": "wap-1-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698308785/shopifynav_faeqsi.jpg",
+  "className": "shopify-nav",
+  "style": {},
+  "createdBy": {
+    "_id": "W9X8Y7Z6U5",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "link",
+      "_id": "F6G7H8J9K0",
+      "info": { "txt": "Home", "href": "#home" },
+      "style": {},
+      "className": "shopify-link1"
+    },
+    {
+      "type": "link",
+      "_id": "O9P8N7M6L5",
+      "info": { "txt": "Services", "href": "#services" },
+      "style": {},
+      "className": "shopify-link2"
+    },
+    {
+      "type": "link",
+      "_id": "I4U3Y2T1R0",
+      "info": { "txt": "About", "href": "#about" },
+      "style": {},
+      "className": "shopify-link3"
+    },
+    {
+      "type": "img",
+      "_id": "E0D9C8B7A6",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577089/ngxbxi3mbklkp3hfy4av.png"
+      },
+      "style": {},
+      "className": "shopify-logo"
+    },
+    {
+      "type": "btn",
+      "_id": "S6V5X4W3Q2",
+      "info": { "txt": "Sign Up", "href": "#signup" },
+      "style": {},
+      "className": "shopify-button"
+    }
+  ]
+}

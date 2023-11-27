@@ -1,0 +1,78 @@
+.foody-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+  padding: 6em 3.2em;
+  // background-color: #f9fbf2;
+  font-family: 'Oswald', sans-serif;
+
+  .foody-schedule-txt1 {
+    font-size: rem(70px);
+  }
+
+  .foody-schedule-txt2 {
+    text-align: center;
+    font-size: rem(18px);
+    font-family: sans-serif;
+  }
+
+  .foody-schedule-meeting-section {
+    margin-top: 1em;
+    button {
+      &:hover {
+        color: initial;
+        background-color: initial;
+      }
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .foody-schedule {
+    padding: 5em 1em;
+
+    .foody-schedule-txt1 {
+      font-size: rem(55px);
+    }
+
+    .foody-schedule-txt2 {
+      font-size: rem(16px);
+    }
+
+    .foody-schedule-meeting-section {
+      margin-top: 0.5em;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .foody-schedule {
+    padding: 4em 0.5em;
+
+    .foody-schedule-txt1 {
+      font-size: rem(50px);
+    }
+
+    .foody-schedule-txt2 {
+      font-size: rem(16px);
+      line-height: 1.5;
+    }
+
+    .foody-schedule-meeting-section {
+      margin-top: 0;
+      padding: 0;
+
+      div {
+        flex-wrap: wrap;
+        div {
+          width: 100%;
+
+          div:nth-child(2) {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

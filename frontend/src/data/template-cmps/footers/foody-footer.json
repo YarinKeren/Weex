@@ -1,0 +1,82 @@
+{
+    "_id": "dfgas4562na023n",
+    "type": "container",
+    "name": "foody-footer",
+    "theme": "wap-8-theme",
+    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699361060/vu24pcojp7zwy2bcsaze.png",
+    "className": "foody-footer",
+    "style": {},
+    "createdBy": {
+      "_id": "asdfasdlk2n34n1",
+      "fullname": "",
+      "imgUrl": ""
+    },
+    "cmps": [
+      {
+        "type": "container",
+        "_id": "gadih345jnab2kjn",
+        "style": {},
+        "className": "foody-footer-div-1",
+        "cmps": [
+          {
+            "type": "link",
+            "_id": "fjbgakjb32489234",
+            "info": { "txt": "Home", "href": "#Home" },
+            "style": {},
+            "className": "foody-footer-link1"
+          },
+          {
+            "type": "link",
+            "_id": "dsfga4353nsawe",
+            "info": { "txt": "Services", "href": "#ervices" },
+            "style": {},
+            "className": "foody-footer-link2"
+          },
+          {
+            "type": "link",
+            "_id": "ah345eryaeryaar345",
+            "info": { "txt": "Reservation", "href": "#Reservation" },
+            "style": {},
+            "className": "foody-footer-link3"
+          }
+        ]
+      },
+      {
+        "type": "container",
+        "_id": "sdfhsmdtwerw23342",
+        "style": {},
+        "className": "foody-footer-div2",
+        "cmps": [
+          {
+            "type": "icon",
+            "_id": "jknlasdfas982342ab",
+            "info": { "iconName": "facebook" },
+            "style": {},
+            "className": "foody-footer-icon"
+          },
+          {
+            "type": "icon",
+            "_id": "gafdga2342kos",
+            "info": { "iconName": "instagram" },
+            "style": {},
+            "className": "foody-footer-icon"
+          },
+          {
+            "type": "icon",
+            "_id": "kjabsdfkjasbdf892342",
+            "info": { "iconName": "linkedin" },
+            "style": {},
+            "className": "foody-footer-icon"
+          }
+        ]
+      },
+      {
+        "type": "txt",
+        "_id": "adfsga546362kisa",
+        "info": { "txt": "Powered by WeeX 2023" },
+        "style": {},
+        "className": "designer-footer-txt1"
+      }
+    ]
+  }
+  

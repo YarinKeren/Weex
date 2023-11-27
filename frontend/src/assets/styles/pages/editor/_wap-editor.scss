@@ -1,0 +1,54 @@
+.wap-editor {
+  overflow-x: hidden;
+  padding: 1.5em;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: $editorLayoutBgClr;
+  box-shadow: $boxShadowWapEditor;
+  transition: max-width 0.3s ease 0s;
+  position: relative;
+
+  .editor-layout {
+    margin: auto;
+    border: 3px solid $sClr5;
+    border-radius: $spacing-s;
+    overflow: hidden;
+    transition: max-width 0.5s cubic-bezier(0.83, 0.22, 0.17, 0.84);
+    min-height: calc(100vh - $app-header-height - $toolbar-height - 10px);
+    background: $sClr3;
+    position: relative;
+
+    &.mobile-edit-layout {
+      max-width: $mobile-breakpoint;
+      overflow-y: auto !important;
+      box-sizing: border-box;
+      height: calc(100vh - $app-header-height - $toolbar-height - 3.1em) !important;
+      border: 3px solid $sClr5;
+      border-radius: em(10px) !important;
+      box-shadow: $boxShadowLayout;
+
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+    }
+
+    &.tablet-edit-layout {
+      max-width: $narrow-breakpoint;
+      overflow-y: auto !important;
+      box-sizing: border-box;
+      height: calc(100vh - $app-header-height - $toolbar-height - 3.1em) !important;
+      border: 3px solid $sClr5;
+      border-radius: em(10px) !important;
+      box-shadow: $boxShadowLayout;
+
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+    }
+
+    &.pc-edit-layout {
+      max-width: $maxWidthLayout;
+    }
+  }
+}

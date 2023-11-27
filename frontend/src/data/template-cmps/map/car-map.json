@@ -1,0 +1,51 @@
+{
+  "_id": "BL2aT",
+  "type": "container",
+  "name": "car-map",
+  "theme": "",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699378326/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-19.31.56_lmtpfa.jpg",
+  "className": "car-map",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "ksadfh83",
+      "style": {},
+      "className": "car-map-div",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "JFUBSD73",
+          "info": { "txt": "OUR STORE IN LONDON" },
+          "style": {},
+          "className": "car-map-txt-1"
+        },
+        {
+          "type": "txt",
+          "_id": "ASD7423KL",
+          "info": { "txt": "Victoria Embarkment 75th" },
+          "style": {},
+          "className": "car-map-txt-2"
+        },
+        {
+          "type": "map",
+          "_id": "DSASDFA21",
+          "className": "car-map-container",
+          "info": {
+            "name": "Sample Location",
+            "location": {
+              "latitude": 51.510357,
+              "longitude": -0.116773
+            },
+            "style": {}
+          }
+        }
+      ]
+    }
+  ]
+}

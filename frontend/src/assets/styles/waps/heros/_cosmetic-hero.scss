@@ -1,0 +1,149 @@
+.cosmetic-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 4em;
+  align-items: center;
+
+  .cosmetic-hero-image-item {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    justify-self: end;
+  }
+
+  p.cosmetic-hero-title-item,
+  p.cosmetic-hero-subtitle-item,
+  .cosmetic-hero-btn-item {
+    grid-column: 1;
+  }
+
+  p.cosmetic-hero-title-item {
+    font-size: rem(70px);
+    letter-spacing: rem(0.8px);
+    align-self: end;
+    margin: 1rem 0 0em;
+  }
+
+  p.cosmetic-hero-subtitle-item {
+    font-size: rem(20px);
+    max-width: 500px;
+    align-self: center;
+    line-height: 1.5em;
+  }
+
+  .cosmetic-hero-btn-item {
+    padding: 1em 3em;
+    font-size: 1rem;
+    justify-self: start;
+    align-self: start;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cosmetic-hero {
+    grid-template-columns: 1fr;
+    padding: 2em 4em;
+
+    .cosmetic-hero-image-item {
+      grid-column: 1;
+      grid-row: 4;
+      justify-self: start;
+    }
+
+    p.cosmetic-hero-title-item {
+      font-size: rem(60px);
+      margin: 2rem 0;
+    }
+
+    p.cosmetic-hero-subtitle-item {
+      font-size: rem(20px);
+      margin-bottom: 2rem;
+    }
+
+    .cosmetic-hero-btn-item {
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .cosmetic-hero {
+    place-items: center;
+
+    p.cosmetic-hero-title-item {
+      font-size: rem(45px);
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    p.cosmetic-hero-subtitle-item {
+      text-align: center;
+    }
+
+    .cosmetic-hero-btn-item {
+      justify-self: center;
+      margin: 2rem 0;
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .cosmetic-hero {
+    grid-template-columns: 1fr;
+    padding: 2em 4em;
+
+    .cosmetic-hero-image-item {
+      grid-column: 1;
+      grid-row: 4;
+      justify-self: start;
+    }
+
+    p.cosmetic-hero-title-item {
+      font-size: rem(60px);
+      margin: 2rem 0;
+    }
+
+    p.cosmetic-hero-subtitle-item {
+      font-size: rem(20px);
+      margin-bottom: 2rem;
+    }
+
+    .cosmetic-hero-btn-item {
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .cosmetic-hero {
+    grid-template-columns: 1fr;
+    padding: 2em 4em;
+    place-items: center;
+
+    .cosmetic-hero-image-item {
+      grid-column: 1;
+      grid-row: 4;
+      justify-self: start;
+    }
+
+    p.cosmetic-hero-title-item {
+      font-size: rem(45px);
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    p.cosmetic-hero-subtitle-item {
+      font-size: rem(20px);
+      text-align: center;
+    }
+
+    .cosmetic-hero-btn-item {
+      justify-self: center;
+      font-size: 0.9rem;
+      margin: 2rem 0;
+    }
+  }
+}

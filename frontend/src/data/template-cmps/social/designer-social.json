@@ -1,0 +1,44 @@
+{
+  "_id": "R1S7T8U9X2",
+  "type": "container",
+  "name": "designer-social",
+  "theme": "wap-7-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699385429/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.30.18_dimdum.jpg",
+  "className": "designer-social",
+  "style": {},
+  "createdBy": {
+    "_id": "C1D2E3F4G5",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "icon",
+      "_id": "N6O7P8Q9R0",
+      "info": { "iconName": "facebook" },
+      "style": {},
+      "className": "designer-icon"
+    },
+    {
+      "type": "icon",
+      "_id": "S1T2U3V4W5",
+      "info": { "iconName": "instagram" },
+      "style": {},
+      "className": "designer-icon"
+    },
+    {
+      "type": "icon",
+      "_id": "S1T6U6V6W6",
+      "info": { "iconName": "linkedin" },
+      "style": {},
+      "className": "designer-icon"
+    },
+    {
+      "type": "icon",
+      "_id": "O1P1Q3R4S5",
+      "info": { "iconName": "energy" },
+      "style": {},
+      "className": "designer-icon"
+    }
+  ]
+}

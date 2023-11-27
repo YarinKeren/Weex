@@ -1,0 +1,45 @@
+.headphones-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: rem(75px);
+  padding: 0 1.2em;
+
+  .headphones-footer-link1 a,
+  .headphones-footer-link2 a,
+  .headphones-footer-link3 a,
+  .headphones-footer-link4 a {
+    padding: 1em;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &:visited {
+      text-decoration-color: white;
+    }
+  }
+
+  .headphones-footer-txt1 {
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.tablet-edit-layout {
+  .headphones-footer-link1 a,
+  .headphones-footer-link2 a,
+  .headphones-footer-link3 a,
+  .headphones-footer-link4 a,
+  .headphones-footer-txt1 {
+    font-size: rem(13px);
+  }
+}
+
+.mobile-edit-layout {
+  .headphones-footer-link1 a,
+  .headphones-footer-link2 a,
+  .headphones-footer-link3 a,
+  .headphones-footer-link4 a,
+  .headphones-footer-txt1 {
+    font-size: rem(11px);
+  }
+}

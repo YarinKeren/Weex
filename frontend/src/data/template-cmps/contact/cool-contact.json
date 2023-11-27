@@ -1,0 +1,67 @@
+{
+    "_id": "fsdfastr3453",
+    "type": "container",
+    "name": "cool contact",
+    "theme": "",
+    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699409211/hzatzs9r9rqzfqzjbhwo.png",
+    "className": "cool-contact",
+    "style": {},
+    "createdBy": {
+      "_id": "fgsdklngsd93",
+      "fullname": "",
+      "imgUrl": ""
+    },
+    "cmps": [
+
+      {
+        "type": "form",
+        "_id": "dsfklkgnsg8234",
+        "style": {},
+        "className": "cool-contact-div",
+        "cmps": [
+          {
+            "_id": "adsfgadry52ja34",
+            "type": "title",
+            "info": { "txt": "Contact us" },
+            "style": {},
+            "className": "cool-contact-div-txt1"
+          },
+          {
+            "_id": "ahahaa452jsdfa51",
+            "type": "title",
+            "info": { "txt": "Feel free to contact us if you need any assistance, any help or another question." },
+            "style": {},
+            "className": "cool-contact-div-txt2"
+          },
+          {
+            "_id": "miadnfga82",
+            "type": "input",
+            "info": { "placeholder": "Name", "type": "text" },
+            "style": {},
+            "className": "cool-contact-input1"
+          },
+          {
+            "_id": "kndfvjskb239815",
+            "type": "input",
+            "info": { "placeholder": "Email", "type": "Email" },
+            "style": {},
+            "className": "cool-contact-input2"
+          },
+          {
+            "_id": "adfh3451balp",
+            "type": "input",
+            "info": { "placeholder": "Message", "type": "text" },
+            "style": {},
+            "className": "cool-contact-input3"
+          },
+          {
+            "_id": "hajkln345301617",
+            "type": "btn",
+            "info": { "txt": "Send", "kind": "send" },
+            "style": {},
+            "className": "cool-contact-btn"
+          }
+        ]
+      }
+    ]
+  }

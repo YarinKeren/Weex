@@ -1,0 +1,182 @@
+{
+  "_id": "pcc19485",
+  "type": "container",
+  "name": "nature-articles-section",
+  "theme": "wap-2-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309176/naturesection_nz28e1.jpg",
+  "className": "nature-articles-section",
+  "style": {},
+  "createdBy": {
+    "_id": "D1A2B3C4",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "E5F6G7H8",
+      "style": {},
+      "className": "nature-article-card nature-article-1",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "I9J0K1L2",
+          "info": { "txt": "Latest News" },
+          "style": {},
+          "className": "nature-card-title"
+        },
+        {
+          "type": "txt",
+          "_id": "M3N4O5P6",
+          "info": { "txt": "Covering March & April 2023" },
+          "style": {},
+          "className": "nature-card-date"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "Q7R8S9T0",
+      "style": {},
+      "className": "nature-article-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "U1V2W3X4",
+          "info": {
+            "imgUrl": "https://s1.1zoom.me/prev/587/Waves_Closeup_Water_586392_600x400.jpg"
+          },
+          "style": {},
+          "className": "nature-image-card-item-1"
+        },
+        {
+          "type": "txt",
+          "_id": "Y5Z6A7B8",
+          "info": { "txt": "March 20 2023" },
+          "style": {},
+          "className": "nature-date-item"
+        },
+        {
+          "type": "title",
+          "_id": "C9D0E1F2",
+          "info": { "txt": "CNN Acquire BEME" },
+          "style": {},
+          "className": "nature-title-item"
+        },
+        {
+          "type": "txt",
+          "_id": "G3H4I5J6",
+          "info": { "txt": "CNN purchased Casey Neistat's Beme app for $25million." },
+          "style": {},
+          "className": "nature-text-item"
+        },
+        {
+          "type": "btn",
+          "_id": "K7L8M9N0",
+          "info": {
+            "txt": "Find out more →",
+            "href": "https://dribbble.com/shots/1978243-Latest-New"
+          },
+          "style": {},
+          "className": "nature-button-card-item1"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "O1P2Q3R4",
+      "style": {},
+      "className": "nature-article-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "S5T6U7V8",
+          "info": {
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/600x400_kastra.jpg"
+          },
+          "style": {},
+          "className": "nature-image-card-item-2"
+        },
+        {
+          "type": "txt",
+          "_id": "W9X0Y1Z2",
+          "info": { "txt": "March 20 2023" },
+          "style": {},
+          "className": "nature-date-item"
+        },
+        {
+          "type": "title",
+          "_id": "A3B4C5D6",
+          "info": { "txt": "CNN Acquire BEME" },
+          "style": {},
+          "className": "nature-title-item"
+        },
+        {
+          "type": "txt",
+          "_id": "E7F8G9H0",
+          "info": { "txt": "CNN purchased Casey Neistat's Beme app for $25million." },
+          "style": {},
+          "className": "nature-text-item"
+        },
+        {
+          "type": "btn",
+          "_id": "I1J2K3L4",
+          "info": {
+            "txt": "Find out more →",
+            "href": "https://dribbble.com/shots/1978243-Latest-New"
+          },
+          "style": {},
+          "className": "nature-button-card-item2"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "M5N6O7P8",
+      "style": {},
+      "className": "nature-article-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "Q9R0S1T2",
+          "info": {
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/India_Gate_600x400.jpg"
+          },
+          "style": {},
+          "className": "nature-image-card-item-3"
+        },
+        {
+          "type": "txt",
+          "_id": "U3V4W5X6",
+          "info": { "txt": "March 20 2023" },
+          "style": {},
+          "className": "nature-date-item"
+        },
+        {
+          "type": "title",
+          "_id": "Y7Z8A9B0",
+          "info": { "txt": "CNN Acquire BEME" },
+          "style": {},
+          "className": "nature-title-item"
+        },
+        {
+          "type": "txt",
+          "_id": "C1D2E3F4",
+          "info": { "txt": "CNN purchased Casey Neistat's Beme app for $25million." },
+          "style": {},
+          "className": "nature-text-item"
+        },
+        {
+          "type": "btn",
+          "_id": "G5H6I7J8",
+          "info": {
+            "txt": "Find out more →",
+            "href": "https://dribbble.com/shots/1978243-Latest-New"
+          },
+          "style": {},
+          "className": "nature-button-card-item3"
+        }
+      ]
+    }
+  ]
+}

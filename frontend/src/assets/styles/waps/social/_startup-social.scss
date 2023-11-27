@@ -1,0 +1,139 @@
+.startup-social {
+  padding: 4em;
+  display: grid;
+  place-items: center;
+  gap: 4em;
+  font-family: 'space grotesk', sans-serif;
+
+  .startup-social-title {
+    font-size: 4rem;
+  }
+
+  .startup-social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2em 2.2em;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 8px 6.5px 0 0 #000;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 0 0 #000;
+      transform: translateX(5px);
+    }
+  }
+
+  .startup-social-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .startup-social {
+    padding: 4em 1em;
+    gap: 3em;
+
+    .startup-social-title {
+      font-size: 2.5rem;
+    }
+
+    .startup-social-btn {
+      font-size: 1rem;
+    }
+
+    .startup-social-container {
+      justify-content: center;
+      gap: 5em;
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .startup-social {
+    padding: 3.5em 1em;
+    gap: 2.5em;
+
+    .startup-social-title {
+      font-size: 2rem;
+    }
+
+    .startup-social-btn {
+      font-size: 1rem;
+    }
+
+    .startup-social-container {
+      justify-content: center;
+      gap: 3em;
+
+      svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .startup-social {
+    padding: 4em 1em;
+    gap: 3em;
+
+    .startup-social-title {
+      font-size: 2.5rem;
+    }
+
+    .startup-social-btn {
+      font-size: 1rem;
+    }
+
+    .startup-social-container {
+      justify-content: center;
+      gap: 5em;
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .startup-social {
+    padding: 3.5em 1em;
+    gap: 2.5em;
+
+    .startup-social-title {
+      font-size: 2rem;
+    }
+
+    .startup-social-btn {
+      font-size: 1rem;
+    }
+
+    .startup-social-container {
+      justify-content: center;
+      gap: 3em;
+
+      svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+}

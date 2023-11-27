@@ -1,0 +1,67 @@
+{
+  "_id": "vjBXjg94j4j4jjbjbjbjbjbj9y9y908KJKJKJKJSHSHSV",
+  "type": "container",
+  "name": "real estate nav",
+  "theme": "wap-10-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699797435/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-15.56.22_bkjnxz.jpg",
+  "className": "real-estate-nav",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "link",
+      "_id": "VM9VHH1H1H1HH1H1H1H19H9H19H91H9HI11K1hhhnnR9JV",
+      "info": { "txt": "Home", "href": "#home" },
+      "style": {},
+      "className": "real-estate-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "383838899669BNBNBN8rjrjjr8g5j",
+      "info": { "txt": "About", "href": "#about" },
+      "style": {},
+      "className": "real-estate-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "CDMVIF399393939HJGUTGHTHG5868686868",
+      "info": { "txt": "Services", "href": "#services" },
+      "style": {},
+      "className": "real-estate-nav-link"
+    },
+    {
+      "type": "img",
+      "_id": "vmfivodspds93JIFJIV99999FRVNNVNN5",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787303/real-estate-logo_iuk320.png"
+      },
+      "style": {},
+      "className": "real-estate-nav-logo"
+    },
+    {
+      "type": "link",
+      "_id": "vfkoivjigb94kibgi909IJIOJOIOIJJIJOIJIJGIJGIJGNNV",
+      "info": { "txt": "Listings", "href": "#listing" },
+      "style": {},
+      "className": "real-estate-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "VJISISISvS88S8S333U57575757SJSJSN48jfufjrn484",
+      "info": { "txt": "Blog", "href": "#blog" },
+      "style": {},
+      "className": "real-estate-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "vuirgdddddhh58686dddd8uggjvndhjvuifdheiurHJ9UERIHIUNJFDNVdddd",
+      "info": { "txt": "Contact", "href": "#contact" },
+      "style": {},
+      "className": "real-estate-nav-link"
+    }
+  ]
+}

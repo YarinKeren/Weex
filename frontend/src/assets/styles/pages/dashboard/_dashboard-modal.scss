@@ -1,0 +1,39 @@
+.waps-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: rem(10px);
+  .wap-container {
+    border-radius: rem(8px);
+    color: $sClr6;
+    font-family: 'Roboto';
+
+    img {
+      cursor: pointer;
+      width: 60%;
+    }
+
+    &.blank {
+      border-radius: rem(8px);
+      background-color: $sClr4;
+      aspect-ratio: 16/9;
+      width: 60%;
+      gap: 1rem;
+
+      button {
+        background-color: $homeClrElements;
+        font-size: 1rem;
+        padding: 0.8em 2em 0.7em;
+        margin-left: 1em;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: $homeClr6;
+          color: $homeClr1;
+        }
+      }
+    }
+  }
+}

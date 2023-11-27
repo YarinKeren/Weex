@@ -1,0 +1,166 @@
+.home-progress-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+
+  @media (max-width: 650px) {
+    padding: 2em 3em;
+  }
+
+  @media (max-width: 550px) {
+    padding: 1em;
+  }
+
+  .progress-headline {
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      line-height: 1.5;
+      letter-spacing: 2px;
+      color: $homeClr7;
+
+      @media (max-width: 650px) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 550px) {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 1.5;
+      color: $homeClr7;
+      margin-bottom: 4em;
+
+      @media (max-width: 1080px) {
+        font-size: 1rem;
+      }
+
+      @media (max-width: 550px) {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .progress-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .progress-numbers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      gap: 5em;
+
+      @media (max-width: 550px) {
+        gap: 3em;
+      }
+
+      .progress-number {
+        background-color: $homeClr7;
+        padding: 1em;
+        font-size: 1.5rem;
+        color: $homeClr1;
+        border-radius: 50px;
+        font-weight: bold;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-top: 15px solid $homeClr7;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: -1;
+        }
+
+        @media (max-width: 550px) {
+          font-size: 1.2rem;
+        }
+      }
+
+      @media (max-width: 650px) {
+        gap: 3em;
+      }
+
+      @media (max-width: 550px) {
+        gap: 2em;
+      }
+    }
+
+    .progress-devider {
+      width: 100%;
+      height: 1px;
+      background-color: $homeClr7;
+      margin: 2.5em auto 2em;
+    }
+
+    .progress-text {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      text-align: center;
+      gap: 5em;
+
+      @media (max-width: 650px) {
+        gap: 3em;
+      }
+
+      @media (max-width: 550px) {
+        gap: 2em;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        color: $homeClr7;
+        margin-bottom: 0.5em;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+
+        @media (max-width: 650px) {
+          font-size: 1.2rem;
+        }
+
+        @media (max-width: 550px) {
+          font-size: 1rem;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        color: $homeClr7;
+        line-height: 1.5rem;
+        overflow: hidden;
+
+        .split-line {
+          overflow: hidden;
+        }
+
+        .split-parent {
+          overflow: hidden;
+        }
+
+        @media (max-width: 650px) {
+          font-size: 0.9rem;
+        }
+
+        @media (max-width: 550px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

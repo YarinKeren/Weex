@@ -1,0 +1,57 @@
+.designer-contact {
+  background-color: $sClr3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  gap: 2em;
+
+  .designer-contact-title {
+    color: $sClr7;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .designer-contact-tagline {
+    color: $sClr7;
+    font-size: 1.6rem;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .designer-contact-link {
+    background-color: $sClr7;
+    padding: 3.3em 1.4em;
+    border-radius: 100px;
+    text-align: center;
+    a {
+      text-decoration: none;
+      font-size: 1.1rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .designer-contact {
+    padding: 4em 1em;
+
+    .designer-contact-title {
+      font-size: 2.5rem;
+    }
+
+    .designer-contact-tagline {
+      font-size: 1.3rem;
+      line-height: 1.5;
+      margin-bottom: 0.5em;
+    }
+
+    .designer-contact-link {
+      padding: 3em 1.1em;
+    }
+  }
+}

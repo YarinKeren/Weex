@@ -1,0 +1,116 @@
+{
+  "_id": "5dJ7h32bKtXa",
+  "type": "container",
+  "name": "startup-num-section",
+  "theme": "wap-9-theme",
+  "className": "startup-num-section",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699487567/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-09_%D7%91-1.52.36_hxhy20.jpg",
+  "createdBy": {
+    "_id": "8Yg2zX4pL9Oe",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "3Bj9lN6zV4Hp",
+      "info": { "txt": "Numbers that seal the deal" },
+      "style": {},
+      "className": "startup-num-text-1"
+    },
+    {
+      "type": "container",
+      "_id": "4Ml7gQ2zE9Ur",
+      "style": {},
+      "className": "startup-num-section-box-1",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "3zzZpp3nP",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/ftjff3xtxzgzm99s8jra.png"
+          },
+          "style": {},
+          "className": "startup-num-img-items1"
+        },
+        {
+          "type": "title",
+          "_id": "CC4djsn11fF",
+          "info": { "txt": "40+" },
+          "style": {},
+          "className": "startup-num-title-items1"
+        },
+        {
+          "type": "txt",
+          "_id": "yY3dcc1fnN",
+          "info": { "txt": "worked with more than 40 companies Over the past 5 years." },
+          "style": {},
+          "className": "startup-num-txt-items1"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "2Ht4oO5yP6Id",
+      "style": {},
+      "className": "startup-num-section-box-2",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "344zKV91Ddfd3n4",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/z7wzcvkxxsmntjepxgp4.png"
+          },
+          "style": {},
+          "className": "startup-num-img-items2"
+        },
+        {
+          "type": "title",
+          "_id": "3NVv4dvsn22",
+          "info": { "txt": "4.9/5" },
+          "style": {},
+          "className": "startup-num-title-items2"
+        },
+        {
+          "type": "txt",
+          "_id": "ncjs9910FllL1",
+          "info": { "txt": "Clients have consistently rated us 5/5, except one Brett." },
+          "style": {},
+          "className": "startup-num-txt-items2"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "7Gj2dX9aT3Wp",
+      "style": {},
+      "className": "startup-num-section-box-3",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "1900Ds30cA3D4",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698576765/is9blxisntjxo6dvm2jl.png"
+          },
+          "style": {},
+          "className": "startup-num-img-items3"
+        },
+        {
+          "type": "title",
+          "_id": "18230Ds3OA3o4",
+          "info": { "txt": "2M+" },
+          "style": {},
+          "className": "startup-num-title-items3"
+        },
+        {
+          "type": "txt",
+          "_id": "2xzzX8230FOf8",
+          "info": { "txt": "We’ve driven over 2M conversions through content." },
+          "style": {},
+          "className": "startup-num-txt-items3"
+        }
+      ]
+    }
+  ]
+}

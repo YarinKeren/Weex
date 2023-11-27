@@ -1,0 +1,232 @@
+{
+  "_id": "Z4yE6aV8R1mG7bQH9",
+  "type": "container",
+  "name": "startup solutions",
+  "theme": "wap-9-theme",
+  "className": "startup-solutions",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699469022/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-20.43.29_xuglgo.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "N5mQ3vC8Z7xL4gPK8",
+      "info": { "txt": "Solutions" },
+      "style": {},
+      "className": "startup-solutions-title"
+    },
+    {
+      "type": "txt",
+      "_id": "J7pK2wS5X3nH9eTP4",
+      "info": {
+        "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      },
+      "style": {},
+      "className": "startup-solutions-txt"
+    },
+    {
+      "type": "container",
+      "_id": "R2tJ8kF1Y6uB9aDA1",
+      "style": {},
+      "className": "startup-solutions-container",
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "F2qD8mT5Y7aB4nGU2",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "B5gZ7yR1Q8wN2tMV3",
+              "info": { "txt": "Software" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "V3kP6jH9X4eL1rSX7",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "F2qDd8mT5ddddddY7a",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "B5gZdddddlllllllsssss7yR1Q8wN2tMV3",
+              "info": { "txt": "UX/UI" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "V3kPddddlmmnvviej93jjinvr33333acRRRV",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "L3kT9oZ7X2eP1qSvX1",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "Q4wB0xL2S9fN7hVqT6",
+              "info": { "txt": "Robotics" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "V6mJ1rT8H5bG3yCkZ3",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "E1pZ3dM5K8aY6oRbW4",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "G7uT2nF4W6cQ9sAuC7",
+              "info": { "txt": "AI" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "P5iH3mX8D1vJ4zBmY2s",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "S8kQ0yL3T6eM1vGhN8",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "N2cF9xV4bP5hR7tK3j",
+              "info": { "txt": "QA" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "O3lZ5rH8W6qM2dJpF1",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "vvvkksp09224422M1n42Y4uT7axI9gxK3fEsT5",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "J2vG6pR5kQ8bH4xA9lidolol",
+              "info": { "txt": "Crypto" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "U7hC3mN5Z9aX2tDbV6idonotknow",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "A4wB6zY8oV3lQ1pP0ridommmmmml098765",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "F9iH2sG7L5dK8xRnJ3halbany",
+              "info": { "txt": "Tokens" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "c9K3nV6yT4W8qE1mJxL4halllbanyy19",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "D4eV9yX2R6tH1qLuZ2",
+          "style": {},
+          "className": "startup-solutions-card",
+          "cmps": [
+            {
+              "type": "title",
+              "_id": "M5kQ6aWcnsjhalhalbanyny3S8vB2pNwC5",
+              "info": { "txt": "Coding" },
+              "style": {},
+              "className": "startup-solutions-card-title"
+            },
+            {
+              "type": "txt",
+              "_id": "Uu8zC4Xxx99p92isnu888cii09iokl9eG3yJtK1",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-solutions-card-txt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+.foody-testimonial {
+  padding: 5em 3.2em;
+  font-family: 'oswald', sans-serif;
+
+  @media (max-width: 1020px) {
+    padding: 3em 2em;
+  }
+
+  @media (max-width: 400px) {
+    padding: 3em 1em;
+  }
+
+  .foody-testimonial-header {
+    text-align: center;
+    margin-bottom: 5em;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.4em;
+      line-height: 1.5;
+
+      @media (max-width: 1020px) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 400px) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 1.5;
+      font-family: sans-serif;
+      max-width: 80%;
+      margin: 0 auto;
+
+      @media (max-width: 1020px) {
+        max-width: 90%;
+        font-size: 1.1rem;
+      }
+
+      @media (max-width: 400px) {
+        max-width: 95%;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .foody-testimonial-cards-container {
+    display: flex;
+    gap: 2em;
+
+    @media (max-width: 1020px) {
+      flex-direction: column;
+    }
+
+    .foody-testimonial-card {
+      position: relative;
+      padding: 2em;
+      border-radius: 1rem;
+      border: 1px solid $sClr6;
+      box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+
+      img {
+        position: absolute;
+        top: -2.5em;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 5em;
+        height: 5em;
+        border-radius: 50%;
+        border: 1px solid $sClr6;
+      }
+
+      p {
+        margin-top: 6em;
+        font-size: 1rem;
+        font-family: sans-serif;
+        line-height: 1.5;
+      }
+
+      h1 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: 2em;
+        line-height: 1.5;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: -0.5em;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: $sClr6;
+        }
+      }
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .foody-testimonial {
+    padding: 4em 2em;
+
+    .foody-testimonial-header {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        width: 90%;
+        font-size: 1.1rem;
+      }
+    }
+
+    .foody-testimonial-cards-container {
+      flex-direction: column;
+      gap: 5em;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .foody-testimonial {
+    padding: 4em 1em;
+
+    .foody-testimonial-header {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        width: 90%;
+        font-size: 1.1rem;
+      }
+    }
+
+    .foody-testimonial-cards-container {
+      flex-direction: column;
+      gap: 5em;
+    }
+  }
+}

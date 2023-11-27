@@ -1,0 +1,95 @@
+{
+  "_id": "m3232iDM4999dm",
+  "type": "container",
+  "name": "designer-footer",
+  "theme": "wap-7-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699385252/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.26.49_krre3c.jpg",
+  "className": "designer-footer",
+  "style": {},
+  "createdBy": {
+    "_id": "kd02j2k2eSSL0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "3Z11HH89H8cHH",
+      "style": {},
+      "className": "designer-footer-div1",
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "93CDaq2k2ezcLO",
+          "info": { "txt": "Home", "href": "#Home" },
+          "style": {},
+          "className": "designer-footer-link1"
+        },
+        {
+          "type": "link",
+          "_id": "11cCM29Opdk2eqd3",
+          "info": { "txt": "Benefits", "href": "#benefits" },
+          "style": {},
+          "className": "designer-footer-link2"
+        },
+        {
+          "type": "link",
+          "_id": "djfks930JA29JCv7",
+          "info": { "txt": "Reviews", "href": "#Reviews" },
+          "style": {},
+          "className": "designer-footer-link3"
+        },
+        {
+          "type": "link",
+          "_id": "778ccC2810lNXA11",
+          "info": { "txt": "Shipping", "href": "#about" },
+          "style": {},
+          "className": "designer-footer-link4"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "ZZzhn9920ncaX2s",
+      "style": {},
+      "className": "designer-footer-div2",
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "Nmf93nnnn88GGGD",
+          "info": { "iconName": "facebook" },
+          "style": {},
+          "className": "designer-footer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "1mfDNC9111GD",
+          "info": { "iconName": "instagram" },
+          "style": {},
+          "className": "designer-footer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "iif93nnNIII2G",
+          "info": { "iconName": "linkedin" },
+          "style": {},
+          "className": "designer-footer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "SSf932mc9999OO",
+          "info": { "iconName": "energy" },
+          "style": {},
+          "className": "designer-footer-icon"
+        }
+      ]
+    },
+    {
+      "type": "txt",
+      "_id": "BJC9BBDM111PPB",
+      "info": { "txt": "Powered by WeeX 2023" },
+      "style": {},
+      "className": "designer-footer-txt1"
+    }
+  ]
+}

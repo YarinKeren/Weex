@@ -1,0 +1,127 @@
+{
+  "_id": "cZd78P90QkX1",
+  "type": "container",
+  "name": "foody features",
+  "theme": "wap-8-theme",
+  "className": "foody-features",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699309508/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-0.25.00_v4whvu.jpg",
+  "createdBy": {
+    "_id": "aXu1592vYzA3",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "mN64fC29ZrT7",
+      "style": {},
+      "className": "foody-feature-container",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "vQ92xL56OpL1",
+          "info": { "txt": "14" },
+          "style": {},
+          "className": "foody-feature-num"
+        },
+        {
+          "type": "txt",
+          "_id": "sP84hJ38KbW9",
+          "info": { "txt": "Restaurants" },
+          "style": {},
+          "className": "foody-feature-txt"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "L3kT9oZ7X2eP1qS",
+      "style": {},
+      "className": "foody-feature-container",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "Q4wB0xL2S9fN7hV",
+          "info": { "txt": "20" },
+          "style": {},
+          "className": "foody-feature-num"
+        },
+        {
+          "type": "txt",
+          "_id": "E1pZ3dM5K8aY6oR",
+          "info": {
+            "txt": "Chef in kitchen"
+          },
+          "style": {},
+          "className": "foody-feature-txt"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "G7uT2nF4W6cQ9sA",
+      "style": {},
+      "className": "foody-img-container",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "V6mb1rbT8bH35bG3yC",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699310406/foody-feature-img_qomdi5.png"
+          },
+          "style": {},
+          "className": "feature-main-img"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "P5iH3mX8D1vJ4zB",
+      "style": {},
+      "className": "foody-feature-container",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "S8kQ0yL3T6eM1vG",
+          "info": { "txt": "08" },
+          "style": {},
+          "className": "foody-feature-num"
+        },
+        {
+          "type": "txt",
+          "_id": "N2cF9xV4bP5hR7t",
+          "info": {
+            "txt": "Years of experience"
+          },
+          "style": {},
+          "className": "foody-feature-txt"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "rR8J2vG6pR5kQ8bH4CPx",
+      "style": {},
+      "className": "foody-feature-container",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "M1nY4uT7I9gK3fE",
+          "info": { "txt": "200" },
+          "style": {},
+          "className": "foody-feature-num"
+        },
+        {
+          "type": "txt",
+          "_id": "O3lZ5rH8W6qM2dJ",
+          "info": {
+            "txt": "Food dishes"
+          },
+          "style": {},
+          "className": "foody-feature-txt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.schedule-meeting-section {
+  padding: 3em;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .react-calendar__tile:hover.day-tile,
+  .go1318713726:hover {
+    color: $sClr7;
+    background-color: initial;
+  }
+}

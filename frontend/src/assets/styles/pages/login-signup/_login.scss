@@ -1,0 +1,19 @@
+.login {
+  color: $sClr6 !important;
+
+  .guest-credentials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem(10px);
+    padding: rem(20px);
+    border-radius: rem(8px);
+    color: $sClr6;
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+    background-color: #a171f5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+}

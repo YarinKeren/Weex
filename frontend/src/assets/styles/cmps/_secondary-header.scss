@@ -1,0 +1,120 @@
+.secondary-header {
+  height: rem(15px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $tools-color;
+  padding: 1.703em 0.4em;
+
+  @media (max-width: 1080px) {
+    padding: 1.503em 0.3em;
+  }
+
+  @media (max-width: 650px) {
+    padding: 1.303em 0.5em;
+  }
+
+  .logo {
+    a {
+      cursor: pointer;
+
+      img {
+        width: rem(70px);
+        margin-top: 12px;
+
+        @media (max-width: 650px) {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+
+    .user-avatar {
+      cursor: pointer;
+      margin-inline-start: rem(10px);
+      margin-top: 5px;
+      margin-right: 0.7em;
+      font-size: 0.8rem;
+    }
+
+    li {
+      a {
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover {
+          color: $homeClrElements;
+        }
+
+        &:visited {
+          color: $sClr3;
+        }
+      }
+
+      .login-btn {
+        display: flex;
+        align-items: center;
+        button {
+          background-color: $homeClr5;
+          font-size: 1rem;
+          padding: 0.8em 2em 0.7em;
+          border-radius: 5px;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            background-color: $homeClr6;
+            color: $homeClr1;
+          }
+
+          @media (max-width: 1080px) {
+            font-size: 0.9rem;
+            padding: 0.5em 0.5em;
+          }
+
+          @media (max-width: 650px) {
+            font-size: 0.8rem;
+            padding: 0.8em 1.5em;
+          }
+
+          @media (max-width: 450px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .templates-btn {
+    display: flex;
+    align-items: center;
+    background-color: $homeClrElements;
+    font-size: 1rem;
+    padding: 0.8em 2em 0.7em;
+    margin-left: 1em;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $homeClr6;
+      color: $homeClr1;
+    }
+
+    @media (max-width: 1080px) {
+      font-size: 0.9rem;
+      padding: 0.5em 0.5em;
+    }
+
+    @media (max-width: 650px) {
+      font-size: 0.8rem;
+      padding: 0.8em 1.5em;
+    }
+
+    @media (max-width: 450px) {
+      display: none;
+    }
+  }
+}

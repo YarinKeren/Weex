@@ -1,0 +1,56 @@
+{
+  "_id": "D7yM4k",
+  "type": "container",
+  "name": "headphones-section-2",
+  "theme": "wap-3-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409293/sktghgmxsabpslpjyjfv.png",
+  "className": "headphones-section-2",
+  "style": {},
+  "createdBy": {
+    "_id": "X2tU5v",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "U3jL8t",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698406739/voev2zcrwenwafkr6pqs.png"
+      },
+      "style": {},
+      "className": "headphones-section-2-img"
+    },
+    {
+      "type": "container",
+      "_id": "M5hN9z",
+      "style": {},
+      "className": "headphones-section-2-div",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "C1yE7o",
+          "info": { "txt": "Music Like You've Never Heard Before" },
+          "style": {},
+          "className": "headphones-section-2-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "B4kF0i",
+          "info": {
+            "txt": "Discover uncharted musical realms with headphones that unveil nuances, revealing music you've never heard before."
+          },
+          "style": {},
+          "className": "headphones-section-2-txt2"
+        },
+        {
+          "type": "btn",
+          "_id": "R6pA3x",
+          "info": { "txt": "Order Now", "href": "#OrderNow" },
+          "style": {},
+          "className": "headphones-section-2-btn"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.real-estate-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 2.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  .real-estate-nav-logo {
+    width: 180px;
+    margin: 0 1.8em;
+  }
+}
+
+.tablet-edit-layout {
+  .real-estate-nav {
+    height: 80px;
+    gap: 1.5em;
+
+    a {
+      font-size: 1rem;
+    }
+
+    .real-estate-nav-logo {
+      width: 150px;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .real-estate-nav {
+    height: 60px;
+    gap: 0.8em;
+
+    a {
+      font-size: 0.6rem;
+    }
+
+    .real-estate-nav-logo {
+      width: 110px;
+      margin: 0 1em;
+    }
+  }
+}

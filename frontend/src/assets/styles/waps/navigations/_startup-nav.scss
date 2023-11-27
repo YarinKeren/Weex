@@ -1,0 +1,181 @@
+.startup-nav {
+  font-family: 'space grotesk', sans-serif;
+  padding: 1.4em 4.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .startup-nav-logo {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .startup-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+
+    .startup-nav-link {
+      margin-right: 1.4em;
+      font-size: 1.1rem;
+      font-weight: 700;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: translateX(4px);
+      }
+    }
+
+    .startup-nav-btn {
+      padding: 0.8em 1.6em;
+      font-size: 0.9rem;
+      font-weight: 700;
+
+      box-shadow: 5.5px 6.5px 0 0 #000;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0 0 0 #000;
+        transform: translateX(5px);
+      }
+    }
+  }
+
+  .startup-humburger-menu {
+    display: none;
+  }
+}
+
+.tablet-edit-layout {
+  .startup-nav {
+    padding: 1.2em 2em;
+
+    .startup-nav-logo {
+      font-size: 1.5rem;
+    }
+
+    .startup-nav-links {
+      .startup-nav-link {
+        font-size: 0.9rem;
+      }
+
+      .startup-nav-btn {
+        padding: 0.6em 1.2em;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .startup-humburger-menu {
+    display: none;
+  }
+}
+
+.mobile-edit-layout {
+  .startup-nav {
+    padding: 1.2em 1.5em;
+
+    .startup-nav-logo {
+      font-size: 1.6rem;
+    }
+
+    .startup-nav-links {
+      display: none;
+    }
+
+    .startup-humburger-menu {
+      display: block;
+      margin: 0;
+      padding: 0;
+      position: relative;
+
+      button {
+        padding: 0.3em 0.6em 0.2em;
+        margin-bottom: 4px;
+      }
+
+      .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+        position: absolute;
+        top: 3.5em;
+        right: 0;
+        font-size: 1rem;
+        background-color: $sClr3;
+        padding: 1.5em 2em;
+        border: 1px solid $sClr7;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .startup-nav {
+    padding: 1.2em 2em;
+
+    .startup-nav-logo {
+      font-size: 1.5rem;
+    }
+
+    .startup-nav-links {
+      .startup-nav-link {
+        font-size: 0.9rem;
+      }
+
+      .startup-nav-btn {
+        padding: 0.6em 1.2em;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .startup-humburger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .startup-nav {
+    padding: 1.2em 1.5em;
+
+    .startup-nav-logo {
+      font-size: 1.6rem;
+    }
+
+    .startup-nav-links {
+      display: none;
+    }
+
+    .startup-humburger-menu {
+      display: block;
+      margin: 0;
+      padding: 0;
+      position: relative;
+
+      button {
+        padding: 0.3em 0.6em 0.2em;
+        margin-bottom: 4px;
+      }
+
+      .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+        position: absolute;
+        top: 3.5em;
+        right: 0;
+        font-size: 1rem;
+        background-color: $sClr3;
+        padding: 1.5em 2em;
+        border: 1px solid $sClr7;
+        font-weight: 700;
+      }
+    }
+  }
+}

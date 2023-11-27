@@ -1,0 +1,123 @@
+.shopify-hero {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: url('https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698580232/ubsnm64dmydmjwifmydi.png');
+  padding: 0.3em;
+
+  .shopify-hero-img {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    max-width: rem(610px);
+    justify-self: end;
+    align-self: end;
+  }
+
+  .shopify-hero-div {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    padding-top: 3em;
+    padding-left: 3em;
+
+    .shopify-hero-div-txt1 {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: rem(40px);
+      letter-spacing: rem(5px);
+    }
+
+    .shopify-hero-div-txt2 {
+      //   color: whitesmoke;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 3px;
+      line-height: rem(20px);
+      font-size: rem(19px);
+      margin-top: rem(30px);
+      line-height: 1.5;
+    }
+  }
+
+  .shopify-hero-tick-div1 {
+    display: flex;
+    grid-row: 2/3;
+    align-items: center;
+    margin-top: rem(30px);
+
+    img {
+      width: rem(15px);
+      height: rem(10px);
+    }
+
+    h1 {
+      font-size: rem(14px);
+      // color: white;
+      margin-left: rem(5px);
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .shopify-hero {
+    padding: 3em 0;
+    .shopify-hero-div-txt1 {
+      font-size: rem(30px);
+    }
+
+    .shopify-hero-div-txt2 {
+      font-size: rem(15px);
+    }
+
+    .shopify-hero-tick-div1 {
+      h1 {
+        font-size: rem(12px);
+      }
+    }
+
+    .shopify-hero-img {
+      max-width: rem(400px);
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .shopify-hero {
+    padding: 3em 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+
+    .shopify-hero-div {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
+    }
+
+    .shopify-hero-div-txt1 {
+      font-size: rem(40px);
+      grid-column: 1 / 4;
+      line-height: 1.5;
+    }
+
+    .shopify-hero-div-txt2 {
+      font-size: rem(16px);
+      grid-column: 1 / 4;
+      justify-self: start;
+      line-height: 1.5;
+    }
+
+    .shopify-hero-tick-div1 {
+      h1 {
+        font-size: rem(14px);
+      }
+    }
+
+    .shopify-hero-img {
+      max-width: rem(300px);
+    }
+  }
+}

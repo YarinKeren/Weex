@@ -1,0 +1,44 @@
+{
+  "_id": "abanibioboebevobotabah",
+  "type": "container",
+  "name": "designer-nav",
+  "theme": "wap-7-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698796596/byte-nav_yjtqex.jpg",
+  "className": "designer-nav",
+  "style": {},
+  "createdBy": {
+    "_id": "F6G7H8I9J0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "K4L5M6N7O8",
+      "info": { "txt": "BYTE" },
+      "style": {},
+      "className": "designer-logo"
+    },
+    {
+      "type": "link",
+      "_id": "P2Q3R4S5T6",
+      "info": { "txt": "SERVICES", "href": "#services" },
+      "style": {},
+      "className": "designer-nav-link1"
+    },
+    {
+      "type": "link",
+      "_id": "U7V8W9X0Y1",
+      "info": { "txt": "ABOUT", "href": "#about" },
+      "style": {},
+      "className": "designer-nav-link2"
+    },
+    {
+      "type": "link",
+      "_id": "N7M8L9K0J1",
+      "info": { "txt": "CONTACT", "href": "#contact" },
+      "style": {},
+      "className": "designer-nav-link3"
+    }
+  ]
+}

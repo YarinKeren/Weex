@@ -1,0 +1,127 @@
+{
+  "_id": "P3A2Y4D5S6",
+  "type": "container",
+  "name": "shopify-hero",
+  "theme": "wap-1-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699384936/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.22.00_qwttsz.jpg",
+  "className": "shopify-hero",
+  "style": {},
+  "createdBy": {
+    "_id": "F4R3T2B1N0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "G5H4J3K2L1",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577130/azw4daswc3ej8l2ljxbr.png"
+      },
+      "style": {},
+      "className": "shopify-hero-img"
+    },
+    {
+      "type": "container",
+      "_id": "M1N2O3P4Q5",
+      "style": {},
+      "className": "shopify-hero-div",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "R5S4T3U2V1",
+          "info": { "txt": "Let’s sky rocket your revenue" },
+          "style": {},
+          "className": "shopify-hero-div-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "W1X2C3Z4A5",
+          "info": {
+            "txt": "Welcome to your gateway to effortless online success! At our cutting-edge platform, we specialize in crafting customized Shopify stores tailored just for you, eliminating the hassle and technical intricacies that often come with e-commerce ventures."
+          },
+          "style": {},
+          "className": "shopify-hero-div-txt2"
+        },
+        {
+          "type": "container",
+          "_id": "D3F2G1H0I9",
+          "style": {},
+          "className": "shopify-hero-tick-div1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "W3A2CCC5W",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577173/zksw6zl6nfiyojluqc3c.png"
+              },
+              "style": {},
+              "className": "shopify-img-items1"
+            },
+            {
+              "type": "title",
+              "_id": "Z1AAAAX2D1",
+              "info": {
+                "txt": "Thousands of happy clients"
+              },
+              "style": {},
+              "className": "shopify-title-items1"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "J9K8L7M6N5",
+          "style": {},
+          "className": "shopify-hero-tick-div1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "WJA522WWJ",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577173/zksw6zl6nfiyojluqc3c.png"
+              },
+              "style": {},
+              "className": "shopify-img-items2"
+            },
+            {
+              "type": "title",
+              "_id": "91AJJJ2D9",
+              "info": {
+                "txt": "100% Success rate!"
+              },
+              "style": {},
+              "className": "shopify-title-items2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "O5P4A3S2D1",
+          "style": {},
+          "className": "shopify-hero-tick-div1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "187PPPPWP",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698577173/zksw6zl6nfiyojluqc3c.png"
+              },
+              "style": {},
+              "className": "shopify-img-items3"
+            },
+            {
+              "type": "title",
+              "_id": "CC44WQWQ5",
+              "info": {
+                "txt": "24/7 support online and on the phone"
+              },
+              "style": {},
+              "className": "shopify-title-items3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "bYc34N67",
+  "type": "container",
+  "name": "foody hero",
+  "theme": "wap-8-theme",
+  "className": "foody-hero",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699293585/foody-hero_bbfl6w.jpg",
+  "createdBy": {
+    "_id": "wZt4561r",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "jH7qN82dF0",
+      "style": {},
+      "className": "foody-grid",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "mK93gL48",
+          "info": { "txt": "Delicious" },
+          "style": {},
+          "className": "foody-delicious"
+        },
+        {
+          "type": "img",
+          "_id": "xL35bQ72",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288070/foody-hero-img-1_vplhr1.png"
+          },
+          "style": {},
+          "className": "foody-hero-img-1"
+        },
+        {
+          "type": "img",
+          "_id": "zP56vM81",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288070/foody-hero-img-2_ohpdyo.png"
+          },
+          "style": {},
+          "className": "foody-hero-img-2"
+        },
+        {
+          "type": "title",
+          "_id": "pPd3DFDCj49djis",
+          "info": { "txt": "Foody" },
+          "style": {},
+          "className": "foody-foody"
+        },
+        {
+          "type": "title",
+          "_id": "6O6I5I54Ooi4mie9jC5J54",
+          "info": { "txt": "Dishes" },
+          "style": {},
+          "className": "foody-dishes"
+        }
+      ]
+    }
+  ]
+}

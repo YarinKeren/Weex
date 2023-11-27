@@ -1,0 +1,23 @@
+.weex-home-page-layout {
+  background-color: $homeClr1;
+  color: $homeClr7;
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 3.5em;
+    left: 1em;
+    z-index: 100;
+    background-color: $homeClr7;
+    color: $homeClr1;
+    border-radius: 50px;
+    padding: 0.5em 0.5em 0.3em;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $homeClrElements;
+      color: $homeClr7;
+    }
+  }
+}

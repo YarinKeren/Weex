@@ -1,0 +1,382 @@
+.cmp-editor {
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  position: absolute;
+  max-height: rem(450px);
+  min-width: rem(312px);
+  max-width: rem(350px);
+  border-radius: rem(7px);
+  color: $sClr6;
+  background-color: $editor-content-color;
+  cursor: move;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  .cmp-editor-header {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: rem(7px) rem(7px) 0 0;
+    color: $sClr6;
+    background-color: $editor-header-color;
+    min-width: rem(312px);
+    max-width: rem(350px);
+
+    .close-btn {
+      cursor: pointer;
+      border-radius: rem(30px);
+      padding: rem(3px);
+      background-color: darken($tools-color, 5%);
+      transition: 0.1s ease-in-out;
+      font-size: rem(25px);
+      color: $sClr6;
+
+      &:hover {
+        color: lighten($sClr6, 100%);
+        background-color: lighten($tools-color, 10%);
+      }
+    }
+
+    .min-max-btn {
+      cursor: pointer;
+      border-radius: rem(30px);
+      padding: rem(3px);
+      background-color: darken($tools-color, 5%);
+      transition: 0.1s ease-in-out;
+      font-size: rem(25px);
+      color: $sClr6;
+
+      &:hover {
+        color: lighten($sClr6, 100%);
+        background-color: lighten($tools-color, 10%);
+      }
+    }
+
+    .header-left-side {
+      flex: 1;
+      .delete-btn {
+        font-size: rem(16px);
+
+        &:hover {
+          color: crimson;
+        }
+      }
+    }
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 19px;
+    background-color: $editor-body-color;
+    font-size: 0.9rem;
+    padding: rem(8px) rem(15px) 0 rem(15px);
+    color: $sClr6;
+
+    li {
+      padding: rem(12px) rem(12px);
+      cursor: pointer;
+
+      &:hover {
+        color: lighten($sClr6, 100%);
+      }
+    }
+
+    li.active {
+      cursor: move;
+      border-radius: rem(5px) rem(5px) 0 0;
+      background-color: $editor-content-color;
+      color: lighten($sClr6, 100%);
+    }
+  }
+
+  .cmp-editor-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    background-color: $editor-content-color;
+    padding: rem(15px) rem(15px);
+    border-radius: 0 0 rem(7px) rem(7px);
+    overflow-y: auto;
+
+    h5 {
+      font-size: 0.9rem;
+    }
+  }
+
+  .text-input,
+  .img-prompt-input,
+  .text-input-generate {
+    color: $sClr6;
+    background-color: $editor-body-color;
+    border-radius: 3px;
+    padding: 5px;
+    width: 160px;
+    &::placeholder {
+      color: $sClr6;
+    }
+  }
+
+  .img-input-container,
+  .zoom-input-container,
+  .icon-input-container,
+  .link-input-container,
+  .text-input-container,
+  .color-picker-container,
+  .margin-input-container,
+  .padding-input-container,
+  .bgcolor-picker-container,
+  .font-size-input-container,
+  .edit-sizes-input-container,
+  .box-shadow-input-container,
+  .font-family-input-container,
+  .border-color-picker-container,
+  .border-radius-input-container {
+    cursor: initial;
+    gap: 10px;
+    button {
+      background-color: $editor-body-color;
+      color: $sClr6;
+      border-radius: rem(3px);
+      padding: rem(5px);
+      margin: 0;
+      width: rem(90px);
+      word-break: break-all;
+    }
+    .github-picker {
+      width: rem(108px) !important;
+      padding: rem(3px) !important;
+      background-color: $editor-body-color !important;
+    }
+  }
+
+  .icon-input-container {
+    .icon-input {
+      gap: rem(6px);
+      .icon {
+        color: $sClr6;
+        cursor: pointer;
+        padding: rem(4px);
+        border-radius: rem(3px);
+        background-color: $editor-body-color;
+
+        &:hover {
+          color: lighten($sClr6, 100%);
+        }
+      }
+    }
+  }
+
+  @keyframes flash {
+    0%,
+    100% {
+      outline: 1px solid gold;
+    }
+    50% {
+      outline: 1px solid $homeClr6;
+    }
+  }
+
+  .text-input-container {
+    .generate-text-input {
+      margin-block-end: rem(10px);
+      padding: rem(7px);
+      border-radius: rem(3px);
+      animation: flash 2s infinite linear;
+    }
+    .btn-generate {
+      width: rem(30px);
+      height: rem(30px);
+      padding: 0;
+      color: $sClr6;
+
+      .btn-magic {
+        font-size: 1.4rem;
+
+        &:hover {
+          color: gold;
+        }
+      }
+    }
+  }
+
+  @keyframes flip {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .btn-magic-generating {
+    color: gold;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+    &.active {
+      animation: flip 1s infinite linear;
+    }
+  }
+
+  .generate-img-input {
+    margin-block-end: rem(10px);
+    padding: rem(7px);
+    border-radius: rem(3px);
+    animation: flash 2s infinite linear;
+
+    h5 {
+      margin-inline-end: rem(15px);
+    }
+    .btn-generate {
+      width: rem(60px);
+      height: rem(25px);
+      padding: rem(5px);
+
+      &:hover {
+        color: gold;
+      }
+    }
+  }
+
+  .zoom-input,
+  .margin-input,
+  .padding-input,
+  .font-size-input,
+  .border-radius-input,
+  .edit-sizes-input,
+  .box-shadow-input {
+    width: rem(80px);
+    background-color: $editor-body-color;
+    border-radius: rem(3px);
+    padding: rem(5px);
+    font-size: 0.9rem;
+    color: $sClr6;
+  }
+
+  input[type='number']::-webkit-inner-spin-button {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .font-family-input,
+  .box-shadow-input,
+  .img-link-input {
+    color: $sClr6;
+    padding: rem(4px);
+    border-radius: rem(3px);
+    background-color: $editor-body-color;
+  }
+
+  .link-url-input {
+    width: rem(60px);
+  }
+
+  .link-input-container {
+    .link-input {
+      color: $sClr6;
+      padding: rem(4px);
+      border-radius: rem(3px);
+      background-color: $editor-body-color;
+      &::placeholder {
+        color: $sClr6;
+      }
+    }
+  }
+
+  .text-format-inputs,
+  .text-alignment-inputs {
+    gap: rem(5px);
+    cursor: pointer;
+    .icon {
+      background-color: $editor-body-color;
+      border-radius: rem(2px);
+      padding: rem(2px);
+      font-size: rem(25px);
+
+      &:hover {
+        color: darken($sClr6, 30%);
+        outline: rem(2px) solid $sClr6;
+      }
+    }
+  }
+
+  .img-input-container {
+    .img-url-input {
+      width: rem(60px);
+
+      &:hover {
+        color: lighten($sClr6, 100%);
+      }
+    }
+    .img-link-input {
+      width: rem(160px);
+      &::placeholder {
+        color: $sClr6;
+      }
+    }
+  }
+
+  .upload-input {
+    cursor: initial;
+    gap: rem(10px);
+    .img-preview {
+      max-width: 70%;
+      max-height: rem(200px);
+      background-color: $editor-body-color;
+      padding: rem(15px);
+      border-radius: rem(8px);
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .img-upload-btn {
+      border-radius: rem(4px);
+      padding: rem(9px);
+      background-color: $editor-body-color;
+
+      &:hover {
+        cursor: pointer;
+        color: lighten($sClr6, 100%);
+        background-color: darken($editor-body-color, 5%);
+      }
+    }
+  }
+
+  .video-link-url-input {
+    width: rem(80px) !important;
+  }
+
+  .schedule-input-container {
+    select {
+      background: $editor-body-color;
+      color: $sClr6;
+      padding: rem(3px);
+      border-radius: rem(3px);
+    }
+
+    input[type='range'] {
+      accent-color: $sClr6;
+    }
+
+    .rmsc.dark {
+      --rmsc-main: #4285f4;
+      --rmsc-hover: #0e0c0a;
+      --rmsc-selected: #3a3f41;
+      --rmsc-border: #333333;
+      --rmsc-gray: $sClr6;
+      --rmsc-bg: #3a3f41;
+      width: 100%;
+      color: $sClr6;
+      position: absolute;
+      width: 90%;
+      bottom: 15px;
+      left: 15px;
+    }
+  }
+
+  .icon-url-input {
+    width: rem(80px) !important;
+  }
+}

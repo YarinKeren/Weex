@@ -1,0 +1,1147 @@
+// ! Wap palettes
+
+// wap1 theme
+.wap-1-theme {
+  @include apply-theme($darkBlue, $blue, $white, $purple, $beige);
+}
+
+// wap2 theme
+.wap-2-theme {
+  @include apply-theme($blue, $white, $black, $white, $white);
+  button {
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+}
+
+// wap3 theme
+.wap-3-theme {
+  @include apply-theme($caramel, $whiteSmoke, $whiteSmoke, $whiteSmoke, $whiteSmoke);
+  button {
+    &:hover {
+      background-color: $whiteSmoke;
+      color: $black;
+    }
+  }
+}
+
+// wap4 theme
+.wap-4-theme {
+  @include apply-theme($lightCaramel, $orange, $black, $ligthBlack, $lightBlue);
+}
+
+// wap5 theme
+.wap-5-theme {
+  @include apply-theme($darkGray, $white, $white, $white, $white);
+
+  .car-map {
+    background-color: $whitish;
+    .car-map-txt-1 {
+      color: $black;
+    }
+
+    .car-map-txt-2 {
+      color: $black;
+    }
+
+    .car-map-container {
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+// wap6 theme
+.wap-6-theme {
+  @include apply-theme($white, $black, $black, $black, $black);
+  button {
+    background: $black;
+    color: $white;
+
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
+  }
+}
+
+// wap7 theme
+.wap-7-theme {
+  @include apply-theme($black, $white, $white, $white, $white);
+
+  .designer-hero-btn {
+    border-radius: 50%;
+    padding: 4.5em 1em;
+    align-self: baseline;
+    justify-self: baseline;
+
+    &:hover {
+      background: $white;
+      color: $black;
+    }
+  }
+
+  .form-one-div {
+    h1,
+    h2,
+    h3,
+    p,
+    input {
+      color: $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    h1,
+    h2,
+    h3 {
+      color: $black;
+    }
+    button {
+      color: $black;
+    }
+  }
+}
+
+// wap8 theme
+.wap-8-theme {
+  background: linear-gradient(to right, #ffffff, #fbf7fd, #fceff7, #fee6ec, #ffdede);
+  color: $black;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $black;
+  }
+
+  a {
+    color: $black;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      scale: 1.05;
+    }
+  }
+
+  p,
+  span {
+    color: $black;
+  }
+
+  button {
+    border: 1px solid $black;
+    background-color: transparent;
+    color: $black;
+
+    &:hover {
+      border: 1px solid $black;
+      background-color: $black;
+      color: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .foody-section {
+    background: #f9fbf2;
+  }
+
+  .foody-map {
+    background: #f9fbf2;
+  }
+
+  .foody-schedule {
+    background: #f9fbf2;
+  }
+
+  .foody-footer {
+    background: #f9fbf2;
+  }
+}
+
+// wap9 theme
+.wap-9-theme {
+  @include apply-theme(#ffecd7, $white, $black, $black, $black);
+  .startup-nav {
+    background: $white;
+    color: $black;
+  }
+
+  .startup-testimonials {
+    background: #fffde9;
+
+    .startup-testimonials-container {
+      .startup-testimonials-card {
+        background: #ffc482;
+        color: $black;
+      }
+    }
+  }
+
+  .startup-social {
+    background: #ffc482;
+  }
+
+  button {
+    border: 2px solid $black;
+    background-color: #ffc482;
+  }
+}
+
+// wap10 theme
+.wap-10-theme {
+  @include apply-theme(#52443e, $white, $white, $white, $white);
+
+  a {
+    color: $white;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  button {
+    border: 1px solid $white;
+    background-color: #f9f9f984;
+    color: $black;
+
+    &:hover {
+      border: 1px solid $white;
+      background-color: $black;
+      color: $white;
+    }
+  }
+
+  .real-estate-gallery {
+    background: $white;
+  }
+
+  .real-estate-section {
+    .real-estate-section-box {
+      h1,
+      p {
+        color: $black;
+      }
+    }
+  }
+
+  .real-estate-testimonials-card {
+    background: $white;
+
+    h1,
+    p {
+      color: $black;
+    }
+  }
+
+  .real-eastate-social {
+    background: $white;
+    color: $black;
+
+    h1,
+    p {
+      color: $black;
+    }
+
+    .real-estate-social-card {
+      p {
+        color: $black;
+      }
+    }
+  }
+}
+
+// * ------------------------------------ * //
+
+// ! General components palettes
+// Form themes
+
+// Form 1 theme
+.form-1-theme {
+  background-color: $aliceblue;
+
+  .form-one-div {
+    background-color: $white;
+    color: $black;
+    button {
+      background-color: $blue;
+      color: $white;
+
+      &:hover {
+        background-color: $lightBlue;
+      }
+    }
+  }
+}
+
+// Form 2 theme
+.form-2-theme {
+  background-color: $lightPurple;
+
+  .form-two-div {
+    background-color: $white;
+    color: $black;
+
+    button {
+      background-color: $lightPurple;
+      color: $white;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+// Form 3 theme
+.form-3-theme {
+  .form-three-div {
+    button {
+      border: 1px solid $blue;
+      background-color: $blue;
+      color: $white;
+
+      &:hover {
+        border: 1px solid $blue;
+        background-color: $white;
+        color: $blue;
+      }
+    }
+  }
+}
+
+// Carousel themes
+
+// Carousel 1 theme
+.carousel-one-theme {
+  background: #ffc482;
+}
+
+// * ------------------------------------ * //
+
+// ! Themes palettes
+
+// Happy theme
+.theme-happy {
+  @include apply-theme($happy-primary, $happy-secondary, $happy-text, $happy-link, $happy-title);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Exciting theme
+.theme-exciting {
+  @include apply-theme(
+    $exciting-primary,
+    $exciting-secondary,
+    $exciting-text,
+    $exciting-link,
+    $exciting-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Sunset theme
+.theme-sunset {
+  @include apply-theme(
+    $sunset-primary,
+    $sunset-secondary,
+    $sunset-text,
+    $sunset-link,
+    $sunset-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Majestic theme
+.theme-majestic {
+  @include apply-theme(
+    $majestic-primary,
+    $majestic-secondary,
+    $majestic-text,
+    $majestic-link,
+    $majestic-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Calm theme
+.theme-calm {
+  @include apply-theme($calm-primary, $calm-secondary, $calm-text, $calm-link, $calm-title);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Forest theme
+.theme-forest {
+  @include apply-theme(
+    $forest-primary,
+    $forest-secondary,
+    $forest-text,
+    $forest-link,
+    $forest-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Desert theme
+.theme-desert {
+  @include apply-theme(
+    $desert-primary,
+    $desert-secondary,
+    $desert-text,
+    $desert-link,
+    $desert-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Night theme
+.theme-night {
+  @include apply-theme($night-primary, $night-secondary, $night-text, $night-link, $night-title);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Volcanic theme
+.theme-volcanic {
+  @include apply-theme(
+    $volcanic-primary,
+    $volcanic-secondary,
+    $volcanic-text,
+    $volcanic-link,
+    $volcanic-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Paradise theme
+.theme-paradise {
+  @include apply-theme(
+    $paradise-primary,
+    $paradise-secondary,
+    $paradise-text,
+    $paradise-link,
+    $paradise-title
+  );
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// Themes gradient palettes
+
+// theme ocean wave
+.theme-ocean-wave {
+  @include theme-gradients(#4b6cc8, #1bffff, $black, $black, $black);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme rose water
+.theme-rose-water {
+  @include theme-gradients(#e55d87, #5fc3e4, #ffffff, #ffffff, #ffffff);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme frozen dreams
+.theme-frozen-dreams {
+  @include theme-gradients(#e0c3fc, #8ec5fc, $black, $black, $black);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme juicy peach
+.theme-juicy-peach {
+  @include theme-gradients(#ed4264, #efd07b, #ffffff, #ffffff, #ffffff);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme ripe malibu
+.theme-ripe-malibu {
+  @include theme-gradients(#58d0e2, #4da9b9, #ffffff, #ffffff, #ffffff);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme aurora green
+.theme-aurora-greens {
+  @include theme-gradients(#78ffd6, #a8ff78, $black, $black, $black);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme sunrise glow
+.theme-sunrise-glow {
+  @include theme-gradients(#ff512f, #f09819, #ffffff, #ffffff, #ffffff);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}
+
+// theme twilight spark
+.theme-twilight-spark {
+  @include theme-gradients(#7117ea, #ea6060, #ffffff, #ffffff, #ffffff);
+
+  .foody-schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+
+  .schedule-meeting-section {
+    p,
+    span,
+    button,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      background: $white;
+    }
+
+    button {
+      border: 1px solid $black;
+    }
+  }
+}

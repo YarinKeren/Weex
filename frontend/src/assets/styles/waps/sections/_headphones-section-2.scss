@@ -1,0 +1,87 @@
+.headphones-section-2 {
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
+
+  .headphones-section-2-img {
+    position: absolute;
+    max-width: 50%;
+    top: 20%;
+    left: 10%;
+  }
+
+  .headphones-section-2-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-right: rem(30px);
+    top: 15%;
+    left: 60%;
+    max-width: rem(400px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .headphones-section-2-txt1 {
+      padding-bottom: 0.7em;
+      font-size: rem(40px);
+      font-weight: 700;
+    }
+
+    .headphones-section-2-txt2 {
+      padding-bottom: 1.6em;
+    }
+
+    .headphones-section-2-btn {
+      background-color: transparent;
+      border: 1px solid $sClr2;
+      padding: 1em 3em;
+      max-width: rem(200px);
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .headphones-section-2 {
+    height: 40vh;
+
+    .headphones-section-2-img {
+      max-width: 100%;
+      left: 5%;
+      top: 55%;
+    }
+
+    .headphones-section-2-div {
+      top: 10%;
+      left: 10%;
+
+      .headphones-section-2-txt1 {
+        font-size: rem(20px);
+      }
+
+      .headphones-section-2-txt2 {
+        font-size: rem(14px);
+      }
+
+      .headphones-section-2-btn {
+        margin-left: rem(80px);
+      }
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .headphones-section-2 {
+    .headphones-section-2-img {
+      max-width: 100%;
+      left: 5%;
+      top: 50%;
+    }
+    .headphones-section-2-div {
+      top: 5%;
+      left: 10%;
+      max-width: 100%;
+    }
+    .headphones-section-2-btn {
+      margin-left: rem(450px);
+    }
+  }
+}

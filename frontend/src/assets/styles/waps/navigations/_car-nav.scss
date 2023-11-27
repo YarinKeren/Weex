@@ -1,0 +1,26 @@
+.car-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: rem(60px);
+
+  .car-nav-link1,
+  .car-nav-link2,
+  .car-nav-link3,
+  .car-nav-link4 {
+    font-size: rem(15px);
+    padding: 3em;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.mobile-edit-layout {
+  .car-nav-link1,
+  .car-nav-link2,
+  .car-nav-link3,
+  .car-nav-link4 {
+    font-size: rem(11px);
+  }
+}

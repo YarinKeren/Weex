@@ -1,0 +1,61 @@
+{
+    "_id": "XhGvKpRwYsFzLtE",
+    "type": "container",
+    "name": "Foody About Us",
+    "theme": "wap-8-theme",
+    "className": "foody-section",
+    "style": {},
+    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/kextrjshpmzaw1hohbkf.png",
+    "createdBy": {
+        "_id": "qNcRmTlOuPvSgIx",
+        "fullname": "",
+        "imgUrl": ""
+      },
+    "cmps": [
+        {
+            "type": "container",
+            "_id": "bDfHjVkZmXnApQs",
+            "style": {},
+            "className": "foody-section-div",
+            "cmps": [
+              {
+                "type": "txt",
+                "_id": "yUoPwErItYuAsDf",
+                "info": { "txt": "ABOUT US" },
+                "style": {},
+                "className": "foody-section-txt1"
+              },
+              {
+                "type": "txt",
+                "_id": "GkHsJpRxVmYnAtQ",
+                "info": { "txt": "The only thing we’re serious about is food." },
+                "style": {},
+                "className": "foody-section-txt2"
+              },
+              {
+                "type": "txt",
+                "_id": "zXcVbNmQlKjHgFd",
+                "info": { "txt": "Fusce quam praesent enim enim. Arcu ornare maecenas mauris tellus ut mollis. Laoreet enim amet donec nulla risus erat sed. Scelerisque ac cum nulla massa ultricies etiam augue justo, amet. Fermentum ac viverra tincidunt neque, tristique duis nunc lacus quam. Pharetra, in pharetra" },
+                "style": {},
+                "className": "foody-section-txt3"
+              },
+              {
+                "type": "btn",
+                "_id": "tYhUfGiKlOpWsDq",
+                "info": { "txt": "Reserve a Table", "href": "#ReserveTable" },
+                "style": {},
+                "className": "foody-section-btn"
+              }
+            ]
+        },
+        {
+          "type": "img",
+          "_id": "mZnXbCbQxWvRsAp",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699281946/gfifjaytsyanmrox4pev.png"
+          },
+          "style": {},
+          "className": "foody-section-img"
+        }
+    ]
+}

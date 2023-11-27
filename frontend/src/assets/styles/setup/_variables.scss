@@ -1,0 +1,84 @@
+// ! Variables
+
+// Home Page Palette
+$homeClr1: #18161a;
+$homeClr2: #36333f;
+$homeClr3: #bbaed3;
+$homeClr4: #60576c;
+$homeClr5: #6e6d7a;
+$homeClr6: #dbdbde;
+$homeClr7: #f3f3f4;
+$homeClr8: #ffffff;
+$homeClr9: #ea4d89e6;
+$homeClrElements: #9359f5;
+
+// CmpEditor Palette
+$editor-body-color: #3a3f41;
+$editor-header-color: #283032;
+$editor-content-color: #5f6568;
+
+// Main Colors Palette
+$clr1: #0c6efc;
+$clr2: #008463;
+$clr3: #7f2275;
+$clr4: #674fe6;
+$clr5: #faad4d;
+$clr6: #df3131;
+$clr7: #ff7055;
+$clr8: #2c3e50;
+$clr9: #53afff;
+$clr10: #2ecc71;
+$tools-color: #36333f;
+$theme-color: #9359f5;
+
+// Secondary Color Palette
+$sClr1: grey; // DO NOT DELELTE
+$sClr2: whitesmoke;
+$sClr3: #fff; // DO NOT DELELTE
+$sClr4: #333;
+$sClr5: #f7f9fc;
+$sClr6: #e0e0e0; // DO NOT DELETE
+$sClr7: black; // DO NOT DELETE
+$sClr8: navy;
+
+// Low Opacity Colors
+$editorLayoutBgClr: #d3dae8;
+$lowOpClr1: #757575cc;
+$boxShadowLayout: #ffffff1a 0 1px 1px inset, #32325d40 0 50px 100px -20px,
+  #0000004d 0 30px 60px -30px;
+$boxShadowWapEditor: inset 0 0 20px -10px hsla(0, 0%, 6%, 0.5);
+$blur: 1rem;
+$fs: clamp(3rem, 8vw, 7rem);
+$ls: clamp(-1.75px, -0.25vw, -3.5px);
+
+// Breakpoints
+$mobile-breakpoint: 480px;
+$narrow-breakpoint: 800px;
+$normal-breakpoint: 960px;
+$wide-breakpoint: 1280px;
+$ultra-wide-breakpoint: 1440px;
+
+// Spacing
+$spacing-unit: 1em;
+$spacing-xxs: 0.296 * $spacing-unit;
+$spacing-xs: 0.444 * $spacing-unit;
+$spacing-s: 0.5 * $spacing-unit;
+$spacing-m: 1.5 * $spacing-unit;
+$spacing-l: 2.25 * $spacing-unit;
+$spacing-l: 3.375 * $spacing-unit;
+$spacing-xl: 5.063 * $spacing-unit;
+$spacing-xxl: 7.594 * $spacing-unit;
+$spacing-xxxl: 11.391 * $spacing-unit;
+
+// Sizes
+$home-header-height: 72px;
+$app-header-height: 52px + 1px;
+$toolbar-height: 44px + 1px;
+$scroll-bar-width: $spacing-s;
+$right-sidebar-width: 260px;
+$modules-menu-width: 180px;
+$modules-content-width: 300px;
+$logo-container-width: 120px;
+$maxWidthLayout: 2540px;
+$wap-1-maxWidth: 190px;
+$wap-1-maxHeight: 190px;

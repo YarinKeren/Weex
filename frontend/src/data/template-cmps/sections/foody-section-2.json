@@ -1,0 +1,109 @@
+{
+  "_id": "aSdFgHjKpLoIuYz",
+  "type": "container",
+  "name": "Foody 3 cards",
+  "theme": "wap-8-theme",
+  "className": "foody-section-2",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/s0iqbzr2tqmzqon1jkcp.png",
+  "createdBy": {
+    "_id": "aSdFgHjKpLoIuYz",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "vCxZbQnAsRmWpDt",
+      "style": {},
+      "className": "foody-section-2-div1",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "dVfRgThYiUoPlKq",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699286107/gups0yvhzuvchysb413h.png"
+          },
+          "style": {},
+          "className": "foody-section-2-div1-img"
+        },
+        {
+          "type": "txt",
+          "_id": "eFrGhJiKwLqZsXx",
+          "info": { "txt": "QUALITY FOOD" },
+          "style": {},
+          "className": "foody-section-2-div1-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "sDgHfJkLpQwErTy",
+          "info": { "txt": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit." },
+          "style": {},
+          "className": "foody-section-2-div1-txt2"
+        }
+      ]
+    },
+    {
+        "type": "container",
+        "_id": "pQrStUvWxYzAaBc",
+        "style": {},
+        "className": "foody-section-2-div2",
+        "cmps": [
+          {
+            "type": "img",
+            "_id": "kLmNoPqRsTuVwXy",
+            "info": {
+              "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699286108/rmak5kyudfay9ft8sqji.png"
+            },
+            "style": {},
+            "className": "foody-section-2-div2-img"
+          },
+          {
+            "type": "txt",
+            "_id": "eFgHiJkLmNpQrSt",
+            "info": { "txt": "SUPER TASTE" },
+            "style": {},
+            "className": "foody-section-2-div2-txt1"
+          },
+          {
+            "type": "txt",
+            "_id": "zXcVbNmQwErTyUi",
+            "info": { "txt": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit." },
+            "style": {},
+            "className": "foody-section-2-div2-txt2"
+          }
+        ]
+      },
+      {
+        "type": "container",
+        "_id": "dFg645adsfnaidoyarinrTy",
+        "style": {},
+        "className": "foody-section-2-div3",
+        "cmps": [
+          {
+            "type": "img",
+            "_id": "xYzAsDfGhJkLpQw",
+            "info": {
+              "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699286108/fi9uwnqfdvoq0mwdw8lx.png"
+            },
+            "style": {},
+            "className": "foody-section-2-div3-img"
+          },
+          {
+            "type": "txt",
+            "_id": "eFgHiJkLmNpQrSt",
+            "info": { "txt": "FAST DELIVERY" },
+            "style": {},
+            "className": "foody-section-2-div3-txt1"
+          },
+          {
+            "type": "txt",
+            "_id": "zXcVbNmQwErTyUi",
+            "info": { "txt": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit." },
+            "style": {},
+            "className": "foody-section-2-div3-txt2"
+          }
+        ]
+      }
+  ]
+}

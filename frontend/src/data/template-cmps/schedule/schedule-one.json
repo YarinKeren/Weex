@@ -1,0 +1,25 @@
+{
+  "_id": "21cB2e3D3uAL4fdae",
+  "type": "schedule",
+  "name": "schedule-meeting-section",
+  "theme": "schedule-meeting-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699024739/schedule-one_sup9y1.jpg",
+  "className": "schedule-meeting-section",
+  "style": {},
+  "createdBy": {
+    "_id": "U3sE4A5d7oR",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "info": {
+    "schedule": {
+      "eventDuration": 30,
+      "daysForward": 6,
+      "data": [],
+      "days": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
+      "startHour": 9,
+      "endHour": 17,
+      "meetings": []
+    }
+  }
+}

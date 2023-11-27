@@ -1,0 +1,77 @@
+.foody-team {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    align-items: center;
+
+    .foody-team-title {
+        font-family: "Oswald", sans-serif;
+        font-size: rem(80px);
+        margin-bottom: 0.2em
+    }
+
+    .foody-team-subtitle {
+        font-family: "Nunito", sans-serif;
+        font-size: rem(18px);
+        margin-bottom: 2em;
+        max-width: rem(500px);
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    .foody-team-big-div {
+        display: flex;
+        gap: 8em;
+
+        img {
+            width: rem(220px);
+            height: rem(220px);
+            border-radius: 50%;
+        }
+
+        .foody-team-div1,
+        .foody-team-div2,
+        .foody-team-div3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .foody-team-div1-txt1,
+            .foody-team-div2-txt1,
+            .foody-team-div3-txt1{
+                font-family: "Oswald", sans-serif;
+                margin-top: 1em;
+                margin-bottom: 0.5em;
+            }
+
+
+            .foody-team-div1-txt2,
+            .foody-team-div2-txt2,
+            .foody-team-div3-txt2{
+                font-size: rem(14px);
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.tablet-edit-layout{
+    .foody-team{
+        padding: 2em;
+
+        .foody-team-big-div{
+            gap: 2em;
+        }
+    }
+}
+
+.mobile-edit-layout{
+    .foody-team{
+        padding: 1em;
+
+        .foody-team-big-div{
+            flex-direction: column;
+            gap: 2em;
+        }
+    }
+}

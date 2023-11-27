@@ -1,0 +1,60 @@
+.task-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: em(5px) em(15px);
+  min-height: em(106px);
+  border-radius: em(5px);
+  max-width: em(211px);
+  background: $sClr3;
+  margin-block-start: em(15px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid $sClr7;
+  }
+
+  p {
+    word-break: break-word;
+  }
+
+  .task-title {
+    margin-block-start: em(10px);
+    font-size: 1rem;
+  }
+
+  .secondary-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    font-size: em(12px);
+    margin-block-start: em(10px);
+    color: #7d7d7d;
+    position: relative;
+
+    .assigned-to {
+      width: 80%;
+
+      .assignee-name {
+        margin-inline-start: 5px;
+      }
+    }
+  }
+  .delete-icon {
+    position: absolute;
+    top: rem(-5px);
+    left: rem(174px);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      color: $clr6;
+      background-color: #a9a9a9be;
+      border-radius: 50%;
+    }
+  }
+}

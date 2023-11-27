@@ -1,0 +1,88 @@
+{
+  "_id": "3R3Rm31RRcN767Cm25Nn",
+  "type": "carousel",
+  "name": "carousel-one",
+  "theme": "carousel-one-theme",
+  "className": "carousel-one",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699387159/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.59.09_wjjfis.jpg",
+  "createdBy": {
+    "_id": "aABbrecjam9mm0019E0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "W2kV5pnrX8Zq6aF4",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699386981/pexels-edgar-santana-18022532_fnbhig.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img1"
+    },
+    {
+      "type": "img",
+      "_id": "N4jV8xwkY2Am5qL6",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047853/pexels-karolina-grabowska-4238994_kgql8c.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img2"
+    },
+    {
+      "type": "img",
+      "_id": "M2pX5aslH6Tn4fJ8",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047860/pexels-alexander-ant-7004697_trgjen.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img3"
+    },
+    {
+      "type": "img",
+      "_id": "K8dP3qsiL1Zn7vR2",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047864/pexels-karolina-grabowska-4386404_nkmsvv.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img4"
+    },
+    {
+      "type": "img",
+      "_id": "ciAc99CDP3993cmcmcz0JCE84",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699386981/pexels-edgar-santana-18022532_fnbhig.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img5"
+    },
+    {
+      "type": "img",
+      "_id": "DDKD4jVcsidjcsdf92222qL6",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047853/pexels-karolina-grabowska-4238994_kgql8c.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img6"
+    },
+    {
+      "type": "img",
+      "_id": "ALFIpX5aslFNUC83836JCc",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047860/pexels-alexander-ant-7004697_trgjen.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img7"
+    },
+    {
+      "type": "img",
+      "_id": "zx8d2zx3jdijfiwdhjf838",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699047864/pexels-karolina-grabowska-4386404_nkmsvv.jpg"
+      },
+      "style": {},
+      "className": "carousel-one-img8"
+    }
+  ]
+}

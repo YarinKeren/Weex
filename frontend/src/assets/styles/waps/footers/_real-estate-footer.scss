@@ -1,0 +1,57 @@
+.real-estate-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 2.5em;
+  padding: 0 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  .real-estate-footer-logo {
+    width: 160px;
+    margin-left: auto;
+  }
+
+  p,
+  a {
+    font-size: 1rem;
+  }
+}
+
+.tablet-edit-layout {
+  .real-estate-footer {
+    height: 80px;
+    gap: 1.5em;
+    padding: 0 2em;
+
+    .real-estate-footer-logo {
+      width: 130px;
+    }
+
+    p,
+    a {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .real-estate-footer {
+    height: 50px;
+    gap: 0.8em;
+    padding: 0 1em;
+
+    .real-estate-footer-logo {
+      width: 100px;
+      margin-left: auto;
+    }
+
+    a {
+      font-size: 0.6rem;
+    }
+
+    p {
+      display: none;
+    }
+  }
+}

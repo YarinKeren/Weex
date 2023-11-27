@@ -1,0 +1,92 @@
+.nature-articles-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  place-items: center;
+  padding: 4em 1.5em;
+  gap: 2em;
+
+  .nature-article-1 {
+    justify-self: center;
+    .nature-card-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+
+    .nature-card-date {
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  .nature-article-card:not(.nature-article-1) {
+    background-color: $sClr3;
+    color: $sClr7;
+    box-shadow: $boxShadowLayout;
+    padding: 1em;
+
+    .nature-image-card-item-1 img,
+    .nature-image-card-item-2 img,
+    .nature-image-card-item-3 img {
+      margin-bottom: 1.5rem;
+      position: relative;
+      filter: grayscale(100%);
+      transition: filter 0.5s ease-in-out;
+      cursor: default;
+
+      &:hover {
+        filter: grayscale(0%);
+      }
+    }
+
+    .nature-date-item {
+      font-size: 0.9rem;
+      margin-bottom: 3rem;
+    }
+
+    .nature-title-item {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+    }
+
+    .nature-text-item {
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      max-width: 350px;
+      line-height: 1.8rem;
+    }
+
+    button {
+      background-color: transparent;
+      color: $clr1;
+      border-radius: 50px;
+      font-size: 1rem;
+      margin: 5rem 0 0 0;
+      padding: 0;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .nature-articles-section {
+    .nature-article-1 {
+      text-align: center;
+      .nature-card-title {
+        font-size: 2.5rem;
+      }
+
+      .nature-card-date {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

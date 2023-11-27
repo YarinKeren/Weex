@@ -1,0 +1,114 @@
+.foody-section {
+  display: flex;
+  position: relative;
+  padding: 6em 3.2em;
+  gap: 3em;
+  justify-content: space-between;
+  // background-color: #f9fbf2;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+
+  .foody-section-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+
+    .foody-section-txt1 {
+      font-size: rem(70px);
+    }
+
+    .foody-section-txt2 {
+      font-size: rem(18px);
+      font-weight: 500;
+      margin-bottom: 1em;
+      font-family: sans-serif;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    .foody-section-txt3 {
+      font-size: 1.1rem;
+      max-width: rem(580px);
+      font-family: sans-serif;
+      margin-bottom: 1.5em;
+      line-height: 1.5;
+    }
+
+    .foody-section-btn {
+      // background-color: transparent;
+      // border: 1px solid $sClr7;
+      padding: 1em 2em;
+      max-width: rem(200px);
+      // color: $sClr7;
+      border-radius: 50px;
+    }
+  }
+
+  img {
+    max-width: rem(450px);
+  }
+}
+.tablet-edit-layout {
+  .foody-section {
+    padding: 4em 3em;
+
+    .foody-section-txt1 {
+      font-size: rem(60px);
+    }
+
+    .foody-section-txt2 {
+      font-size: rem(16px);
+    }
+
+    .foody-section-txt3 {
+      font-size: 1rem;
+    }
+
+    .foody-section-btn {
+      padding: 0.8em 1.5em;
+    }
+
+    img {
+      max-width: rem(300px);
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .foody-section {
+    padding: 3em 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .foody-section-div {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 1.5em;
+      .foody-section-txt1 {
+        font-size: rem(60px);
+      }
+
+      .foody-section-txt2 {
+        font-size: rem(16px);
+      }
+
+      .foody-section-txt3 {
+        font-size: 0.9rem;
+        max-width: rem(350px);
+        margin-bottom: 0.5em;
+      }
+
+      .foody-section-btn {
+        padding: 0.8em 1.5em;
+      }
+    }
+
+    img {
+      max-width: rem(340px);
+    }
+  }
+}

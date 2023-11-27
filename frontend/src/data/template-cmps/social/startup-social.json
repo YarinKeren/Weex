@@ -1,0 +1,66 @@
+{
+  "_id": "8093DdFd639b4eB6BbE1E0Ae7fD6E447d",
+  "type": "container",
+  "name": "startup social",
+  "theme": "wap-9-theme",
+  "className": "startup-social",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699481333/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-09_%D7%91-0.08.43_ubtt9j.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "FbE4B7E074Bb4eAc9050E588F5CcC8B8",
+      "info": { "txt": "Liked us? Join the best !" },
+      "style": {},
+      "className": "startup-social-title"
+    },
+    {
+      "type": "btn",
+      "_id": "DcB9A4F78e7a421c96148a9a3fBd4189",
+      "info": { "txt": "Demo request" },
+      "style": {},
+      "className": "startup-social-btn"
+    },
+    {
+      "type": "container",
+      "_id": "666cC5549849434b92D7897fD3F61e2e",
+      "style": {},
+      "className": "startup-social-container",
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "794715F97a5d48Ba8a7bBe25949cB1Ed",
+          "info": { "iconName": "facebook" },
+          "style": {},
+          "className": "startup-social-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "2d8130E1E7254764A76f215cA661Cf91",
+          "info": { "iconName": "instagram" },
+          "style": {},
+          "className": "startup-social-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "4a18Cc4561934cC1BdEd69Fc5b812f11",
+          "info": { "iconName": "linkedin" },
+          "style": {},
+          "className": "startup-social-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "C9C02d0cC7F4405c803358E61cC8837d",
+          "info": { "iconName": "twitter" },
+          "style": {},
+          "className": "startup-social-icon"
+        }
+      ]
+    }
+  ]
+}

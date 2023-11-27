@@ -1,0 +1,54 @@
+{
+  "_id": "GRGGvGjifvj68676767676hgghgh7cg7h6767HGHGHGHG7777G",
+  "type": "container",
+  "name": "real-estate hero",
+  "theme": "wap-10-theme",
+  "className": "real-estate-hero",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699798680/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-16.17.51_eeqfzy.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "vnfo8484848vfivghvbhvgbhvgbhvbhvbhbb5j9ooi",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787309/real-estate-hero-img_pofl3h.jpg"
+      },
+      "style": {},
+      "className": "real-estate-hero-img"
+    },
+    {
+      "type": "container",
+      "_id": "y78u859uy896uy9uioyijy5986tuututut84487874utut",
+      "style": {},
+      "className": "real-estate-hero-content",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "itiYRYTTYTYTY73837YTYTTHHTNTNTHVIJDKDKKKJDCJDKJCBVS",
+          "info": { "txt": "NATUREAL ESTATE" },
+          "style": {},
+          "className": "real-estate-hero-txt"
+        },
+        {
+          "type": "title",
+          "_id": "48SSS48484URSSSUR848484URUR4884jnfHUS",
+          "info": { "txt": "Discover Your Dream Home" },
+          "style": {},
+          "className": "real-estate-hero-title"
+        },
+        {
+          "type": "btn",
+          "_id": "VFVVFVFHVHVNVNVUCDHIC9394839475837984U2JDKNWBW9UEIJKCC",
+          "info": { "txt": "EXPLORE HOMES" },
+          "style": {},
+          "className": "real-estate-hero-btn"
+        }
+      ]
+    }
+  ]
+}

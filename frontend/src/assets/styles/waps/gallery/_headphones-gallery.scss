@@ -1,0 +1,70 @@
+.headphones-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: darkgrey;
+
+    .headphones-gallery-title {
+        font-size: rem(45px);
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+    }
+
+    .headphones-gallery-subtitle{
+        font-size: rem(18px);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 1em;
+        letter-spacing: 1px;
+    }
+
+    .headphones-gallery-div {
+        display: flex;
+        gap: 1em;
+        margin-bottom: 3em;
+        .headphones-gallery-img1 {
+            width: rem(500px);
+            border-radius: 5%;
+            box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 4px;
+
+        }
+    }
+}
+
+.tablet-edit-layout{
+    .headphones-gallery{
+        padding: 1em;
+
+        .headphones-gallery-div{
+            .headphones-gallery-img1{
+                width: rem(350px);
+            }
+        }
+    }
+}
+
+.mobile-edit-layout{
+    .headphones-gallery{
+        padding: 1em;
+
+        .headphones-gallery-title{
+            text-align: center;
+            font-size: rem(40px);
+        }
+
+        .headphones-gallery-subtitle{
+            text-align: center;
+            font-size: rem(14px);
+        }
+
+        .headphones-gallery-div{
+            flex-direction: column;
+
+            .headphones-gallery-img1{
+                width: rem(370px);
+            }
+        }
+    }
+}

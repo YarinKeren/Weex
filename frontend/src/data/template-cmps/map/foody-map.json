@@ -1,0 +1,59 @@
+{
+  "_id": "faaingfa8232aT",
+  "type": "container",
+  "name": "foody-map",
+  "theme": "wap-8-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699378470/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-19.34.20_nsc3x2.jpg",
+  "className": "foody-map",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "sdfaij3452",
+      "info": { "txt": "RESTURANT LOCATION" },
+      "style": {},
+      "className": "foody-map-txt-1"
+    },
+    {
+      "type": "txt",
+      "_id": "asdfaoij4352015pk",
+      "info": { "txt": "Menachem Begin 2, Ramat Gan, Israel" },
+      "style": {},
+      "className": "foody-map-txt-2"
+    },
+    {
+      "type": "txt",
+      "_id": "sadfaskln345091na",
+      "info": { "txt": "Open every day between 9am till 5pm" },
+      "style": {},
+      "className": "foody-map-txt-3"
+    },
+    {
+      "type": "map",
+      "_id": "dfasdfajn345291n",
+      "className": "foody-map-container",
+      "info": {
+        "name": "",
+        "location": {
+          "latitude": 32.09259,
+          "longitude": 34.826289
+        },
+        "style": {}
+      }
+    },
+    {
+      "type": "img",
+      "_id": "asfgare3eVfRgBh",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699317132/tc2hqx8stk2liqpchfuy.png"
+      },
+      "style": {},
+      "className": "foody-map-img"
+    }
+  ]
+}

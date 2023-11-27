@@ -1,0 +1,288 @@
+{
+  "_id": "oPiYuTrEsAwDfGh",
+  "type": "container",
+  "name": "Foody menu",
+  "theme": "wap-8-theme",
+  "className": "foody-menu",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/jc56uceadu9e8lvbzdcr.png",
+  "createdBy": {
+    "_id": "tHbVnZmXsDcFgJk",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "rTyUwQeRiOpAsDf",
+      "info": { "txt": "POPULAR DISHES" },
+      "style": {},
+      "className": "foody-menu-title"
+    },
+    {
+      "type": "txt",
+      "_id": "sDfGhJkLpQwErTy",
+      "info": {
+        "txt": "Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."
+      },
+      "style": {},
+      "className": "foody-menu-subtitle"
+    },
+    {
+      "type": "container",
+      "_id": "qAzXsWdCeVfRgBh",
+      "style": {},
+      "className": "foody-menu-big-div",
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "wNmQoPlgadfgakmnBsDf",
+          "style": {},
+          "className": "foody-menu-div1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "xYzAsDfGhJkLpQw",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/wexxmjyqpjzltgtsa8iw.png"
+              },
+              "style": {},
+              "className": "foody-menu-div1-img"
+            },
+            {
+              "type": "txt",
+              "_id": "eRtYuIwQoPlKaSd",
+              "info": { "txt": "BEEF BURGER MEAL" },
+              "style": {},
+              "className": "foody-menu-div1-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "cFgHjKpLqZwExRs",
+              "info": { "txt": "20 - 25 Min" },
+              "style": {},
+              "className": "foody-menu-div1-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "5454gfdfg3g344ggfd",
+          "style": {},
+          "className": "foody-menu-div2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "qWrTsDuFvBnMkLo",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/poszrw4ern01n5cnews2.jpg"
+              },
+              "style": {},
+              "className": "foody-menu-div2-img"
+            },
+            {
+              "type": "txt",
+              "_id": "xYzAsDfGhJkLpQw",
+              "info": { "txt": "ROASTED LAMB RUMP" },
+              "style": {},
+              "className": "foody-menu-div2-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "pLoKiJuHyGtFrEd",
+              "info": { "txt": "45 - 50 Min" },
+              "style": {},
+              "className": "foody-menu-div2-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "dFgHjKlMdsafas3242QwErTy",
+          "style": {},
+          "className": "foody-menu-div3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "zXcVbNmQlKjHgFd",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/xn69artyjny6dhfckb9f.png"
+              },
+              "style": {},
+              "className": "foody-menu-div3-img"
+            },
+            {
+              "type": "txt",
+              "_id": "aSdFgHjKpLoIuYz",
+              "info": { "txt": "PAN SEARED SEA BASS" },
+              "style": {},
+              "className": "foody-menu-div3-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "vCxZbQnAsRmWpDt",
+              "info": { "txt": "45 - 50 Min" },
+              "style": {},
+              "className": "foody-menu-div3-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "eFrGhJiKwLqZsXx",
+          "style": {},
+          "className": "foody-menu-div4",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "dVfRgThYiUoPlKq",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/tqve2har0jrjpx9fmk6t.png"
+              },
+              "style": {},
+              "className": "foody-menu-div4-img"
+            },
+            {
+              "type": "txt",
+              "_id": "sDgHfJkLpQwErTy",
+              "info": { "txt": "CITRUS CURED SALMON" },
+              "style": {},
+              "className": "foody-menu-div4-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "bNmXzQxWvRsAtGu",
+              "info": { "txt": "10 - 22 Min" },
+              "style": {},
+              "className": "foody-menu-div4-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "hYiUoPjKlMnBqAz",
+          "style": {},
+          "className": "foody-menu-div5",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "pQrStUvWxYzAaBc",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/zbfygv5m5m0bnxqxpjdq.png"
+              },
+              "style": {},
+              "className": "foody-menu-div5-img"
+            },
+            {
+              "type": "txt",
+              "_id": "kLmNoPqRsTuVwXy",
+              "info": { "txt": "STUFFED STRAWBERRY" },
+              "style": {},
+              "className": "foody-menu-div5-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "eFgHiJkLmNpQrSt",
+              "info": { "txt": "12 - 19 Min" },
+              "style": {},
+              "className": "foody-menu-div5-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "zXcVbNmQwErTyUi",
+          "style": {},
+          "className": "foody-menu-div6",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "dfahgaHjKdudugagjkna93pQwErTy",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288380/grdrkpvejhcoy1hvqunm.png"
+              },
+              "style": {},
+              "className": "foody-menu-div6-img"
+            },
+            {
+              "type": "txt",
+              "_id": "xYzAsDfGhJkLpQw",
+              "info": { "txt": "GRILLED FISH" },
+              "style": {},
+              "className": "foody-menu-div6-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "oPiYuTrEsAwDfGh",
+              "info": { "txt": "25 - 40 Min" },
+              "style": {},
+              "className": "foody-menu-div6-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "tHbVnZmXsDcFgJk",
+          "style": {},
+          "className": "foody-menu-div7",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "rTyUwQeRiOpAsDf",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288380/frdwehsmxs4jbc4xf9nn.png"
+              },
+              "style": {},
+              "className": "foody-menu-div7-img"
+            },
+            {
+              "type": "txt",
+              "_id": "sDfGhJkLpQwErTy",
+              "info": { "txt": "ITALIAN SPAGHETTI" },
+              "style": {},
+              "className": "foody-menu-div7-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "qAzXsWdCeVfRgBh",
+              "info": { "txt": "30 - 40 Min" },
+              "style": {},
+              "className": "foody-menu-div7-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "wNmQoPlasda35KjHgBsDf",
+          "style": {},
+          "className": "foody-menu-div8",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "xYzAsDfGhJkLpQw",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699288381/t271ttstvr7f1zbprmgh.png"
+              },
+              "style": {},
+              "className": "foody-menu-div8-img"
+            },
+            {
+              "type": "txt",
+              "_id": "eRtYuIwQoPlKaSd",
+              "info": { "txt": "SALMON PARTY" },
+              "style": {},
+              "className": "foody-menu-div8-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "cFgHjKpLqZwExRs",
+              "info": { "txt": "15 - 25 Min" },
+              "style": {},
+              "className": "foody-menu-div8-txt2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+.home-cards-section {
+  padding: 3em 5em;
+  background: rgb(147, 89, 245);
+  background: radial-gradient(circle, rgba(147, 89, 245, 0.35) 0%, rgba(24, 22, 26, 1) 40%);
+  max-width: $ultra-wide-breakpoint;
+  margin: 0 auto;
+
+  @media (max-width: 1080px) {
+    padding: 2em;
+  }
+
+  @media (max-width: 650px) {
+    padding: 1.5em;
+  }
+
+  .home-cards-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+
+    @media (max-width: 650px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1em;
+      margin-bottom: 1em;
+
+      .home-card:nth-child(3) {
+        grid-column: 1 / 3;
+      }
+    }
+  }
+
+  .home-cards-bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+
+    @media (max-width: 650px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1em;
+      margin-bottom: 1em;
+    }
+    .forth {
+      grid-column: 1 / 3;
+    }
+
+    .fifth {
+      grid-column: 3 / 5;
+    }
+  }
+
+  .home-card {
+    padding: 2em;
+    border-radius: 0.8em;
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transition: all ease 0.3s;
+
+    @media (max-width: 1080px) {
+      padding: 1.2em;
+    }
+
+    @media (max-width: 650px) {
+      padding: 1em;
+    }
+
+    .card-content {
+      .card-image {
+        margin: 0.5em 0 1.5em;
+
+        @media (max-width: 1080px) {
+          margin: 0.5em 0 1.5em;
+        }
+
+        @media (max-width: 650px) {
+          margin: 0.5em 0 1em;
+        }
+
+        & > * {
+          background-color: $homeClr5;
+          padding: 0.4em;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          transition: all ease 0.3s;
+
+          @media (max-width: 1080px) {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+      .card-info {
+        h2 {
+          font-size: 1.6rem;
+          margin: 0.5em 0;
+          line-height: 1.8rem;
+
+          @media (max-width: 1080px) {
+            font-size: 1.4rem;
+          }
+
+          @media (max-width: 650px) {
+            font-size: 1.2rem;
+          }
+        }
+
+        p {
+          font-size: 1.1rem;
+          line-height: 1.5rem;
+
+          @media (max-width: 1080px) {
+            font-size: 1rem;
+          }
+
+          @media (max-width: 650px) {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 20px 1px #ffbb763f;
+      border: 1px solid rgba(255, 255, 255, 0.454);
+
+      .card-content {
+        .card-image {
+          & > * {
+            background-color: $homeClr8;
+            color: $homeClr1;
+          }
+        }
+      }
+    }
+  }
+}

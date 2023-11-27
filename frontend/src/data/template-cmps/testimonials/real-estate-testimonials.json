@@ -1,0 +1,155 @@
+{
+  "_id": "koreahadroCmit1010103",
+  "type": "container",
+  "name": "real estate testimonials",
+  "theme": "wap-10-theme",
+  "className": "real-estate-testimonials",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699821082/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-22.30.13_xghb8b.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "koreahadromit1010103hadromitssssssiiieidc",
+      "info": { "txt": "Testimonials" },
+      "style": {},
+      "className": "real-estate-testimonials-title"
+    },
+    {
+      "type": "container",
+      "_id": "jioeovejioeoierfijooriiefijrfoijfroierfoieoif9494942232332",
+      "style": {},
+      "className": "real-estate-testimonials-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "32Q39239923832837237623236732ihucfvhvr7fhr7hruhfvjlkoijsfklCVSQ",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787303/asset_12_ucnvfo.jpg"
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-img"
+        },
+        {
+          "type": "txt",
+          "_id": "QQ9Q9Q33202020209494949040404KOVFPROKFSijrovrrertg",
+          "info": {
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-txt"
+        },
+        {
+          "type": "title",
+          "_id": "vjeiufvje094320jroi2f0j02i4fokwlemj0reiJ0IO30JIFOR767876867",
+          "info": { "txt": "LOGAN PARKER" },
+          "style": {},
+          "className": "real-estate-testimonials-card-title"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "768876876867674564358747243836YIHUKWEJHFKSDJNNSOHhuehduhdyguhjknr3432214394",
+      "style": {},
+      "className": "real-estate-testimonials-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "vfFEOIRJFovmvdWmDGHJUIKVR4Wmdmvov49949459006079969584736363674859685743674859njgknrjnYGWUF",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787301/asset_13_sxiqqj.jpg"
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-img"
+        },
+        {
+          "type": "txt",
+          "_id": "WKV9WOWOWbOWDODIIDIDOWOWOWOIDIIDOWKGGKBKBKBKF4rfbeg32fthtjtjughrgjjnbbb",
+          "info": {
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-txt"
+        },
+        {
+          "type": "title",
+          "_id": "bbbdjbjbdddnbnivfjllLLlllLvjvsposdijffwhfui3897429568749823udddjofghefibknsklovjif",
+          "info": { "txt": "MIA TURNER" },
+          "style": {},
+          "className": "real-estate-testimonials-card-title"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "LLLFKFJFJFJFKKKKLLSLSLSLLS9QOOWLKLKWOEOKRIGJjijtnbne992i05ugjoii56655",
+      "style": {},
+      "className": "real-estate-testimonials-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "5555555557575775h5u5hun5fghusouif893479537593229wwkwkjdjnvsiuksoaoaoaidosoao",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787298/asset_15_c5kqz1.jpg"
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-img"
+        },
+        {
+          "type": "txt",
+          "_id": "vfvw2gtsfvbafvfvaiaiiaiaqqiqiqiaiaiia2j2939499458585885858beoj0ur932PP0P0P000",
+          "info": {
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-txt"
+        },
+        {
+          "type": "title",
+          "_id": "JVJVJVJVJVJVJJVJVJVJJVJVJVJVJJVI32QK0Q13221fhejvfvjdoijv98839984ojOIJF2984765FQ",
+          "info": { "txt": "RICA RICH" },
+          "style": {},
+          "className": "real-estate-testimonials-card-title"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "111122jdfejf9uwhogjiijlgkhjtoihjijtsd222333338884JFJFJ",
+      "style": {},
+      "className": "real-estate-testimonials-card",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "sdfhuivfv8884848489jvoeijivbonijnkngsdiuhffihu98U34HU7575UYRYTYYTY",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787298/asset_14_bvpdlf.jpg"
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-img"
+        },
+        {
+          "type": "txt",
+          "_id": "UUTUTUTUUTUTHVUHFVHUFVHFJNVJFNVKSLVJS893U934T93729",
+          "info": {
+            "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+          },
+          "style": {},
+          "className": "real-estate-testimonials-card-txt"
+        },
+        {
+          "type": "title",
+          "_id": "JDSIJhonEHEHEBVVD337775FHFdajdjdjdjdj8a88ajjajajdhghghghutututughhgtigjtigjitgjokJIOKHBGE",
+          "info": { "txt": "ELAINE REYNOLDS" },
+          "style": {},
+          "className": "real-estate-testimonials-card-title"
+        }
+      ]
+    }
+  ]
+}

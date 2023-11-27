@@ -1,0 +1,44 @@
+{
+  "_id": "E3B1y4N7J9",
+  "type": "container",
+  "name": "headphones-hero",
+  "theme": "wap-3-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409293/z1ycae3p8f2xzhgtlzsk.png",
+  "className": "headphones-hero",
+  "style": {},
+  "createdBy": {
+    "_id": "X4H8a9L5K0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "O9Z6t2C5P1",
+      "info": { "txt": "Soundbeam ERD - 3083" },
+      "style": {},
+      "className": "headphones-hero-div-txt1"
+    },
+    {
+      "type": "txt",
+      "_id": "G7F0u5V3B2",
+      "info": { "txt": "Reinventing Sound Experience" },
+      "style": {},
+      "className": "headphones-hero-div-txt2"
+    },
+    {
+      "type": "txt",
+      "_id": "A2S1y6L9O3",
+      "info": { "txt": "One step at a time." },
+      "style": {},
+      "className": "headphones-hero-div-txt3"
+    },
+    {
+      "type": "btn",
+      "_id": "U6T5r4M2N8",
+      "info": { "txt": "Order Now", "href": "#OrderNow" },
+      "style": {},
+      "className": "headphones-hero-btn"
+    }
+  ]
+}

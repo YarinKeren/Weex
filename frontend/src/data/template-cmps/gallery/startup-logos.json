@@ -1,0 +1,61 @@
+{
+  "_id": "A06aB7C45cC34e42Bd9aB2A3F9E6Ba40",
+  "type": "container",
+  "name": "startup-logos",
+  "theme": "wap-9-theme",
+  "className": "startup-logos",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699770728/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-8.32.00_paonxr.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "6773437d2eBa4382816cCf069aA1BdC3",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699769122/startup-logo-5_nyrirh.svg"
+      },
+      "style": {},
+      "className": "startup-logo"
+    },
+    {
+      "type": "img",
+      "_id": "4d68220c89734cDcB318B4Ed6b5a01D7",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699769122/startup-logo-1_gvf5zf.svg"
+      },
+      "style": {},
+      "className": "startup-logo"
+    },
+    {
+      "type": "img",
+      "_id": "64954893Fb304fD88d2bDc5e5bCaB1B5",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699769122/startup-logo-3_pk9yzn.svg"
+      },
+      "style": {},
+      "className": "startup-logo"
+    },
+    {
+      "type": "img",
+      "_id": "E0836d688b054536A386464948Ac7c9d",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699769122/startup-logo-4_hdtmwg.svg"
+      },
+      "style": {},
+      "className": "startup-logo"
+    },
+    {
+      "type": "img",
+      "_id": "069b73Da74C74c83A2B5AfD1A157Be22",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699769122/startup-logo-2_tm1kk2.svg"
+      },
+      "style": {},
+      "className": "startup-logo"
+    }
+  ]
+}

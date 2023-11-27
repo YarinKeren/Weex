@@ -1,0 +1,53 @@
+.car-section-2 {
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  min-height: 578px;
+  grid-template-columns: 0.4fr 1fr 0.4fr;
+  grid-template-rows: 0.3fr 0.3fr 1fr;
+
+  .car-section-2-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: rem(600px);
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self: center;
+
+    img {
+      width: rem(300px);
+      height: rem(250px);
+    }
+  }
+
+  .car-section-2-title {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+  }
+
+  .car-section-2-txt1 {
+    display: flex;
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+  }
+}
+
+.mobile-edit-layout {
+  .car-section-2 {
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr;
+
+    .car-section-2-div {
+      grid-column: 2/3;
+      justify-content: center;
+    }
+  }
+}

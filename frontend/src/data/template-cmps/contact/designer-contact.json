@@ -1,0 +1,39 @@
+{
+  "_id": "E6F7G8H9I0",
+  "type": "container",
+  "name": "designer-contact",
+  "theme": "wap-7-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699387439/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-22.03.45_mk4rrp.jpg",
+  "className": "designer-contact",
+  "style": {},
+  "createdBy": {
+    "_id": "J1K2L3M4N5",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "O6P7Q8R9S0",
+      "info": { "txt": "Let’s work together" },
+      "style": {},
+      "className": "designer-contact-title"
+    },
+    {
+      "type": "txt",
+      "_id": "T1U2V3W4X5",
+      "info": {
+        "txt": "Let's embark on a creative journey together, turning your ideas into captivating visuals."
+      },
+      "style": {},
+      "className": "designer-contact-tagline"
+    },
+    {
+      "type": "link",
+      "_id": "Y6Z7A8B9C0",
+      "info": { "txt": "LETS TALK", "href": "#" },
+      "style": {},
+      "className": "designer-contact-link"
+    }
+  ]
+}

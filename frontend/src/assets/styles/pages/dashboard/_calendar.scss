@@ -1,0 +1,15 @@
+.calendar-dashboard {
+  .calendar-header {
+    color: $sClr6;
+    background-color: $tools-color;
+    padding: 0.9rem 1.2rem;
+  }
+  .calendar-container {
+    height: 70.7vh;
+    width: 100%;
+    padding: 1rem;
+  }
+  .total-meetings {
+    font-weight: 400;
+  }
+}

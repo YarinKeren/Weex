@@ -1,0 +1,91 @@
+.general-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+    height: rem(550px);
+
+    img {
+        position: absolute;
+        z-index: 0;
+        width: 30%;
+        height: rem(550px);
+        right: 0;
+        top: 0;
+
+    }
+
+    .general-contact-div {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .general-contact-div-txt1 {
+            text-align: center;
+            font-size: rem(50px);
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+        }
+
+        .general-contact-input1 {
+            background-color: #f2f6f8;
+            border-radius: 2rem;
+            border: none;
+            box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+            padding: 1em 2em;
+            width: rem(350px);
+        }
+
+        .general-contact-input2 {
+            background-color: #f2f6f8;
+            border-radius: 2rem;
+            border: none;
+            box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+            padding: 1em 2em;
+            width: rem(350px);
+        }
+
+        .general-contact-input3 {
+            background-color: #f2f6f8;
+            border-radius: 2rem;
+            border: none;
+            box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+            padding: 1em 2em;
+            width: rem(350px);
+            height: rem(200px);
+        }
+
+
+        .general-contact-input3::placeholder {
+            position: absolute;
+            top: 6%;
+        }
+
+        .general-contact-btn {
+            font-weight: bold;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            padding: 0 3rem;
+            border: 0;
+            border-radius: 3rem;
+            background-image: linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
+        }
+    }
+}
+
+.tablet-edit-layout{
+    .general-contact{
+        img{
+            width: 60%;
+        }
+    }
+}
+
+.mobile-edit-layout{
+    .general-contact{
+        img{
+            width: 60%
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+  "_id": "99F8652a8b2047B1937aE80795D9E8Eb",
+  "type": "container",
+  "name": "startup testimonials",
+  "theme": "wap-9-theme",
+  "className": "startup-testimonials",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699479677/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-23.41.06_vvb5ts.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "484dC981932c44Dc8a195e56A57743B1",
+      "info": { "txt": "Case studies" },
+      "style": {},
+      "className": "startup-testimonials-title"
+    },
+    {
+      "type": "txt",
+      "_id": "B27b006268344832B45eCcB827B30e83",
+      "info": {
+        "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "style": {},
+      "className": "startup-testimonials-txt"
+    },
+    {
+      "type": "container",
+      "_id": "AfC0C6470782489bA8142b2b7bE0F761",
+      "style": {},
+      "className": "startup-testimonials-container",
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "C3Eb7b0b515f467799Ae7bD066C51bAf",
+          "style": {},
+          "className": "startup-testimonials-card",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "9263007fmivofmvoie9999000ddJJJ135Cb",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699478222/startup-testi3_e8osde.svg"
+              },
+              "style": {},
+              "className": "startup-testimonials-card-img"
+            },
+            {
+              "type": "txt",
+              "_id": "295fAf8d7fB14390A770EcDcBb5150A9",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-testimonials-card-txt"
+            },
+            {
+              "type": "title",
+              "_id": "B3DbA3B05b57457e9e46258b87Ec2fA1",
+              "info": { "txt": "Alice Cornell" },
+              "style": {},
+              "className": "startup-testimonials-card-title"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "9b6724401f8640BaB47379Da158aA100",
+          "style": {},
+          "className": "startup-testimonials-card",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "vnfiv939943josjv4IJODJKNFI20JKJVIJUJHVUNNNNnnn345Cb",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699478201/startup-testi2_ksncok.svg"
+              },
+              "style": {},
+              "className": "startup-testimonials-card-img"
+            },
+            {
+              "type": "txt",
+              "_id": "A8E8F51887494034Ad67DeA1A470D8A4",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-testimonials-card-txt"
+            },
+            {
+              "type": "title",
+              "_id": "58947aE67a8b4eDb86D7C38d19488713",
+              "info": { "txt": "Mike Snow" },
+              "style": {},
+              "className": "startup-testimonials-card-title"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "970a450bE8B6401e97A85192D62f4eDf",
+          "style": {},
+          "className": "startup-testimonials-card",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "6c1d2b49A4C44f329007298b8dEc6a9b",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699478166/startup-testi1_wvlsyg.svg"
+              },
+              "style": {},
+              "className": "startup-testimonials-card-img"
+            },
+            {
+              "type": "txt",
+              "_id": "6b9a66Ce27644d9cA80bEe426933D485",
+              "info": {
+                "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+              },
+              "style": {},
+              "className": "startup-testimonials-card-txt"
+            },
+            {
+              "type": "title",
+              "_id": "Be8751A842Ee4b12894e6960119bF603",
+              "info": { "txt": "Mimi Telly" },
+              "style": {},
+              "className": "startup-testimonials-card-title"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

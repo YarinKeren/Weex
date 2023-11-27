@@ -1,0 +1,51 @@
+{
+  "_id": "Z1X2C3V4B5",
+  "type": "container",
+  "name": "headphones-nav",
+  "theme": "wap-3-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698409292/h0uijllex9ubhycxw93i.png",
+  "className": "headphones-nav",
+  "style": {},
+  "createdBy": {
+    "_id": "N6M7L8K9J0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "link",
+      "_id": "Q2W3E4R5T6",
+      "info": { "txt": "SoundBeam", "href": "#SoundBeam" },
+      "style": {},
+      "className": "headphones-link1"
+    },
+    {
+      "type": "link",
+      "_id": "U0I9O8P7A6",
+      "info": { "txt": "Home", "href": "#home" },
+      "style": {},
+      "className": "headphones-link2"
+    },
+    {
+      "type": "link",
+      "_id": "S5D4F3G2H1",
+      "info": { "txt": "Prices", "href": "#SoundBeam" },
+      "style": {},
+      "className": "headphones-link3"
+    },
+    {
+      "type": "link",
+      "_id": "J0Z9X8C7V6",
+      "info": { "txt": "About", "href": "#about" },
+      "style": {},
+      "className": "headphones-link4"
+    },
+    {
+      "type": "btn",
+      "_id": "B5N4M3L2K1",
+      "info": { "txt": "Order Now", "href": "#Order Now" },
+      "style": {},
+      "className": "headphones-button"
+    }
+  ]
+}

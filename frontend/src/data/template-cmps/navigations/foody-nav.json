@@ -1,0 +1,116 @@
+{
+  "_id": "0aXb0K12Zk45Dc",
+  "type": "container",
+  "name": "foody nav",
+  "theme": "wap-8-theme",
+  "className": "foody-nav",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699281321/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-06_%D7%91-16.35.11_hq2xyi.jpg",
+  "createdBy": {
+    "_id": "xYz7890q",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "nM31pE58",
+      "info": { "txt": "Foody" },
+      "style": {},
+      "className": "foody-logo"
+    },
+    {
+      "type": "container",
+      "_id": "sD45fG67",
+      "style": {},
+      "className": "foody-links-nav",
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "oP69qL02",
+          "info": { "txt": "HOME", "href": "#home" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "vC81wR34",
+          "info": { "txt": "ABOUT", "href": "#about" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "uT56zK90",
+          "info": { "txt": "SERVICES", "href": "#services" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "RmR303RcnueR",
+          "info": { "txt": "RESERVATION", "href": "#reservation" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "EEE99EJNE9IEi",
+          "info": { "txt": "TEAM", "href": "#team" },
+          "style": {},
+          "className": "foody-link"
+        }
+      ]
+    },
+    {
+      "type": "btn",
+      "_id": "fefJ6f2fmQ82f3",
+      "info": { "txt": "Our Menu", "href": "#menu" },
+      "style": {},
+      "className": "foody-nav-btn"
+    },
+    {
+      "type": "mobile menu",
+      "_id": "qwwqQWRDjvnbnbigNVC8U30mQ82f3B",
+      "style": {},
+      "className": "foody-humburget-menu",
+      "cmps": [
+        {
+          "type": "link",
+          "_id": "vjfiuvOIJVFhhhhhhhgDIN839248JFVU",
+          "info": { "txt": "HOME", "href": "#home" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "CJFUIVJFU949494988svv3332cvvaaggR8NVJUFNV",
+          "info": { "txt": "ABOUT", "href": "#about" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "NOSFV90fjoowc2222njcdnvn888888cdijs",
+          "info": { "txt": "SERVICES", "href": "#services" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "vjvjBe949jbhkmbhnigjJUFRF4J2WOFNOIKJSN",
+          "info": { "txt": "RESERVATION", "href": "#reservation" },
+          "style": {},
+          "className": "foody-link"
+        },
+        {
+          "type": "link",
+          "_id": "WQYWQUWUYQywqunj82832892332932cndj29NKJHONn555",
+          "info": { "txt": "TEAM", "href": "#team" },
+          "style": {},
+          "className": "foody-link"
+        }
+      ]
+    }
+  ]
+}

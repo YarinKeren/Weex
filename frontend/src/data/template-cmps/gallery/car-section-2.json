@@ -1,0 +1,76 @@
+{
+  "_id": "VTs31L",
+  "type": "container",
+  "name": "car-section-2",
+  "theme": "",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699386181/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.42.22_oxs4ip.jpg",
+  "className": "car-section-2",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "title",
+      "_id": "car-section-2-title",
+      "info": { "txt": "OUR WORK" },
+      "style": {},
+      "className": "car-section-2-title"
+    },
+    {
+      "type": "txt",
+      "_id": "car-section-2-txt1",
+      "info": {
+        "txt": "A collection of cars we've renovated with passion"
+      },
+      "style": {},
+      "className": "car-section-2-txt1"
+    },
+    {
+      "type": "container",
+      "_id": "car-section-2-div",
+      "style": {},
+      "className": "car-section-2-div",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "car-section-div-img1",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698673171/uztnomwgwxmluxc1ecwt.jpg"
+          },
+          "style": {},
+          "className": "car-section-div-img1"
+        },
+        {
+          "type": "img",
+          "_id": "car-section-div-img2",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698673171/metyucmqwe7umm3vejqj.jpg"
+          },
+          "style": {},
+          "className": "car-section-div-img2"
+        },
+        {
+          "type": "img",
+          "_id": "car-section-div-img3",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698673171/n42ylgmvq7dnbhs8pdft.jpg"
+          },
+          "style": {},
+          "className": "car-section-div-img3"
+        },
+        {
+          "type": "img",
+          "_id": "car-section-div-img4",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698673171/kislgw45sexsey42ihue.jpg"
+          },
+          "style": {},
+          "className": "car-section-div-img4"
+        }
+      ]
+    }
+  ]
+}

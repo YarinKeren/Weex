@@ -1,0 +1,286 @@
+.left-sidebar {
+  display: flex;
+  background-color: $tools-color;
+
+  .btn-open-tools-container {
+    .open-tools-box {
+      cursor: pointer;
+      width: rem(20px);
+      height: rem(65px);
+      background-color: $tools-color;
+      border-radius: 6px;
+      position: fixed;
+      transform: translate(50%, 50%);
+      top: 50%;
+      left: rem(-16px);
+      transition: 0.3s ease-out;
+      color: $sClr6;
+      z-index: 10;
+
+      &:hover {
+        background-color: lighten($tools-color, 30%);
+
+        .btn-open-tools {
+          background-color: lighten($tools-color, 30%);
+        }
+      }
+    }
+  }
+
+  @keyframes squeeze {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+  }
+
+  .btn-open-tools {
+    position: fixed;
+    left: rem(6px);
+    top: rem(18px);
+    font-size: 1.6rem;
+    border-radius: 50%;
+    background-color: $tools-color;
+    animation: squeeze 2s infinite;
+    transform: translate(50%, 50%);
+    transition: 0.4s ease-out;
+
+    &:hover {
+      background-color: lighten($tools-color, 30%);
+
+      .open-tools-box {
+        background-color: darken($sClr3, 30%);
+      }
+    }
+  }
+
+  .module-tools {
+    width: 0;
+    transition: 0.3s ease-out;
+    background-color: $tools-color;
+
+    .module-items {
+      display: none;
+      z-index: 20;
+    }
+
+    &.open {
+      border-right: 2px solid $sClr7;
+      overflow: visible;
+      width: rem(192px);
+      transition: 0.3s ease-out;
+
+      .module-items {
+        display: block;
+        margin: 0;
+        padding: 0.37em 0 0 0;
+        position: sticky;
+        top: rem(60px);
+        height: 90vh;
+        overflow-y: auto;
+
+        h1 {
+          color: $sClr6;
+          padding: 0.35em 0;
+          font-size: 1rem;
+          text-align: center;
+          text-transform: uppercase;
+          padding-block-end: rem(10px);
+          border-block-end: 0.5px solid rgba(128, 128, 128, 0.224);
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0.3em 0.7em;
+          font-weight: 600;
+          font-size: 1.15rem;
+          cursor: pointer;
+          transition: 0.3s ease-out;
+
+          img {
+            border-radius: 2px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+              rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          }
+          &.theme-item {
+            font-size: 0.9rem;
+            margin: rem(5px);
+            border-radius: 2px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+              rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          }
+
+          .module-name {
+            padding: 0.4em;
+            text-transform: uppercase;
+          }
+
+          &:last-child {
+            margin-block-end: rem(20px);
+          }
+        }
+      }
+    }
+  }
+
+  .left-tools {
+    color: $sClr6;
+    width: 0;
+    padding-right: rem(5px);
+    transition: 0.3s ease-out;
+    background-color: $tools-color;
+
+    .tool-items {
+      display: none;
+    }
+
+    &.open {
+      box-shadow: 3px 0px 8px rgba(255, 255, 255, 0.2);
+      width: rem(192px);
+      transition: 0.3s ease-out;
+      border-right: 2px solid black;
+      overflow: hidden;
+      display: block;
+      position: sticky;
+      top: 3.45rem;
+      height: 90vh;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        scroll-behavior: smooth;
+      }
+
+      .tool-items {
+        display: block;
+        display: flex;
+        flex-direction: column;
+
+        li {
+          text-transform: uppercase;
+          padding: 0.5em 0;
+          padding-inline-start: 1em;
+          font-weight: bolder;
+          font-size: 1rem;
+          cursor: pointer;
+          border-block-end: 0.5px solid rgba(128, 128, 128, 0.224);
+          background-image: linear-gradient(
+            to right,
+            $tools-color 0%,
+            #2b232a 50%,
+            $theme-color 100%
+          );
+          background-size: 300% 300%;
+          transition: 0.5s;
+
+          @media (min-width: 1200px) {
+            padding: 0.9em;
+          }
+
+          @media (min-width: 1400px) {
+            padding: 1.4em;
+          }
+
+          &.theme-item {
+            margin-block-start: rem(62px);
+            background-size: 300% 300%;
+            transition: all 0.2s ease-in;
+            transform: translateY(-100%);
+
+            &::before,
+            &::after {
+              content: '';
+              width: 100%;
+              position: absolute;
+              height: 100%;
+              top: 0;
+              left: 0;
+              background: #36333f;
+              transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+              &:hover {
+                transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+              }
+            }
+            &::after {
+              z-index: -1;
+              background: linear-gradient(225deg, transparent 15%, #ec38bc 50%, #7303c0, #36333f);
+              transform: translateX(0%);
+            }
+            &::before {
+              transform: translateX(-100%);
+              z-index: -2;
+              background: linear-gradient(45deg, #ab48ff, #11b6e8 50%, transparent 85%);
+            }
+            &:hover::before {
+              transition: all 1s 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+              transform: translateX(0%);
+            }
+            &:hover::after {
+              transition: all 1s 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+              transform: translateX(-100%);
+            }
+          }
+
+          &:hover {
+            background-color: lighten($tools-color, 35%);
+            background-position: right center;
+          }
+
+          &.active {
+            background-image: linear-gradient(
+              to right,
+              $tools-color 0%,
+              #2b232a 50%,
+              $theme-color 100%
+            );
+            background-position: right center;
+          }
+        }
+
+        .themes {
+          color: $sClr3;
+          font-weight: 600;
+          background-image: linear-gradient(
+            -225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%
+          );
+          transition: all 0.5s;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    .btn-open-tools-container {
+      display: none;
+    }
+    .left-tools {
+      &.open {
+        width: 100%;
+        overflow-x: hidden;
+        .tool-items {
+          // flex-direction: row;
+          top: unset;
+
+          // li {
+          //   font-size: 0.5rem;
+          //   padding: 0;
+          //   font-weight: 400;
+          // }
+        }
+      }
+    }
+  }
+}

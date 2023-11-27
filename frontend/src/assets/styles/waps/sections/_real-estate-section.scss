@@ -1,0 +1,84 @@
+.real-estate-section {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 6em 2em;
+  gap: 5em;
+
+  .real-estate-section-box {
+    background-color: $sClr3;
+    max-width: 40%;
+    padding: 1.8em;
+    position: relative;
+
+    h1 {
+      margin-bottom: 0.5em;
+      letter-spacing: 1px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    img {
+      position: relative;
+      z-index: 1;
+      top: 4em;
+      left: 4em;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .real-estate-section {
+    padding: 4em 2em;
+    gap: 2em;
+
+    .real-estate-section-box {
+      padding: 1em;
+      max-width: 100%;
+
+      h1 {
+        font-size: 1.5rem;
+        line-height: 1.3;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      img {
+        top: 3em;
+        left: 1.5em;
+      }
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .real-estate-section {
+    padding: 3em 1.5em;
+    gap: 0.8em;
+
+    .real-estate-section-box {
+      padding: 1em;
+      max-width: 100%;
+
+      h1 {
+        font-size: 1rem;
+        line-height: 1.3;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+      img {
+        top: 2em;
+        left: 1.2em;
+      }
+    }
+  }
+}

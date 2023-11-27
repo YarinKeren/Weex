@@ -1,0 +1,50 @@
+.task-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #e7e9eb;
+  border-radius: rem(5px);
+  padding: rem(15px) rem(15px);
+  min-width: rem(250px);
+  min-height: rem(400px);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px;
+
+  .task-cards-container {
+    flex: 1;
+  }
+
+  .column-title {
+    padding-inline-start: rem(10px);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #44546f;
+  }
+
+  .add-task {
+    position: relative;
+    bottom: 0px;
+    margin-block-start: rem(20px);
+    padding: rem(5px);
+    font-size: 1rem;
+    color: #44546f;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: rem(8px);
+      background-color: #091e4224;
+    }
+
+    .add-icon {
+      margin-inline-end: rem(5px);
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 1012px) {
+    min-width: rem(230px);
+  }
+
+  @media (max-width: 940px) {
+    min-width: rem(200px);
+  }
+}

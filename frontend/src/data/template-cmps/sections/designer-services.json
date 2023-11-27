@@ -1,0 +1,116 @@
+{
+  "_id": "PEOPEQC453a1j9c219JCCJ2CuuUCJ3d4et5",
+  "type": "container",
+  "name": "designer services Section",
+  "theme": "wap-7-theme",
+  "className": "designer-services-section",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699215392/designer-services_gmsqlb.jpg",
+  "createdBy": {
+    "_id": "dmcimcm93aOIJCIJD1000gffg",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "kdmicm9393ksdmK9D30SMDIdaaa1A",
+      "info": { "txt": "Services" },
+      "style": {},
+      "className": "designer-services-title"
+    },
+    {
+      "type": "container",
+      "_id": "4CMvjiftruinfUYRYR624432jdj9339HHH",
+      "style": {},
+      "className": "designer-services-card",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "lLlCIJEDC9393939939111CMCMkdekj3bv",
+          "info": { "txt": "01" },
+          "style": {},
+          "className": "designer-services-number"
+        },
+        {
+          "type": "title",
+          "_id": "BcBBidcmicbBcmiBmc39i93k9bkbdkJUFEI3",
+          "info": { "txt": "Branding" },
+          "style": {},
+          "className": "designer-services-service"
+        },
+        {
+          "type": "txt",
+          "_id": "MBGMG94I94KjnooopP93k93k93dkNJUFNEI3",
+          "info": {
+            "txt": "Unveil your brand's essence through a meticulous blend of imagery, messaging, and strategy. Crafting identities that resonate and endure."
+          },
+          "style": {},
+          "className": "designer-services-desc"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "zzzidd93kcic9K3DKIJ39JMIMDCMWOnc939321",
+      "style": {},
+      "className": "designer-services-card",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "micsES9DCCMd3377cdcdcdq1WOnc939321",
+          "info": { "txt": "02" },
+          "style": {},
+          "className": "designer-services-number"
+        },
+        {
+          "type": "title",
+          "_id": "qqocj9ec9eJD38J3JNNVVV83jcnkoo33vmIII",
+          "info": { "txt": "Design" },
+          "style": {},
+          "className": "designer-services-service"
+        },
+        {
+          "type": "txt",
+          "_id": "CCCID93KCNFUINVWUIN9ncucijid2",
+          "info": {
+            "txt": "Designing experiences that captivate users from the first click. Intuitive interfaces that lead to seamless interactions."
+          },
+          "style": {},
+          "className": "designer-services-desc"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "Z898J94J83J1JOKOJOIJUHUJNC83jnbBB356",
+      "style": {},
+      "className": "designer-services-card",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "iCDICD9JF39JIJIOhui94f422222cd33cd33",
+          "info": { "txt": "03" },
+          "style": {},
+          "className": "designer-services-number"
+        },
+        {
+          "type": "title",
+          "_id": "ihihhitjh85gj8j59GKT99VTK9VK466FVFV56666",
+          "info": { "txt": "Development" },
+          "style": {},
+          "className": "designer-services-service"
+        },
+        {
+          "type": "txt",
+          "_id": "n4mwYYIOY7TNKkJmttTnU7NITYG8585023ghbV17",
+          "info": {
+            "txt": "Translating visions into dynamic digital solutions. From responsive websites to interactive applications, driving innovation."
+          },
+          "style": {},
+          "className": "designer-services-desc"
+        }
+      ]
+    }
+  ]
+}

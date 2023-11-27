@@ -1,0 +1,76 @@
+{
+  "_id": "sscssccccoosssmsoosoovjssBXjg9sss4ssj4j4jjbjbccsscccHSHSV",
+  "type": "container",
+  "name": "real estate footer",
+  "theme": "wap-10-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699797435/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-15.56.40_mvivzg.jpg",
+  "className": "real-estate-footer",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "link",
+      "_id": "VM9VHH1jnjkHkokokkoHI11Knoonnj1hhhnnR9JV",
+      "info": { "txt": "Home", "href": "#home" },
+      "style": {},
+      "className": "real-estate-footer-link"
+    },
+    {
+      "type": "link",
+      "_id": "czzzzz3c838ojnnjojij38kjnjnio009099088009jr8g5j",
+      "info": { "txt": "About", "href": "#about" },
+      "style": {},
+      "className": "real-estate-footer-link"
+    },
+    {
+      "type": "link",
+      "_id": "zkokk9kz9kzzkkz9z9z9vguiz9z39HJGUTGHTHG5868686868",
+      "info": { "txt": "Services", "href": "#services" },
+      "style": {},
+      "className": "real-estate-footer-link"
+    },
+    {
+      "type": "link",
+      "_id": "2222oijij2ij2i22992929929292020202020JOIOIJJIJOIJIJGIJGIJGNNV",
+      "info": { "txt": "Listings", "href": "#listing" },
+      "style": {},
+      "className": "real-estate-footer-link"
+    },
+    {
+      "type": "link",
+      "_id": "jniu28288282999999njnnjnj33U57575757Sjrn484",
+      "info": { "txt": "Blog", "href": "#blog" },
+      "style": {},
+      "className": "real-estate-footer-link"
+    },
+    {
+      "type": "link",
+      "_id": "ijj29999011111jn11nbbbbbb11i1i1iii1i00UERIHdd",
+      "info": { "txt": "Contact", "href": "#contact" },
+      "style": {},
+      "className": "real-estate-footer-link"
+    },
+    {
+      "type": "img",
+      "_id": "izjz9z99z9z9z99z9koilkz222JIV99999FRVNNVNN5",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787303/real-estate-logo_iuk320.png"
+      },
+      "style": {},
+      "className": "real-estate-footer-logo"
+    },
+    {
+      "type": "txt",
+      "_id": "hhXhfhfhXhfhhhhhhh9h9H9X9hhXhhh9h9h9hjhjhjhj4464DDDDDDRFVGXH",
+      "info": {
+        "txt": "Powered by WeeX 2023"
+      },
+      "style": {},
+      "className": "real-estate-footer-txt"
+    }
+  ]
+}

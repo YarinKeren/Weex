@@ -1,0 +1,66 @@
+{
+  "_id": "AlFiAtAoTiSt",
+  "type": "container",
+  "name": "simple-form",
+  "theme": "form-1-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698926393/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-02_%D7%91-13.59.36_pnawej.jpg",
+  "className": "simple-form-class",
+  "style": {},
+  "createdBy": {
+    "_id": "U1S2E3R4",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "form",
+      "_id": "cmmS0KNMcj993k33jjc",
+      "style": {},
+      "className": "form-one-div",
+      "cmps": [
+        {
+          "_id": "D1N1P4U4L4",
+          "type": "title",
+          "info": { "txt": "Stay Tuned" },
+          "style": {},
+          "className": "form-title-1"
+        },
+        {
+          "_id": "I1CP12X4T1",
+          "type": "txt",
+          "info": { "txt": "Subscribe now and get my new designs directly to your Email" },
+          "style": {},
+          "className": "form-tagline-1"
+        },
+        {
+          "_id": "I1N2P3U4T1",
+          "type": "input",
+          "info": { "placeholder": "First Name", "type": "text", "name": "first name" },
+          "style": {},
+          "className": "form-input-1"
+        },
+        {
+          "_id": "I1N2P3U4T2",
+          "type": "input",
+          "info": { "placeholder": "Last Name", "type": "text", "name": "last name" },
+          "style": {},
+          "className": "form-input-2"
+        },
+        {
+          "_id": "I1N2P3U4T3",
+          "type": "input",
+          "info": { "placeholder": "Email", "type": "email", "name": "email" },
+          "style": {},
+          "className": "form-input-3"
+        },
+        {
+          "_id": "V444Uj8CLD9WXXWT3",
+          "type": "btn",
+          "info": { "txt": "Submit", "kind": "submit" },
+          "style": {},
+          "className": "form-input-3"
+        }
+      ]
+    }
+  ]
+}

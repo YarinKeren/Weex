@@ -1,0 +1,193 @@
+.designer-services-section {
+  display: flex;
+  position: relative;
+  padding: 5em 3em;
+  gap: 2em;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  @media (max-width: 1460px) {
+    padding: 6em 3em;
+  }
+
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    padding: 5em 2em;
+    gap: 1em;
+  }
+
+  @media (max-width: 600px) {
+    padding: 1em;
+    gap: 0.5em;
+  }
+
+  .designer-services-title {
+    position: absolute;
+    top: 0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+
+    @media (max-width: 1460px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 1020px) {
+      font-size: 2.5rem;
+      top: 1.5em;
+    }
+
+    @media (max-width: 600px) {
+      position: relative;
+      text-align: center;
+      margin-bottom: 2.5em;
+      font-size: 2rem;
+      top: 2.2em;
+    }
+  }
+
+  .designer-services-card {
+    background-color: $sClr3;
+    padding: 2em 4em 2em 2em;
+    margin-top: 3em;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+
+    @media (max-width: 1460px) {
+      padding: 2em;
+    }
+
+    @media (max-width: 1020px) {
+      margin-top: 2em;
+    }
+
+    @media (max-width: 600px) {
+    }
+
+    .designer-services-number,
+    .designer-services-service,
+    .designer-services-desc {
+      color: $sClr7;
+    }
+
+    .designer-services-number {
+      font-size: 2.2rem;
+      margin-bottom: 3.5em;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $sClr7;
+        margin-top: 1em;
+      }
+
+      @media (max-width: 1460px) {
+        font-size: 1.8rem;
+      }
+
+      @media (max-width: 1020px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .designer-services-service {
+      font-size: 2rem;
+      margin-bottom: 0.8em;
+      line-height: 1.2;
+
+      @media (max-width: 1460px) {
+        font-size: 1.6rem;
+      }
+
+      @media (max-width: 1020px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    .designer-services-desc {
+      font-size: 1.2rem;
+      line-height: 1.5;
+
+      @media (max-width: 1460px) {
+        font-size: 1.1rem;
+      }
+
+      @media (max-width: 1020px) {
+        font-size: 1rem;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-0.5em);
+    }
+  }
+}
+
+// create two classes of .tablet-edit-layout and .mobile-edit-layout and put the classes and values of the responsive design
+// in the class of the .tablet-edit-layout put the classes and value of the less than 1020px
+// in the class of the .mobile-edit-layout put the classes and value of the less than 600pxs
+
+.tablet-edit-layout {
+  .designer-services-section {
+    flex-direction: column;
+    padding: 5em 2em;
+    gap: 2em;
+
+    .designer-services-title {
+      font-size: 2.5rem;
+      top: 1em;
+    }
+
+    .designer-services-card {
+      padding: 2em;
+      margin-top: 2.5em;
+
+      .designer-services-number {
+        font-size: 1.5rem;
+      }
+
+      .designer-services-service {
+        font-size: 1.4rem;
+      }
+
+      .designer-services-desc {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .designer-services-section {
+    flex-direction: column;
+    padding: 1em;
+    gap: 0.5em;
+
+    .designer-services-title {
+      position: relative;
+      text-align: center;
+      margin-bottom: 2.5em;
+      font-size: 2rem;
+      top: 2.2em;
+    }
+
+    .designer-services-card {
+      padding: 2em;
+      margin-top: 2.5em;
+
+      .designer-services-number {
+        font-size: 1.5rem;
+      }
+
+      .designer-services-service {
+        font-size: 1.4rem;
+      }
+
+      .designer-services-desc {
+        font-size: 1rem;
+      }
+    }
+  }
+}

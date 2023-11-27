@@ -1,0 +1,8 @@
+.tasks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: rem(60px);
+  margin: rem(40px);
+  min-height: rem(200px);
+}

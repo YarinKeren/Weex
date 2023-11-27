@@ -1,0 +1,68 @@
+{
+    "_id": "fkjgbgasd9249",
+    "type": "container",
+    "name": "general contact",
+    "theme": "",
+    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699376600/ng9uosiabhrmq5xdgkg5.png",
+    "className": "general-contact",
+    "style": {},
+    "createdBy": {
+      "_id": "U251Sfdaga452E3R4",
+      "fullname": "",
+      "imgUrl": ""
+    },
+    "cmps": [
+      {
+        "type": "img",
+        "_id": "sdafas4dfsgs52hgsdfgaa",
+        "info": {
+          "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699375875/vi2iko96niosxjctvke5.png"
+        },
+          "style": {},
+        "className": "general-contact-img"
+          },
+      {
+        "type": "form",
+        "_id": "cmmS0KNMcj993sak33jjc",
+        "style": {},
+        "className": "general-contact-div",
+        "cmps": [
+          {
+            "_id": "D1hshsN1knfga44352L4",
+            "type": "title",
+            "info": { "txt": "Talk to us" },
+            "style": {},
+            "className": "general-contact-div-txt1"
+          },
+          {
+            "_id": "dfgs3452na0",
+            "type": "input",
+            "info": { "placeholder": "Name", "type": "text" },
+            "style": {},
+            "className": "general-contact-input1"
+          },
+          {
+            "_id": "gath35632abv",
+            "type": "input",
+            "info": { "placeholder": "Email", "type": "Email" },
+            "style": {},
+            "className": "general-contact-input2"
+          },
+          {
+            "_id": "adfh3451balp",
+            "type": "input",
+            "info": { "placeholder": "Message", "type": "text" },
+            "style": {},
+            "className": "general-contact-input3"
+          },
+          {
+            "_id": "jkfnsadf92341",
+            "type": "btn",
+            "info": { "txt": "Send Message", "kind": "submit" },
+            "style": {},
+            "className": "general-contact-btn"
+          }
+        ]
+      }
+    ]
+  }

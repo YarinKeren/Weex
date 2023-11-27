@@ -1,0 +1,44 @@
+{
+  "_id": "vdRcMJBG765c4Bv239Jjvdvfvi2",
+  "type": "container",
+  "name": "foody-social",
+  "theme": "wap-8-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699299359/foody-social_ifixxo.jpg",
+  "className": "foody-social",
+  "style": {},
+  "createdBy": {
+    "_id": "vn21nbFiCK1D2EBc3Fc4G5",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "icon",
+      "_id": "cONo6Ooof47P8Qvvbv9R0",
+      "info": { "iconName": "facebook" },
+      "style": {},
+      "className": "foody-icon"
+    },
+    {
+      "type": "icon",
+      "_id": "bkofw9093e8iMJMC1T2vU3V4W5D",
+      "info": { "iconName": "instagram" },
+      "style": {},
+      "className": "foody-icon"
+    },
+    {
+      "type": "icon",
+      "_id": "SD5cx5DD4531GGkoGvfwSW5D",
+      "info": { "iconName": "linkedin" },
+      "style": {},
+      "className": "foody-icon"
+    },
+    {
+      "type": "icon",
+      "_id": "3VcV5Vc52F325f351VV45VV",
+      "info": { "iconName": "twitter" },
+      "style": {},
+      "className": "foody-icon"
+    }
+  ]
+}

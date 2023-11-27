@@ -1,0 +1,48 @@
+{
+  "_id": "a3k2L9i4U8",
+  "type": "container",
+  "name": "cosmeticHero",
+  "theme": "wap-4-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699379770/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-19.55.56_drjaer.jpg",
+  "className": "cosmetic-hero",
+  "style": {},
+  "createdBy": {
+    "_id": "b5H7eX2v0Z",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "q0p9G6l1R2",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698580274/nartp5nw3p6uncsyd1ho.png"
+      },
+      "style": {},
+      "className": "cosmetic-hero-image-item"
+    },
+    {
+      "type": "txt",
+      "_id": "f4J8eM5s6N",
+      "info": { "txt": "Pear Kiwi & Mint" },
+      "style": {},
+      "className": "cosmetic-hero-title-item"
+    },
+    {
+      "type": "txt",
+      "_id": "c3Y7oW1a9D",
+      "info": {
+        "txt": "They say that home is where the heart is. Perhaps that’s why a feeling of loss is so apparent when you are far from the ones you love."
+      },
+      "style": {},
+      "className": "cosmetic-hero-subtitle-item"
+    },
+    {
+      "type": "btn",
+      "_id": "v9B1iK2l6F",
+      "info": { "txt": "SHOP NOW", "href": "link_placeholder" },
+      "style": {},
+      "className": "cosmetic-hero-btn-item"
+    }
+  ]
+}

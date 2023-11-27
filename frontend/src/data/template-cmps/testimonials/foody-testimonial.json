@@ -1,0 +1,147 @@
+{
+  "_id": "H3kTcvee3421X11345csdFGHbEn9oVKxX1qS",
+  "type": "container",
+  "name": "foody testimonial",
+  "theme": "wap-8-theme",
+  "className": "foody-testimonial",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-testimonial_c73w9p.jpg",
+  "createdBy": {
+    "_id": "V6mJ1rT8H5bG3yC",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "j9inojnjio098JUIIMD6sY6oR",
+      "style": {},
+      "className": "foody-testimonial-header",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "Q4wB0xL2S9fN7hV",
+          "info": { "txt": "CUSTOMERS REVIEW" },
+          "style": {},
+          "className": "header-title"
+        },
+        {
+          "type": "txt",
+          "_id": "hqhjq29is02Qq922499499in9INMLLB4D4SM1vG",
+          "info": {
+            "txt": "Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."
+          },
+          "style": {},
+          "className": "header-tagline"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "Ycd31995tG79c930qOMd255566677caduni3",
+      "style": {},
+      "className": "foody-testimonial-cards-container",
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "E1pZ3dM5K8aY6oR",
+          "style": {},
+          "className": "foody-testimonial-card",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "G7uT2nF4W6cQ9sA",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-review-img1_c4s3o4.png"
+              },
+              "style": {},
+              "className": "foody-testimonial-card-img"
+            },
+            {
+              "type": "txt",
+              "_id": "S8kQ0yL3T6eM1vG",
+              "info": {
+                "txt": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus."
+              },
+              "style": {},
+              "className": "foody-testimonial-card-txt"
+            },
+            {
+              "type": "title",
+              "_id": "P5iH3mX8D1vJ4zB",
+              "info": { "txt": "Esther Howard" },
+              "style": {},
+              "className": "foody-testimonial-card-title"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "N2cF9xV4bP5hR7t",
+          "style": {},
+          "className": "foody-testimonial-card",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "F9iH2sG7L5dK8xR",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-review-img3_ctlsba.png"
+              },
+              "style": {},
+              "className": "foody-testimonial-card-img"
+            },
+            {
+              "type": "txt",
+              "_id": "MDIJ9j492j9jivn2i8j0cduni3",
+              "info": {
+                "txt": "Sit lacus enim enim donec porttitor quis at consequat. Ut ut et erat nunc quisque ut. Ullamcorper in sit lectus nisi, leo diam volutpat vitae. Amet sed sem cursus facilisi amet suscipit."
+              },
+              "style": {},
+              "className": "foody-testimonial-card-txt"
+            },
+            {
+              "type": "title",
+              "_id": "K3nV6yT4W8qE1mJ",
+              "info": { "txt": "Guy Hawkins" },
+              "style": {},
+              "className": "foody-testimonial-card-title"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "T4fW7zY5X9rG2nK",
+          "style": {},
+          "className": "foody-testimonial-card",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "D4eV9yX2R6tH1qL",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699314698/foody-review-img2_hhu8by.png"
+              },
+              "style": {},
+              "className": "foody-testimonial-card-img"
+            },
+            {
+              "type": "txt",
+              "_id": "U7bF8zC4X9eG3yJ",
+              "info": {
+                "txt": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus."
+              },
+              "style": {},
+              "className": "foody-testimonial-card-txt"
+            },
+            {
+              "type": "title",
+              "_id": "M5kQ6aW3S8vB2pN",
+              "info": { "txt": "Jane Cooper" },
+              "style": {},
+              "className": "foody-testimonial-card-title"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

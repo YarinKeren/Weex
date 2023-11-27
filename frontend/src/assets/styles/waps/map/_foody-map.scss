@@ -1,0 +1,80 @@
+.foody-map {
+  display: flex;
+  position: relative;
+  padding: 6em 3.2em;
+  flex-direction: column;
+  height: rem(650px);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  font-family: 'Oswald', sans-serif;
+
+  .foody-map-container {
+    width: 40vw;
+    height: rem(600px);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
+  }
+
+  .foody-map-txt-1 {
+    font-size: rem(60px);
+    margin-bottom: 0.25em;
+  }
+
+  .foody-map-txt-2,
+  .foody-map-txt-3 {
+    font-size: rem(16px);
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+  }
+
+  img {
+    width: 20%;
+    position: absolute;
+    left: 0%;
+
+    @media (min-width: 1400px) {
+      width: 12%;
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .foody-map {
+    padding: 3em 1em;
+    height: rem(400px);
+
+    .foody-map-container {
+      height: rem(400px);
+      width: 30vw;
+    }
+    img {
+      width: 20%;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .foody-map {
+    padding: 4em 1em;
+
+    .foody-map-container {
+      width: 25vw;
+      z-index: 1;
+    }
+
+    .foody-map-txt-1 {
+      font-size: rem(40px);
+    }
+
+    .foody-map-txt-2,
+    .foody-map-txt-3 {
+      font-size: rem(15px);
+    }
+
+    img {
+      width: 30%;
+    }
+  }
+}

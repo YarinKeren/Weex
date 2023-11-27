@@ -1,0 +1,82 @@
+{
+    "_id": "sdgadf534252a",
+    "type": "container",
+    "name": "car-footer",
+    "theme": "wap-5-theme",
+    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699493632/wwynb5yzawu8do5m8ste.png",
+    "className": "car-footer",
+    "style": {},
+    "createdBy": {
+      "_id": "sdasdfafgsdfg34252",
+      "fullname": "",
+      "imgUrl": ""
+    },
+    "cmps": [
+      {
+        "type": "container",
+        "_id": "ghjd5632",
+        "style": {},
+        "className": "car-footer-div-1",
+        "cmps": [
+          {
+            "type": "link",
+            "_id": "hdmjd562",
+            "info": { "txt": "Home", "href": "#Home" },
+            "style": {},
+            "className": "car-footer-link1"
+          },
+          {
+            "type": "link",
+            "_id": "hjdhjd652a",
+            "info": { "txt": "Services", "href": "#ervices" },
+            "style": {},
+            "className": "car-footer-link2"
+          },
+          {
+            "type": "link",
+            "_id": "kjur568a",
+            "info": { "txt": "About", "href": "#AboutUs" },
+            "style": {},
+            "className": "car-footer-link3"
+          }
+        ]
+      },
+      {
+        "type": "container",
+        "_id": "jfhgncvxbvx65",
+        "style": {},
+        "className": "car-footer-div2",
+        "cmps": [
+          {
+            "type": "icon",
+            "_id": "dsfhfgh4562sdfg4",
+            "info": { "iconName": "facebook" },
+            "style": {},
+            "className": "car-footer-icon"
+          },
+          {
+            "type": "icon",
+            "_id": "ghmdfvds95",
+            "info": { "iconName": "instagram" },
+            "style": {},
+            "className": "car-footer-icon"
+          },
+          {
+            "type": "icon",
+            "_id": "fhdghdvs56218",
+            "info": { "iconName": "linkedin" },
+            "style": {},
+            "className": "car-footer-icon"
+          }
+        ]
+      },
+      {
+        "type": "txt",
+        "_id": "gfdfghd5623xfgs5623",
+        "info": { "txt": "Powered by WeeX 2023" },
+        "style": {},
+        "className": "car-footer-txt1"
+      }
+    ]
+  }
+  

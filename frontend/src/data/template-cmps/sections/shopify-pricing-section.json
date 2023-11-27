@@ -1,0 +1,130 @@
+{
+  "_id": "habeigalehayataim",
+  "type": "container",
+  "name": "Shopify Pricing Section",
+  "theme": "wap-1-theme",
+  "className": "shopify-pricing-section",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309272/shopifypricing_nh30vz.jpg",
+  "createdBy": {
+    "_id": "a6b7c8d9e0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "f1g2h3i4j5",
+      "style": {},
+      "className": "shopify-pricing-card",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "k1l2m3n4o5",
+          "info": { "txt": "Sole Proprietor" },
+          "style": {},
+          "className": "pricing-card-plan-txt"
+        },
+        {
+          "type": "title",
+          "_id": "p1q2r3s4t5",
+          "info": { "txt": "$29/month" },
+          "style": {},
+          "className": "pricing-card-price-txt"
+        },
+        {
+          "type": "txt",
+          "_id": "u1v2w3x4y5",
+          "info": {
+            "txt": "Perfect for individuals just starting their eCommerce journey. This plan offers all the basic tools to get your store off the ground"
+          },
+          "style": {},
+          "className": "pricing-card-info-txt"
+        },
+        {
+          "type": "btn",
+          "_id": "z1a2b3c4d5",
+          "info": { "txt": "Start Your Journey", "href": "http://www.google.com/" },
+          "style": {},
+          "className": "pricing-card-btn"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "e1f2g3h4i5",
+      "style": {},
+      "className": "shopify-pricing-card",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "j1k2l3m4n5",
+          "info": { "txt": "Small Business" },
+          "style": {},
+          "className": "pricing-card-plan-txt"
+        },
+        {
+          "type": "title",
+          "_id": "o1p2q3r4s5",
+          "info": { "txt": "$79/month" },
+          "style": {},
+          "className": "pricing-card-price-txt"
+        },
+        {
+          "type": "txt",
+          "_id": "t1u2v3w4x5",
+          "info": {
+            "txt": "Ideal for growing businesses aiming for a wider reach of customers. This Includes analytics and advanced customization features."
+          },
+          "style": {},
+          "className": "pricing-card-info-txt"
+        },
+        {
+          "type": "btn",
+          "_id": "y1z2a3b4c5",
+          "info": { "txt": "Scale Your Business", "href": "http://www.google.com/" },
+          "style": {},
+          "className": "pricing-card-btn"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "d1e2f3g4h5",
+      "style": {},
+      "className": "shopify-pricing-card",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "i1j2k3l4m5",
+          "info": { "txt": "Enterprise" },
+          "style": {},
+          "className": "pricing-card-plan-txt"
+        },
+        {
+          "type": "title",
+          "_id": "n1o2p3q4r5",
+          "info": { "txt": "Custom Pricing" },
+          "style": {},
+          "className": "pricing-card-price-txt"
+        },
+        {
+          "type": "txt",
+          "_id": "s1t2u3v4w5",
+          "info": {
+            "txt": "Tailored solutions to meet the demanding needs of large-scale operations, including premium support and custom integrations."
+          },
+          "style": {},
+          "className": "pricing-card-info-txt"
+        },
+        {
+          "type": "btn",
+          "_id": "x1y2z3a4b5",
+          "info": { "txt": "Get Custom Quote", "href": "http://www.google.com/" },
+          "style": {},
+          "className": "pricing-card-btn"
+        }
+      ]
+    }
+  ]
+}

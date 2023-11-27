@@ -1,0 +1,136 @@
+.nature-hero {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+}
+
+.nature-image-item {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h1,
+  p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 40%;
+    line-height: 1.5rem;
+  }
+
+  p {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    top: 50%;
+    line-height: 1.5rem;
+  }
+}
+
+.nature-button-item {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.3em 3em 1.15em;
+  border-radius: 50px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+
+  &:hover {
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .nature-image-item {
+    h1 {
+      font-size: 1.8rem;
+      top: 40%;
+      line-height: 2.4rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      top: 50%;
+      line-height: 1.4rem;
+    }
+  }
+
+  .nature-button-item {
+    top: 58%;
+  }
+}
+
+.tablet-edit-layout {
+  .nature-image-item {
+    h1 {
+      padding: 1em;
+      font-size: 2.2rem;
+      top: 30%;
+      line-height: 1.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      top: 50%;
+      line-height: 1.5rem;
+    }
+  }
+
+  .nature-button-item {
+    top: 66%;
+    font-size: 0.8rem;
+  }
+}
+
+.mobile-edit-layout {
+  .nature-image-item {
+    img {
+      height: 59vh;
+    }
+
+    h1 {
+      padding: 1.2em;
+      font-size: 2.2rem;
+      top: 30%;
+      line-height: 2.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      padding: 1em 2em;
+      top: 46%;
+      line-height: 1.8rem;
+    }
+  }
+
+  .nature-button-item {
+    top: 66%;
+    font-size: 0.8rem;
+  }
+}

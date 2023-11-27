@@ -1,0 +1,65 @@
+{
+  "_id": "A7Bt9RzV",
+  "type": "container",
+  "name": "shopify-section",
+  "theme": "wap-1-theme",
+  "className": "shopify-section",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698309561/shopsect_i1h4hc.jpg",
+  "createdBy": {
+    "_id": "E5Hj6PzL",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "D4mK0OyX",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698580165/jia87p26mpj15ohuvsk1.png"
+      },
+      "style": {},
+      "className": "shopify-section-img"
+    },
+    {
+      "type": "container",
+      "_id": "U9pV1ZbW",
+      "style": {},
+      "className": "shopify-section-div",
+      "cmps": [
+        {
+          "type": "txt",
+          "_id": "G2kQ5rA6",
+          "info": { "txt": "EXPERT STORE DESIGNING" },
+          "style": {},
+          "className": "shopify-section-div-txt1"
+        },
+        {
+          "type": "txt",
+          "_id": "T8yN3oL7",
+          "info": {
+            "txt": "Shopify stores that are proven in its power to convert"
+          },
+          "style": {},
+          "className": "shopify-section-txt2"
+        },
+        {
+          "type": "txt",
+          "_id": "C6lI4sM8",
+          "info": {
+            "txt": "There are enough stresses involved in running a successful ecommerce site - the design and efficacy of your store shouldn't be one of them, We offers whitening in a professional Solid Brush for fast, safe, and effective results after 10 days."
+          },
+          "style": {},
+          "className": "shopify-section-txt3"
+        },
+       {
+          "type": "btn",
+          "_id": "X5dH7gP0",
+          "info": { "txt": "CONTACT US", "href": "link_placeholder" },
+          "style": {},
+          "className": "shopify-section-button"
+        }
+      ]
+    }
+  ]
+}

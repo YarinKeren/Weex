@@ -1,0 +1,53 @@
+{
+  "_id": "C9O8S7E6T5",
+  "type": "container",
+  "name": "cosmetic-nav",
+  "theme": "wap-4-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698308896/toutemnav_p5igx6.jpg",
+  "className": "cosmetic-nav",
+  "style": {},
+  "createdBy": {
+    "_id": "Z0X9C8V7B6",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "R1F2T3Y4O5",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698580581/b5wtubebpe1r4x0srvvw.png"
+      },
+      "style": {},
+      "className": "cosmetic-nav-logo"
+    },
+    {
+      "type": "link",
+      "_id": "U0W9E8A7S6",
+      "info": { "txt": "Home", "href": "#home" },
+      "style": {},
+      "className": "cosmetic-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "L5K4J3H2G1",
+      "info": { "txt": "About", "href": "#about" },
+      "style": {},
+      "className": "cosmetic-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "M8N7B6V5C4",
+      "info": { "txt": "Shop", "href": "#shop" },
+      "style": {},
+      "className": "cosmetic-nav-link"
+    },
+    {
+      "type": "link",
+      "_id": "Q0P9O8I7U6",
+      "info": { "txt": "Contact", "href": "#contact" },
+      "style": {},
+      "className": "cosmetic-nav-link"
+    }
+  ]
+}

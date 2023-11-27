@@ -1,0 +1,133 @@
+.startup-solutions {
+  padding: 4.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'space grotesk', sans-serif;
+
+  .startup-solutions-title {
+    font-size: 5rem;
+    margin-bottom: 0.2em;
+  }
+
+  .startup-solutions-txt {
+    font-size: 1.2rem;
+    max-width: 70%;
+    line-height: 1.5;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+
+  .startup-solutions-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+
+    .startup-solutions-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1.6em;
+      background-color: $sClr3;
+      box-shadow: 8px 6.5px 0 0 #000;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0 0 0 #000;
+        transform: translateX(5px);
+      }
+
+      .startup-solutions-card-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.6em;
+      }
+
+      .startup-solutions-card-txt {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .startup-solutions {
+    padding: 2.5em;
+
+    .startup-solutions-title {
+      font-size: 3rem;
+      margin-bottom: 0.3em;
+    }
+
+    .startup-solutions-txt {
+      font-size: 1.2rem;
+    }
+
+    .startup-solutions-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .startup-solutions {
+    padding: 2.5em;
+
+    .startup-solutions-title {
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+    }
+
+    .startup-solutions-txt {
+      max-width: 100%;
+      font-size: 1.1rem;
+    }
+
+    .startup-solutions-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .startup-solutions {
+    padding: 2.5em;
+
+    .startup-solutions-title {
+      font-size: 3rem;
+      margin-bottom: 0.3em;
+    }
+
+    .startup-solutions-txt {
+      font-size: 1.2rem;
+    }
+
+    .startup-solutions-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .startup-solutions {
+    padding: 2.5em;
+
+    .startup-solutions-title {
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+    }
+
+    .startup-solutions-txt {
+      max-width: 100%;
+      font-size: 1.1rem;
+    }
+
+    .startup-solutions-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

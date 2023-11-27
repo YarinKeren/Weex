@@ -1,0 +1,55 @@
+{
+  "_id": "xYzAsDfGhJkLpQw",
+  "type": "container",
+  "name": "Foody schedule",
+  "theme": "wap-8-theme",
+  "className": "foody-schedule",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699361060/gaihknhfjuxmrxady0ns.png",
+  "createdBy": {
+    "_id": "oPiYuTrEsAwDfGh",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "tHbVnZmXsDcFgJk",
+      "info": { "txt": "RESERVE A TABLE" },
+      "style": {},
+      "className": "foody-schedule-txt1"
+    },
+    {
+      "type": "txt",
+      "_id": "KYzAsgjknaGhJkLpQw",
+      "info": { "txt": "We are open every day from 9am till 5pm, bookings are available for a week in advance." },
+      "style": {},
+      "className": "foody-schedule-txt2"
+    },
+    {
+      "_id": "KVATyUwQeRidslfngs83OpAsDf",
+      "type": "schedule",
+      "name": "foody-schedule-meeting-section",
+      "theme": "schedule-meeting-theme",
+      "imgUrl": "",
+      "className": "foody-schedule-meeting-section",
+      "style": {},
+      "createdBy": {
+        "_id": "dfgsm345fGhJkLpQwErTy",
+        "fullname": "",
+        "imgUrl": ""
+      },
+      "info": {
+        "schedule": {
+          "eventDuration": 30,
+          "daysForward": 6,
+          "data": [],
+          "days": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
+          "startHour": 9,
+          "endHour": 17,
+          "meetings": []
+        }
+      }
+    }
+  ]
+}

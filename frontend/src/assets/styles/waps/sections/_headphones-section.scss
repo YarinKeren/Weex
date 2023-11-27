@@ -1,0 +1,252 @@
+.headphones-section {
+  overflow: hidden;
+  position: relative;
+  background-image: url('https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698335250/f5fcyobhcgmtxxanzfqn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  min-height: 578px;
+
+  .headphones-section-div-1 {
+    position: absolute;
+    align-items: center;
+    min-width: rem(250px);
+    left: 3%;
+    top: 50%;
+    padding: 1em;
+    max-width: rem(300px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .headphones-section-img-1 {
+      width: rem(30px);
+    }
+
+    .headphones-section-txt-1 {
+      font-size: rem(20px);
+      padding: 0.6em 0;
+    }
+
+    .headphones-section-txt-2 {
+      font-size: rem(12px);
+      letter-spacing: 2px;
+    }
+  }
+
+  .headphones-section-div-2 {
+    position: absolute;
+    align-items: center;
+    min-width: rem(250px);
+    left: 25%;
+    top: 10%;
+    padding: 1em;
+    max-width: rem(300px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .headphones-section-img-2 {
+      width: rem(30px);
+    }
+
+    .headphones-section-txt-3 {
+      font-size: rem(20px);
+      padding: 0.6em 0;
+    }
+
+    .headphones-section-txt-4 {
+      font-size: rem(12px);
+      letter-spacing: 2px;
+    }
+  }
+
+  .headphones-section-div-3 {
+    position: absolute;
+    align-items: center;
+    min-width: rem(250px);
+    left: 50%;
+    top: 50%;
+    padding: 1em;
+    max-width: rem(300px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .headphones-section-img-3 {
+      width: rem(30px);
+    }
+
+    .headphones-section-txt-5 {
+      font-size: rem(20px);
+      padding: 0.6em 0;
+    }
+
+    .headphones-section-txt-6 {
+      font-size: rem(12px);
+      letter-spacing: 2px;
+    }
+  }
+
+  .headphones-section-div-4 {
+    position: absolute;
+    min-width: rem(250px);
+    left: 75%;
+    top: 10%;
+    padding: 1em;
+    max-width: rem(300px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .headphones-section-img-4 {
+      width: rem(30px);
+    }
+
+    .headphones-section-txt-7 {
+      font-size: rem(20px);
+      padding: 0.6em 0;
+    }
+
+    .headphones-section-txt-8 {
+      font-size: rem(12px);
+      letter-spacing: 2px;
+    }
+  }
+
+  .headphones-section-grey-line1,
+  .headphones-section-grey-line2,
+  .headphones-section-grey-line3 {
+    content: '';
+    position: absolute;
+    top: 0%;
+    width: 1px;
+    height: 100%;
+    background-color: grey;
+  }
+
+  .headphones-section-grey-line1 {
+    left: 23%;
+  }
+
+  .headphones-section-grey-line2 {
+    left: 47%;
+  }
+
+  .headphones-section-grey-line3 {
+    left: 70%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .headphones-section .headphones-section-grey-line3 {
+    left: 74%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .headphones-section .headphones-section-grey-line1 {
+    left: 25%;
+  }
+
+  .headphones-section .headphones-section-grey-line2 {
+    left: 49%;
+  }
+}
+
+.tablet-edit-layout {
+  .headphones-section .headphones-section-grey-line1,
+  .headphones-section-grey-line2,
+  .headphones-section-grey-line3 {
+    width: 100%;
+    height: 1px;
+  }
+
+  .headphones-section .headphones-section-grey-line1 {
+    top: 50%;
+    left: 0;
+  }
+
+  .headphones-section .headphones-section-div-1 {
+    top: 10%;
+    left: 10%;
+  }
+
+  .headphones-section .headphones-section-div-2 {
+    top: 10%;
+    left: 60%;
+  }
+
+  .headphones-section .headphones-section-div-3 {
+    top: 60%;
+    left: 10%;
+  }
+
+  .headphones-section .headphones-section-div-4 {
+    top: 60%;
+    left: 60%;
+  }
+}
+
+.mobile-edit-layout {
+  .headphones-section .headphones-section-grey-line1,
+  .headphones-section-grey-line2,
+  .headphones-section-grey-line3 {
+    width: 100%;
+    height: 1px;
+  }
+
+  .headphones-section .headphones-section-grey-line1 {
+    top: 50%;
+    left: 0;
+  }
+
+  .headphones-section .headphones-section-div-1 {
+    top: 10%;
+    left: 0%;
+    max-width: rem(200px);
+
+    .headphones-section-txt-1 {
+      font-size: rem(18px);
+    }
+
+    .headphones-section-txt-2 {
+      font-size: rem(10px);
+    }
+  }
+
+  .headphones-section .headphones-section-div-2 {
+    top: 10%;
+    left: 50%;
+    max-width: rem(200px);
+
+    .headphones-section-txt-3 {
+      font-size: rem(18px);
+    }
+
+    .headphones-section-txt-4 {
+      font-size: rem(10px);
+    }
+  }
+
+  .headphones-section .headphones-section-div-3 {
+    top: 60%;
+    left: 0%;
+    max-width: rem(200px);
+
+    .headphones-section-txt-5 {
+      font-size: rem(18px);
+    }
+
+    .headphones-section-txt-6 {
+      font-size: rem(10px);
+    }
+  }
+
+  .headphones-section .headphones-section-div-4 {
+    top: 60%;
+    left: 50%;
+    max-width: rem(200px);
+
+    .headphones-section-txt-7 {
+      font-size: rem(18px);
+    }
+
+    .headphones-section-txt-8 {
+      font-size: rem(10px);
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "S3D4F5G6H7",
+  "type": "container",
+  "name": "designer-hero",
+  "theme": "wap-7-theme",
+  "className": "designer-hero",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698798870/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-01_%D7%91-2.34.20_c9mcfg.jpg",
+  "createdBy": {
+    "_id": "Y7U8I9O0P1",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "abanibioboebev",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698798709/designer-hero-img_m7jzfw.jpg"
+      },
+      "style": {},
+      "className": "designer-hero-img"
+    },
+    {
+      "type": "txt",
+      "_id": "F6G7H8I9J0",
+      "info": { "txt": "Web designer & Weex developer" },
+      "style": {},
+      "className": "designer-text1"
+    },
+    {
+      "type": "txt",
+      "_id": "K1L2M3N4O5",
+      "info": {
+        "txt": "Diving into the world of design, I've had the privilege of working on diverse projects, each leaving a unique mark."
+      },
+      "style": {},
+      "className": "designer-text2"
+    },
+    {
+      "type": "btn",
+      "_id": "P6Q7R8S9T0",
+      "info": { "txt": "VIEW PROJECTS", "href": "#projects" },
+      "style": {},
+      "className": "designer-hero-btn"
+    }
+  ]
+}

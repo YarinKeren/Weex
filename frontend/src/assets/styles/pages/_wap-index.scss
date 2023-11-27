@@ -1,0 +1,24 @@
+.wap-index {
+  background-color: $homeClr1;
+
+  .wap-index-header {
+    font-family: 'Oswald';
+    // margin-block-end: rem(30px);
+    margin: rem(15px) 0 rem(40px) 0;
+    padding-inline-start: rem(60px);
+    font-size: 2rem;
+    color: $sClr6;
+
+    @media (min-width: 1080px) {
+      padding-inline-start: rem(80px);
+    }
+
+    @media (max-width: 650px) {
+      padding-inline-start: rem(40px);
+    }
+
+    @media (max-width: 450px) {
+      font-size: 1.5rem;
+    }
+  }
+}

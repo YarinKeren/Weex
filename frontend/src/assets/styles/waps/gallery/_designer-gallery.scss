@@ -1,0 +1,120 @@
+.designer-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  gap: 5em;
+  place-items: center;
+  padding: 3em;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  @media (max-width: 800px) {
+    gap: 2em;
+    padding: 2em 1em;
+    max-width: 1200px;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    padding: 3em 1em;
+    gap: 2em;
+  }
+
+  .designer-gallery-tite {
+    grid-column: 1 / 3;
+    font-size: 3.5rem;
+
+    @media (max-width: 800px) {
+      font-size: 2.5rem;
+    }
+
+    @media (max-width: 600px) {
+      grid-column: 1;
+      font-size: 2rem;
+    }
+  }
+
+  .designer-gallery-img1 img,
+  .designer-gallery-img2 img,
+  .designer-gallery-img3 img,
+  .designer-gallery-img4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+    box-shadow: 0 0 1.5em rgba(255, 255, 255, 0.4);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-1em);
+    }
+  }
+
+  .designer-gallery-img1 h1,
+  .designer-gallery-img2 h1,
+  .designer-gallery-img3 h1,
+  .designer-gallery-img4 h1 {
+    margin: 1em auto 0.5em;
+    font-size: 2rem;
+    cursor: pointer;
+
+    @media (max-width: 800px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 1.4rem;
+      margin: 1.2em auto 0.7em;
+    }
+  }
+
+  .designer-gallery-img1 p,
+  .designer-gallery-img2 p,
+  .designer-gallery-img3 p,
+  .designer-gallery-img4 p {
+    line-height: 1.5;
+
+    @media (max-width: 800px) {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 0.9rem;
+      line-height: 1.3;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .designer-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    padding: 3em 1em;
+    gap: 2em;
+  }
+
+  .designer-gallery-tite {
+    grid-column: 1 / 3;
+    font-size: 3.5rem;
+    grid-column: 1;
+  }
+
+  .designer-gallery-img1 h1,
+  .designer-gallery-img2 h1,
+  .designer-gallery-img3 h1,
+  .designer-gallery-img4 h1 {
+    margin: 1.2em auto 0.7em;
+    font-size: 1.4rem;
+  }
+
+  .designer-gallery-img1 p,
+  .designer-gallery-img2 p,
+  .designer-gallery-img3 p,
+  .designer-gallery-img4 p {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+}

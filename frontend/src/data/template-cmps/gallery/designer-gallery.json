@@ -1,0 +1,157 @@
+{
+  "_id": "V1W2X3Y4Z5",
+  "type": "container",
+  "name": "designer-gallery",
+  "theme": "wap-7-theme",
+  "className": "designer-gallery",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699387198/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.59.50_hosq8w.jpg",
+  "createdBy": {
+    "_id": "A6B7C8D9E0",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "F1G2H3I4J5",
+      "info": {
+        "txt": "Work."
+      },
+      "style": {},
+      "className": "designer-gallery-tite"
+    },
+    {
+      "type": "container",
+      "_id": "V1N2O2R1Q0",
+      "style": {},
+      "className": "designer-gallery-img1",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "Z1A2B3C4D5",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851118/asset_13_mta12e.jpg"
+          },
+          "style": {},
+          "className": "designer-gallery-img1-item"
+        },
+        {
+          "type": "title",
+          "_id": "R5S4T3U2V1",
+          "info": { "txt": "Nexus" },
+          "style": {},
+          "className": "designer-gallery-title1-item"
+        },
+        {
+          "type": "txt",
+          "_id": "R3S2T3U2C2",
+          "info": {
+            "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+          },
+          "style": {},
+          "className": "designer-gallery-txt1-item"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "OON12OR5Q9",
+      "style": {},
+      "className": "designer-gallery-img2",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "K6L7M8N9O0",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851117/asset_10_re44fm.jpg"
+          },
+          "style": {},
+          "className": "designer-gallery-img2-item"
+        },
+        {
+          "type": "title",
+          "_id": "R5S4TVVVV8",
+          "info": { "txt": "Chroma" },
+          "style": {},
+          "className": "designer-gallery-title2-item"
+        },
+        {
+          "type": "txt",
+          "_id": "RRRRT2U2C2",
+          "info": {
+            "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+          },
+          "style": {},
+          "className": "designer-gallery-txt2-item"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "OOG40OR7BB",
+      "style": {},
+      "className": "designer-gallery-img3",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "P1Q2R3S4T5",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851116/asset_12_qafmh8.jpg"
+          },
+          "style": {},
+          "className": "designer-gallery-img3-item"
+        },
+        {
+          "type": "title",
+          "_id": "EES4T2U2HH",
+          "info": { "txt": "Aurora" },
+          "style": {},
+          "className": "designer-gallery-title3-item"
+        },
+        {
+          "type": "txt",
+          "_id": "EES2E2U232",
+          "info": {
+            "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+          },
+          "style": {},
+          "className": "designer-gallery-txt3-item"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "COG45300CC",
+      "style": {},
+      "className": "designer-gallery-img4",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "U6V7W8X9Y0",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698851116/asset_11_lwgfgn.jpg"
+          },
+          "style": {},
+          "className": "designer-gallery-img4-item"
+        },
+        {
+          "type": "title",
+          "_id": "EESCCC09TT",
+          "info": { "txt": "Zenith" },
+          "style": {},
+          "className": "designer-gallery-title4-item"
+        },
+        {
+          "type": "txt",
+          "_id": "11S2EEUSSS",
+          "info": {
+            "txt": "Transforming concepts into a dynamic reality, this project encompasses branding, UI design, and development. The outcome is an engaging digital platform that resonates with the brand's identity and amplifies user interaction."
+          },
+          "style": {},
+          "className": "designer-gallery-txt4-item"
+        }
+      ]
+    }
+  ]
+}

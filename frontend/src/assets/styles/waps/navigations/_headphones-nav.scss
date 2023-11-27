@@ -1,0 +1,62 @@
+.headphones-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698280892/h1x5yj8vxw19cei22wea.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid $sClr1;
+  height: 100%;
+
+  .headphones-link1 {
+    z-index: 1;
+    left: 5%;
+    top: 13%;
+    padding: 1em;
+
+    a {
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+
+  .headphones-link2 {
+    a {
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+
+  .headphones-link3 {
+    a {
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+
+  .headphones-link4 {
+    z-index: 1;
+    left: 30%;
+    top: 13%;
+
+    a {
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+
+  .headphones-button {
+    z-index: 1;
+    left: 80%;
+    top: 13%;
+    background-color: transparent;
+    border: 1px solid $sClr2;
+    padding: 0.5em 0.8em;
+    margin-right: rem(30px);
+  }
+}
+
+.mobile-edit-layout {
+  background-size: 50%;
+}

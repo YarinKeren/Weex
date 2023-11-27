@@ -1,0 +1,118 @@
+.foody-menu {
+  display: flex;
+  padding: 4em 3.2em;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+  font-family: 'Oswald', sans-serif;
+
+  .foody-menu-title {
+    font-size: rem(70px);
+  }
+
+  .foody-menu-subtitle {
+    font-family: sans-serif;
+    font-size: rem(18px);
+    margin-bottom: 1em;
+    max-width: rem(500px);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .foody-menu-big-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    align-items: center;
+
+    .foody-menu-div1,
+    .foody-menu-div2,
+    .foody-menu-div3,
+    .foody-menu-div4,
+    .foody-menu-div5,
+    .foody-menu-div6,
+    .foody-menu-div7,
+    .foody-menu-div8 {
+      border-radius: 1rem;
+      transition: all 0.3s ease-in-out;
+      img {
+        max-height: rem(370px);
+        max-width: rem(280px);
+        filter: brightness(90%);
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          filter: brightness(115%);
+        }
+      }
+    }
+  }
+
+  .foody-menu-div1-txt1,
+  .foody-menu-div2-txt1,
+  .foody-menu-div3-txt1,
+  .foody-menu-div4-txt1,
+  .foody-menu-div5-txt1,
+  .foody-menu-div6-txt1,
+  .foody-menu-div7-txt1,
+  .foody-menu-div8-txt1 {
+    font-family: sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+
+  .foody-menu-div1-txt2,
+  .foody-menu-div2-txt2,
+  .foody-menu-div3-txt2,
+  .foody-menu-div4-txt2,
+  .foody-menu-div5-txt2,
+  .foody-menu-div6-txt2,
+  .foody-menu-div7-txt2,
+  .foody-menu-div8-txt2 {
+    font-family: sans-serif;
+    font-size: rem(12px);
+  }
+}
+
+.tablet-edit-layout {
+  .foody-menu {
+    padding: 3em 2em;
+
+    .foody-menu-big-div {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.5em;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .foody-menu {
+    padding: 1em;
+    gap: 1em;
+    .foody-menu-title {
+      font-size: rem(50px);
+    }
+
+    .foody-menu-subtitle {
+      font-size: rem(15px);
+      padding: 1em;
+    }
+
+    .foody-menu-big-div {
+      grid-template-columns: 1fr 1fr;
+      gap: 1em;
+
+      .foody-menu-div1-txt1,
+      .foody-menu-div2-txt1,
+      .foody-menu-div3-txt1,
+      .foody-menu-div4-txt1,
+      .foody-menu-div5-txt1,
+      .foody-menu-div6-txt1,
+      .foody-menu-div7-txt1,
+      .foody-menu-div8-txt1 {
+        font-size: rem(15px);
+      }
+    }
+  }
+}

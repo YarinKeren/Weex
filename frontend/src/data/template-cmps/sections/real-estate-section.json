@@ -1,0 +1,82 @@
+{
+  "_id": "fok9k9k9kkkmmmmm000000m0m0m0m0m0m0m0mdJ7h3dKddcKKMKOMOOOD3",
+  "type": "container",
+  "name": "real estate section",
+  "theme": "wap-10-theme",
+  "className": "real-estate-section",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699821082/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-22.29.58_afeiv8.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "4vfvMlssddsdsdds7gQ27777v7fv7fv7v7f7vf7vf7v7fv7fv7f7vzE9Ur",
+      "style": {},
+      "className": "real-estate-section-box",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "292929JFIRJFR292992JFIRJF92929JDEIDJ9292djJCIWSJCSsnBBVBBVBB",
+          "info": { "txt": "DESIRABLE LOCATIONS" },
+          "style": {},
+          "className": "real-estate-section-title"
+        },
+        {
+          "type": "txt",
+          "_id": "DJfedfdCSOICSDfdfdOJIDCSJOddfI490340934923303490VEOJVFEN20940249",
+          "info": {
+            "txt": "Embark on a captivating journey through the most desirable locations that define the pinnacle of living."
+          },
+          "style": {},
+          "className": "real-estate-section-txt"
+        },
+        {
+          "type": "img",
+          "_id": "ds3zdsddsdszdsdsdsdZpdssdsdpdsdsds3ndsdP",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787302/asset_10_wp45ci.jpg"
+          },
+          "style": {},
+          "className": "real-estate-section-img"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "098373641839vfd2Ht4oO5vnvnnvyPFDK6IFFFFdGGG",
+      "style": {},
+      "className": "real-estate-section-box",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "3CC2CC2CC2NVvMSMSMSMSMMSMS00MSMSM0000MSMSM0000MSMM4dCvVV",
+          "info": { "txt": "QUALITY COMFORT" },
+          "style": {},
+          "className": "real-estate-section-title"
+        },
+        {
+          "type": "txt",
+          "_id": "nFVIOS90iofew023kio90ifkojdsc11ijf1ijfrn1bgb1bhg1nvnjgvnhgbvhgb24",
+          "info": {
+            "txt": "Experience the epitome of living with nature with our collection of houses that offer unparalleled comfort."
+          },
+          "style": {},
+          "className": "real-estate-section-txt"
+        },
+        {
+          "type": "img",
+          "_id": "CC2CC2CC2344C2C2zKSFFSFFFV91VVDdBBBBfdB3BBBn4BBBBB4REWEWWWWWEWEWEWWWWWW",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699787307/asset_11_vsu2cx.jpg"
+          },
+          "style": {},
+          "className": "real-estate-section-img"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "iDoHaZaiN",
+  "type": "container",
+  "name": "simple-form-two",
+  "theme": "form-2-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698934711/simple-form2_xziyi6.jpg",
+  "className": "simple-form-two-class",
+  "style": {},
+  "createdBy": {
+    "_id": "U1S2E3R4",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "form",
+      "_id": "ooodNC992MMM20mjjc",
+      "style": {},
+      "className": "form-two-div",
+      "cmps": [
+        {
+          "_id": "T1T2L3E4",
+          "type": "title",
+          "info": { "txt": "New Horizons Await" },
+          "style": {},
+          "className": "form-title-unique"
+        },
+        {
+          "_id": "T2G3L4N5",
+          "type": "txt",
+          "info": { "txt": "Sign up for exclusive insights straight to your inbox" },
+          "style": {},
+          "className": "form-tagline-inspire"
+        },
+        {
+          "_id": "F1N2I3P4",
+          "type": "input",
+          "info": { "placeholder": "Email", "type": "text" },
+          "style": {},
+          "className": "form-two-email"
+        },
+        {
+          "_id": "E1M2A3I4",
+          "type": "btn",
+          "info": { "txt": "Submit", "kind": "submit" },
+          "style": {},
+          "className": "form-two-button"
+        }
+      ]
+    }
+  ]
+}

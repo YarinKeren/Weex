@@ -1,0 +1,46 @@
+.designer-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: end;
+  padding: 1.5em 3em;
+  gap: 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .designer-icon {
+    svg {
+      font-size: 2rem;
+      transition: 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .designer-social {
+    justify-content: center;
+
+    .designer-icon {
+      svg {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .designer-social {
+    justify-content: center;
+
+    .designer-icon {
+      svg {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

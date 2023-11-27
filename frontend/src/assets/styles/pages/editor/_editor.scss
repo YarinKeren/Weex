@@ -1,0 +1,9 @@
+.editor {
+  .editor-area-layout {
+    display: flex;
+
+    @media (max-width: $mobile-breakpoint) {
+      flex-direction: column-reverse;
+    }
+  }
+}

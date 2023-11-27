@@ -1,0 +1,46 @@
+{
+  "_id": "AD8z6N5v3l",
+  "type": "container",
+  "name": "designer-video-section",
+  "theme": "wap-7-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699386181/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.42.42_dejtyc.jpg",
+  "className": "video-feature-section",
+  "style": {},
+  "createdBy": {
+    "_id": "Y3uH9k",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "T1yAsE8rD",
+      "info": {
+        "txt": "With over 8 years of design experience, I bring a creative edge to every project I touch. My design journey has led me to collaborate with startups and renowned brands alike, where I've crafted visuals that tell compelling stories."
+      },
+      "style": {},
+      "className": "video-feature-section-txt1"
+    },
+    {
+      "type": "txt",
+      "_id": "T2kCF1cj",
+      "info": {
+        "txt": "Diving into the world of design, I've had the privilege of working on diverse projects, each leaving a unique mark."
+      },
+      "style": {},
+      "className": "video-feature-section-txt2"
+    },
+    {
+      "type": "video",
+      "_id": "OVppm9fT6m",
+      "info": {
+        "src": "https://res.cloudinary.com/ds8ryiaxd/video/upload/v1698956999/designer-template-video_xy5bpq.mp4",
+        "controls": true,
+        "autoplay": false,
+        "loop": false
+      },
+      "style": {},
+      "className": "video-feature-section-video"
+    }
+  ]
+}

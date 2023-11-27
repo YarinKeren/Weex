@@ -1,0 +1,58 @@
+{
+  "_id": "k5M8z2N3B9",
+  "type": "container",
+  "name": "nature-hero",
+  "theme": "wap-2-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698308385/helpsavingplanet_dinnwg.jpg",
+  "className": "nature-hero",
+  "style": {},
+  "createdBy": {
+    "_id": "g6F4s0P7L1",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "d3R5t9E2V4",
+      "style": {},
+      "className": "nature-image-item",
+      "cmps": [
+        {
+          "type": "img",
+          "_id": "90Dx5t1e2v3",
+          "info": {
+            "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698167881/full-screen-hero_mzshqn.jpg"
+          },
+          "style": {},
+          "className": "nature-img-items1"
+        },
+        {
+          "type": "title",
+          "_id": "214cisk5T6",
+          "info": {
+            "txt": "Help us saving our planet earth"
+          },
+          "style": {},
+          "className": "nature-title-items1"
+        },
+        {
+          "type": "txt",
+          "_id": "gG4ci45cc1",
+          "info": {
+            "txt": "Cause healthy nature benefits everybody"
+          },
+          "style": {},
+          "className": "nature-txt-items1"
+        }
+      ]
+    },
+    {
+      "type": "btn",
+      "_id": "w1O6j7C3M0",
+      "info": { "txt": "Learn More", "href": "#learnMore" },
+      "style": {},
+      "className": "nature-button-item"
+    }
+  ]
+}

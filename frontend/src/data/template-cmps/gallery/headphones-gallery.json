@@ -1,0 +1,60 @@
+{
+    "_id": "dsafasdf23412341",
+    "type": "container",
+    "name": "headphones-gallery",
+    "theme": "wap-3-theme",
+    "className": "headphones-gallery",
+    "style": {},
+    "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699495092/uypn8xhaoxhirsk3wa6j.png",
+    "createdBy": {
+      "_id": "dfgsdfg43523452",
+      "fullname": "",
+      "imgUrl": ""
+    },
+    "cmps": [
+      {
+        "type": "txt",
+        "_id": "dsfgsdfgsd65473473",
+        "info": {
+          "txt": "Taking over the scene."
+        },
+        "style": {},
+        "className": "headphones-gallery-title"
+      },
+      {
+        "type": "txt",
+        "_id": "d1231asfadsf245234521",
+        "info": {
+          "txt": "Portable and comfortable where ever you go, wireless and also wired what ever you desire your headphones to be."
+        },
+        "style": {},
+        "className": "headphones-gallery-subtitle"
+      },
+      {
+        "type": "container",
+        "_id": "sdafasdfas51167",
+        "style": {},
+        "className": "headphones-gallery-div",
+        "cmps": [
+          {
+            "type": "img",
+            "_id": "dfgsdfgs4523452",
+            "info": {
+              "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699494087/oenqa1n1fkyxn5iycjor.png"
+            },
+            "style": {},
+            "className": "headphones-gallery-img1"
+          },
+          {
+            "type": "img",
+            "_id": "sadfasdf34523452",
+            "info": {
+              "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699494092/p37hslvl7fekvjkat62h.png"
+            },
+            "style": {},
+            "className": "headphones-gallery-img1"
+          }
+        ]
+    }
+]
+}

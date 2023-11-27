@@ -1,0 +1,133 @@
+{
+  "_id": "1234584354132fr32fdsAfcncXZCXz",
+  "type": "container",
+  "name": "Foody team",
+  "theme": "wap-8-theme",
+  "className": "foody-team",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699294788/drhqsw5jayzz9c8ym657.png",
+  "createdBy": {
+    "_id": "qWrTsDuFvBnMkLo",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "xYzAsDfGhJkLpQw",
+      "info": { "txt": "OUR TEAM" },
+      "style": {},
+      "className": "foody-team-title"
+    },
+    {
+      "type": "txt",
+      "_id": "pLoKiJuHyGtFrEd",
+      "info": {
+        "txt": "Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."
+      },
+      "style": {},
+      "className": "foody-team-subtitle"
+    },
+    {
+      "type": "container",
+      "_id": "qAzXsWdCeVfRgBh",
+      "style": {},
+      "className": "foody-team-big-div",
+      "cmps": [
+        {
+          "type": "container",
+          "_id": "mgaoi43VTYMpQwErTy",
+          "style": {},
+          "className": "foody-team-div1",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "qAzXsWdCeVfRgBh",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699292788/bkaunnrw2ipnld3pjrrq.png"
+              },
+              "style": {},
+              "className": "foody-team-div1-img"
+            },
+            {
+              "type": "txt",
+              "_id": "wNmQoPlKfadsfa342jHgBsDf",
+              "info": { "txt": "Yarin Tokoshi" },
+              "style": {},
+              "className": "foody-team-div1-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "oPiYuTrEsAwDfGh",
+              "info": { "txt": "Head Chef" },
+              "style": {},
+              "className": "foody-team-div1-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "plarma453kasdaErTy",
+          "style": {},
+          "className": "foody-team-div2",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "tHbVnZmXsDcFgJk",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699292788/q3j05xtqmf4hje84jbce.png"
+              },
+              "style": {},
+              "className": "foody-team-div2-img"
+            },
+            {
+              "type": "txt",
+              "_id": "rTyUwQeRiOpAsDf",
+              "info": { "txt": "Alfie Katayoshi" },
+              "style": {},
+              "className": "foody-team-div2-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "sDfGhJkLpQwErTy",
+              "info": { "txt": "Head Chef" },
+              "style": {},
+              "className": "foody-team-div2-txt2"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "_id": "qWrTsDuFvBnMkLo",
+          "style": {},
+          "className": "foody-team-div3",
+          "cmps": [
+            {
+              "type": "img",
+              "_id": "xYzAsDfGhJkLpQw",
+              "info": {
+                "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699292788/mia297wap8occsy4etpj.png"
+              },
+              "style": {},
+              "className": "foody-team-div3-img"
+            },
+            {
+              "type": "txt",
+              "_id": "pLoKiJuHyGtFrEd",
+              "info": { "txt": "Ido Yotoyoshi" },
+              "style": {},
+              "className": "foody-team-div3-txt1"
+            },
+            {
+              "type": "txt",
+              "_id": "vnkjandfa9201asdfwErTy",
+              "info": { "txt": "Head Chef" },
+              "style": {},
+              "className": "foody-team-div3-txt2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.cosmetic-articles-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  padding: 4em;
+  gap: 4em;
+
+  .cosmetic-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em 1em;
+    background-color: $sClr4;
+    border-radius: 0 2em;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+
+    p {
+      margin-top: 1em;
+      font-size: 1.2rem;
+      color: $sClr3;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "2Z2243y43E6scMaV8idoR1mlildoG7bQ",
+  "type": "container",
+  "name": "startup hero",
+  "theme": "wap-9-theme",
+  "className": "startup-hero",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699466890/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-08_%D7%91-20.07.58_kqdtge.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "img",
+      "_id": "B5gZ7idom2yR1Q8wN2tM",
+      "info": {
+        "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699466347/startup-hero-img_eowyhx.webp"
+      },
+      "style": {},
+      "className": "startup-hero-img"
+    },
+    {
+      "type": "container",
+      "_id": "R2tidoJ8kF1Y6uB9aD",
+      "style": {},
+      "className": "startup-hero-content",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "W6xH4idon2pS7C2vQ3oE",
+          "info": { "txt": "Startup Venoe" },
+          "style": {},
+          "className": "startup-hero-title"
+        },
+        {
+          "type": "txt",
+          "_id": "V3kP6jHido9X4eLv1rS",
+          "info": {
+            "txt": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          "style": {},
+          "className": "startup-hero-txt"
+        },
+        {
+          "type": "btn",
+          "_id": "1F1113d121qD8mT5iGo4mshalY7aB4nG",
+          "info": { "txt": "Register" },
+          "style": {},
+          "className": "startup-hero-btn"
+        }
+      ]
+    }
+  ]
+}

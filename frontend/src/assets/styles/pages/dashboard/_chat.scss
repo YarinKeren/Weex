@@ -1,0 +1,340 @@
+$text-1: #333;
+$text-2: #666;
+$text-3: #999;
+$line: #ccc;
+$time-bg: #eee;
+$background: #f7f7f7;
+
+.messages-dashboard {
+  display: grid;
+  grid-template-columns: minmax(auto, 1fr) 4fr;
+  //   flex: 1;
+  //   height: 100vh;
+  //   background-color: $tools-color;
+  overflow: hidden;
+  padding: 20px;
+  .pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+
+    &.bigger {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .last-messages {
+    flex: 1;
+    .list-item-preview {
+      &.preview-header {
+        color: $sClr6;
+        background-color: $editor-header-color;
+        margin-block-end: rem(10px);
+        border-radius: 10px 0 0 0;
+        padding: 1.22rem;
+        border-bottom: 1px solid lightgray;
+
+        h4 {
+          font-size: 1.2rem;
+        }
+      }
+
+      .item {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 1fr auto;
+        grid-auto-flow: row;
+        grid-template-areas:
+          'avatar name name'
+          'avatar body time-ago';
+        line-height: 1;
+        align-items: center;
+        padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+
+        *:not(:last-child) {
+          margin-inline-end: $spacing-s;
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: darken($editor-body-color, 3%);
+        }
+
+        .user-name {
+          grid-area: name;
+          margin-block-start: 5px;
+          place-self: start;
+          color: $sClr6;
+          font-weight: 600;
+          font-size: 0.8rem;
+          display: -webkit-box;
+          overflow: hidden;
+          word-break: break-all;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          max-width: 100px;
+          &.no-clamp {
+            max-width: 100%;
+          }
+        }
+
+        .time-ago {
+          color: $theme-color;
+          font-size: 12px;
+          grid-area: time-ago;
+          place-self: center;
+        }
+
+        .user-avatar {
+          grid-area: avatar;
+          place-self: start;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          height: 2em;
+          //   width: 2em;
+          //   margin-bottom: -0.5em;
+        }
+
+        .message-body {
+          //   margin-block-start: 1.3rem;
+          grid-area: body;
+          font-size: px-to-rem(12.44px);
+          color: darken($sClr6, 30%);
+          overflow: hidden;
+          word-break: break-all;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          max-width: 300px;
+        }
+      }
+    }
+  }
+
+  .info-box {
+    border-radius: $spacing-xs;
+    background-color: $editor-body-color;
+    margin-bottom: $spacing-m;
+    flex-direction: column;
+
+    .contacts-menu {
+      margin-block-end: rem(10px);
+    }
+    .link-preview {
+      margin-top: $spacing-s;
+      gap: 0px;
+      input {
+        padding: 0;
+        box-shadow: none;
+        border: 0px;
+      }
+    }
+
+    &.chat-contacts {
+      border-right: 1px solid lightgray;
+      height: 100%;
+      margin: 0;
+      border-radius: $spacing-s 0 0 $spacing-s;
+      max-width: 100%;
+      min-width: 240px;
+    }
+
+    .text-wrapper {
+      place-self: start;
+
+      .level {
+        margin-bottom: 1rem;
+      }
+      h4 {
+        font-weight: 600;
+      }
+      h3 {
+        font-weight: 700;
+        color: darken($clr9, 35%);
+      }
+      p {
+        color: rgba($clr7, 90%);
+      }
+    }
+  }
+
+  .chat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+    border-radius: 0 $spacing-s $spacing-s 0;
+
+    .chat-layout {
+      height: 100%;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact.bar {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      flex-shrink: 0;
+      padding: $spacing-s $spacing-m;
+      box-sizing: border-box;
+      border-bottom: 1px solid lightgray;
+
+      font-weight: 700;
+      color: $sClr6;
+      border-bottom: 1px solid rgba(68, 68, 100, 0.17);
+      background-color: $editor-header-color;
+
+      backdrop-filter: blur(5px);
+      .name {
+        font-weight: 600;
+        font-size: 1.3rem;
+      }
+      .seen {
+        color: $sClr6;
+      }
+    }
+
+    .messages {
+      padding: 1em;
+      //   box-shadow: inset 3px 3px 20px -10px rgba($clr7, 90%);
+      background: $editor-body-color;
+      flex-grow: 2;
+      overflow-y: auto;
+      .time {
+        font-size: 0.8rem;
+        background: $sClr6;
+        padding: 0.25rem 1em;
+        border-radius: 2rem;
+        color: $homeClr1;
+        width: fit-content;
+        margin: 0 auto;
+      }
+
+      .message {
+        box-sizing: border-box;
+        padding: 0.5em 1em;
+        margin: $spacing-m 1em;
+        background: darken($sClr6, 10%);
+        border-radius: 0 1.125rem 1.125rem 1.125rem;
+        min-height: 2.25rem;
+        width: fit-content;
+        box-shadow: 0 0 2rem rgba($clr2, 0.075), 0rem 1em 1em -1em rgba($clr2, 0.1);
+
+        &.owner {
+          margin: 1em 1em 1em auto;
+          border-radius: 1.125rem 0 1.125rem 1.125rem;
+          background-color: darken($clr10, 5%);
+        }
+
+        &.parker {
+          margin: 1em 1em 1em auto;
+          border-radius: 1.125rem 1.125rem 0 1.125rem;
+          background: $text-1;
+          color: $clr1;
+        }
+
+        .typing {
+          display: inline-block;
+          width: 0.8rem;
+          height: 0.8rem;
+          margin-right: 0rem;
+          box-sizing: border-box;
+          background: #ccc;
+          border-radius: 50%;
+
+          &.typing-1 {
+            animation: typing 3s infinite;
+          }
+          &.typing-2 {
+            animation: typing 3s 250ms infinite;
+          }
+          &.typing-3 {
+            animation: typing 3s 500ms infinite;
+          }
+        }
+      }
+    }
+
+    .msg-input {
+      box-sizing: border-box;
+      flex-basis: 4rem;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      padding: 0 $spacing-s 0 $spacing-m;
+      border-top: 1px solid rgba(218, 218, 230, 0.918);
+      background-color: $editor-body-color;
+      .send-btn {
+        color: $sClr6;
+        cursor: pointer;
+        transition: color 200ms;
+
+        &:hover {
+          color: $theme-color;
+        }
+      }
+
+      input {
+        padding: 0.5em 1em;
+        margin-right: 1em;
+        border-radius: 1.125rem;
+        flex-grow: 2;
+        font-weight: 400;
+        letter-spacing: 0.015rem;
+        &:placeholder {
+          color: $text-3;
+        }
+      }
+    }
+  }
+
+  @keyframes typing {
+    0%,
+    75%,
+    100% {
+      transform: translate(0, 0.25rem) scale(0.9);
+      opacity: 0.5;
+    }
+
+    25% {
+      transform: translate(0, -0.25rem) scale(1);
+      opacity: 1;
+    }
+  }
+
+  // Obviously in a real app I would load this from a DB with JS
+  // For now this is a nice quick and easy method to mockup
+
+  .pic.stark {
+    background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/73/SMH_Mentor_6.png');
+  }
+  .pic.banner {
+    background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/4/4f/BruceHulk-Endgame-TravelingCapInPast.jpg');
+  }
+  .pic.thor {
+    background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/98/ThorFliesThroughTheAnus.jpg');
+  }
+  .pic.danvers {
+    background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/05/HeyPeterParker.png');
+  }
+  .pic.rogers {
+    background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/7c/Cap.America_%28We_Don%27t_Trade_Lives_Vision%29.png');
+  }
+
+  .send-btn {
+    margin-right: 0.2rem;
+    cursor: pointer;
+  }
+}

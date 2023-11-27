@@ -1,0 +1,244 @@
+.foody-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 3.2em;
+  font-family: oswald, sans-serif;
+  position: relative;
+
+  @media (max-width: 1000px) {
+    padding: 1.5em 3em;
+  }
+
+  @media (max-width: 800px) {
+    padding: 1em 2em;
+  }
+
+  @media (max-width: 640px) {
+    padding: 0.8em 2em;
+  }
+
+  .foody-logo {
+    font-size: 1.8rem;
+    margin-bottom: 0.9rem;
+
+    @media (max-width: 1000px) {
+      font-size: 1.6rem;
+    }
+
+    @media (max-width: 800px) {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 640px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .foody-links-nav {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-left: 1em;
+
+    @media (max-width: 1000px) {
+      gap: 2em;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 800px) {
+      gap: 1.5em;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+
+  .foody-nav-btn {
+    padding: 0.8em 2em;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: oswald, sans-serif;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    @media (max-width: 1000px) {
+      padding: 0.8em 1.5em;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 800px) {
+      padding: 0.6em 1.5em;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+
+  .foody-humburget-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    z-index: 1000;
+
+    @media (max-width: 640px) {
+      display: block;
+      cursor: pointer;
+
+      .mobile-menu-btn {
+        border: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 0.8em;
+        right: 1.2em;
+        z-index: 1000;
+
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4em;
+        font-size: 1.4rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        width: 90vw;
+        height: 40vh;
+        padding: 1.4em;
+        background-color: $sClr3;
+        border-bottom: 1px solid $sClr1;
+        transition: all 0.3s ease-in-out;
+
+        a {
+          font-weight: 600;
+          letter-spacing: 1px;
+          font-family: oswald, sans-serif;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.tablet-edit-layout {
+  .foody-nav {
+    padding: 1em 2em;
+
+    .foody-logo {
+      font-size: 1.6rem;
+      margin-top: 5px;
+    }
+
+    .foody-links-nav {
+      gap: 1.5em;
+      font-size: 0.95rem;
+    }
+
+    .foody-nav-btn {
+      padding: 0.6em 1.5em;
+      font-size: 0.85rem;
+    }
+
+    .foody-humburget-menu {
+      display: none;
+    }
+  }
+}
+
+.mobile-edit-layout {
+  .foody-nav {
+    padding: 1em;
+
+    .foody-logo {
+      font-size: 1.5rem;
+    }
+
+    .foody-links-nav {
+      gap: 1.5em;
+      font-size: 0.9rem;
+      display: none;
+    }
+
+    .foody-nav-btn {
+      display: none;
+    }
+
+    .foody-humburget-menu {
+      display: block;
+      z-index: 1000;
+      position: absolute;
+      top: 0rem;
+      right: 0rem;
+      z-index: 1000;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      .mobile-menu-btn {
+        border: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 1em;
+        right: 1.2em;
+        z-index: 1000;
+
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+
+        &:hover {
+          background: none;
+          color: $sClr7;
+        }
+      }
+
+      .mobile-menu-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4em;
+        font-size: 1.4rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        width: 18.5vw;
+        height: 40vh;
+        padding: 1.4em;
+        background-color: $sClr3;
+        border-bottom: 1px solid $sClr1;
+
+        a {
+          font-weight: 600;
+          letter-spacing: 1px;
+          font-family: oswald, sans-serif;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

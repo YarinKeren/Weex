@@ -1,0 +1,35 @@
+.foody-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    // background-color: #f9fbf2;
+
+
+    .foody-footer-div-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .foody-footer-div2 {
+        display: flex;
+        gap: 1em;
+    }
+}
+
+.mobile-edit-layout {
+    .foody-footer {
+        padding: 1em;
+
+        .foody-footer-div-1 {
+            font-size: rem(12px);
+            flex-direction: column;
+
+        }
+
+        .designer-footer-txt1{
+            font-size: rem(12px);
+        }
+    }
+}

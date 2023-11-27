@@ -1,0 +1,51 @@
+{
+  "_id": "kVMZ2",
+  "type": "container",
+  "name": "headphones-footer",
+  "theme": "wap-3-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699385252/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-07_%D7%91-21.27.06_aumdhk.jpg",
+  "className": "headphones-footer",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "link",
+      "_id": "headphones-footer-link1",
+      "info": { "txt": "Home", "href": "#Home" },
+      "style": {},
+      "className": "headphones-footer-link1"
+    },
+    {
+      "type": "link",
+      "_id": "headphones-footer-link2",
+      "info": { "txt": "Benefits", "href": "#benefits" },
+      "style": {},
+      "className": "headphones-footer-link2"
+    },
+    {
+      "type": "link",
+      "_id": "headphones-footer-link3",
+      "info": { "txt": "Reviews", "href": "#Reviews" },
+      "style": {},
+      "className": "headphones-footer-link3"
+    },
+    {
+      "type": "link",
+      "_id": "headphones-footer-link4",
+      "info": { "txt": "Shipping", "href": "#about" },
+      "style": {},
+      "className": "headphones-footer-link4"
+    },
+    {
+      "type": "txt",
+      "_id": "headphones-footer-txt1",
+      "info": { "txt": "2023 by SOUNDBEAM, powered by WeeX" },
+      "style": {},
+      "className": "headphones-footer-txt1"
+    }
+  ]
+}

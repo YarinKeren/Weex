@@ -1,0 +1,109 @@
+.car-section {
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  background-image: url('https://res.cloudinary.com/ds8ryiaxd/image/upload/v1698594036/kamprlmpgsrmbt2foil8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  min-height: 578px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1fr;
+
+  img {
+    width: rem(50px);
+  }
+
+  .car-section-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .car-section-div1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .car-section-div2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .car-section-div3 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .car-section-div1,
+  .car-section-div2,
+  .car-section-div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    max-width: rem(190px);
+
+    .car-section-div-title1,
+    .car-section-div-title2,
+    .car-section-div-title3 {
+      padding: 1em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: rem(22px);
+    }
+
+    .car-section-div-txt1,
+    .car-section-div-txt2,
+    .car-section-div-txt3 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 1px;
+      font-size: rem(14px);
+    }
+  }
+
+  .car-section-title {
+    grid-column: 2/5;
+    font-size: rem(40px);
+  }
+}
+
+.tablet-edit-layout {
+  .car-section {
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 0.3fr;
+  }
+}
+
+.mobile-edit-layout {
+  .car-section {
+    min-height: rem(695px);
+    grid-template-rows: 0.8fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+  }
+
+  .car-section-title {
+    grid-column: 2/3;
+    font-size: rem(40px);
+  }
+
+  .car-section-div1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-bottom: rem(20px);
+  }
+
+  .car-section-div2 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-bottom: rem(60px);
+  }
+
+  .car-section-div3 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    margin-bottom: rem(20px);
+  }
+}

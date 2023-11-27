@@ -1,0 +1,99 @@
+// Font Sizes
+.fs12 {
+  font-size: rem(12px);
+}
+.fs14 {
+  font-size: rem(14px);
+}
+.fs18 {
+  font-size: rem(18px);
+}
+.fs20 {
+  font-size: rem(20px);
+}
+.fs24 {
+  font-size: rem(24px);
+}
+.fs28 {
+  font-size: rem(28px);
+}
+.fs30 {
+  font-size: rem(30px);
+}
+
+// flex helpers
+.flex {
+  display: flex;
+
+  > *.full {
+    flex: 1;
+  }
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+  &.direction-column {
+    flex-direction: column;
+  }
+  &.justify-center {
+    justify-content: center;
+  }
+  &.space-between {
+    justify-content: space-between;
+  }
+  &.space-around {
+    justify-content: space-around;
+  }
+  &.align-center {
+    align-items: center;
+  }
+  &.gap-5 {
+    gap: 5px;
+  }
+  &.gap-10 {
+    gap: 10px;
+  }
+}
+
+// Media helpers
+.square-ratio {
+  @include aspect-ratio(1, 1);
+}
+.video-ratio {
+  @include aspect-ratio(16, 9);
+}
+.portrait-ratio {
+  @include aspect-ratio(9, 16);
+}
+
+// HOVER ELEMENTS
+.hover:not([style*='background-image']) {
+  outline: rem(1.5px) dashed $editorLayoutBgClr !important;
+
+  border-radius: rem(2px);
+}
+
+//ACTIVE ELEMENTS
+.active-cmp {
+  outline: rem(2px) dashed $editorLayoutBgClr !important;
+}
+
+.remove-link-style {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: darken($color: $sClr2, $amount: 30);
+  }
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.c-init {
+  cursor: initial;
+}
+
+.inline {
+  display: inline;
+}

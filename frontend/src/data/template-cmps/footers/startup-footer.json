@@ -1,0 +1,117 @@
+{
+  "_id": "9aE0RdR810RF4428R7A3djiRjc0wid369R63589253b3dCEe85",
+  "type": "container",
+  "name": "startup-footer",
+  "theme": "wap-9-theme",
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699485605/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-09_%D7%91-1.19.54_enkb3u.jpg",
+  "className": "startup-footer",
+  "style": {},
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "container",
+      "_id": "8028676d2dBe450dBc85E14aD482E2B3",
+      "style": {},
+      "className": "startup-footer-div-1",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "3fF2E40499604dB1A26037BaE958A49f",
+          "info": { "txt": "VENOE" },
+          "style": {},
+          "className": "startup-footer-title"
+        },
+        {
+          "type": "txt",
+          "_id": "42F066C47fE641568756075818FaD3B4",
+          "info": { "txt": "Powered by WeeX 2023" },
+          "style": {},
+          "className": "startup-footer-tagline"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "D00f1f67D29542C8A3C2Ba23C0F5Ce07",
+      "style": {},
+      "className": "startup-footer-div-2",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "8e101437B5294e948203Ee1661F31f4b",
+          "info": { "txt": "Menu" },
+          "style": {},
+          "className": "startup-footer-txt1"
+        },
+        {
+          "type": "link",
+          "_id": "Cd2d104cA4Fe42B49aCa37AeD20e73Bf",
+          "info": { "txt": "Solutions", "href": "#solutions" },
+          "style": {},
+          "className": "startup-footer-link1"
+        },
+        {
+          "type": "link",
+          "_id": "7246617e7716454eBe93C08cE3Ab02Ab",
+          "info": { "txt": "Pricing", "href": "#pricing" },
+          "style": {},
+          "className": "startup-footer-link2"
+        },
+        {
+          "type": "link",
+          "_id": "4c1eFaDf7eBc447cA6A642614eA43aD2",
+          "info": { "txt": "Team", "href": "#team" },
+          "style": {},
+          "className": "startup-footer-link3"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "A70b473744524a788f8fFa1aC4Fd5338",
+      "style": {},
+      "className": "startup-footer-div3",
+      "cmps": [
+        {
+          "type": "title",
+          "_id": "fc2DDITITUm44b3fB7E5dijfiifidododnvtaliaa",
+          "info": { "txt": "Follow us" },
+          "style": {},
+          "className": "startup-footer-follow-us"
+        },
+        {
+          "type": "icon",
+          "_id": "Ec2a66724f744276Ab3fB7E5D375Bc1c",
+          "info": { "iconName": "facebook" },
+          "style": {},
+          "className": "startup-footer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "827dA351F7824725Ab99C99c4b9f8259",
+          "info": { "iconName": "instagram" },
+          "style": {},
+          "className": "startup-footer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "AFzkvoOOCKK33cc3ccCeF9184f4cB6B9B40c469b81A1",
+          "info": { "iconName": "linkedin" },
+          "style": {},
+          "className": "startup-footer-icon"
+        },
+        {
+          "type": "icon",
+          "_id": "7cCeF9184f433DD33DD33DDVcL469lb1A1",
+          "info": { "iconName": "twitter" },
+          "style": {},
+          "className": "startup-footer-icon"
+        }
+      ]
+    }
+  ]
+}

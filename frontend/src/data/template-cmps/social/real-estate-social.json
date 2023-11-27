@@ -1,0 +1,106 @@
+{
+  "_id": "slslslsllslslslslsl3003lslslsl02020lslsl0202ls9kkkm",
+  "type": "container",
+  "name": "real estate social",
+  "theme": "wap-10-theme",
+  "className": "real-eastate-social",
+  "style": {},
+  "imgUrl": "https://res.cloudinary.com/ds8ryiaxd/image/upload/v1699821081/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-12_%D7%91-22.30.30_lkl3is.jpg",
+  "createdBy": {
+    "_id": "",
+    "fullname": "",
+    "imgUrl": ""
+  },
+  "cmps": [
+    {
+      "type": "txt",
+      "_id": "nfdidfnifidn3i94r93u578853858783hufeinr43897355U8NUVEIR2421Sjdlp",
+      "info": {
+        "txt": "Need a new home? We can help!"
+      },
+      "style": {},
+      "className": "real-estate-social-headline"
+    },
+    {
+      "type": "txt",
+      "_id": "wwwwwwwwWwwwwwwwwwwwwwWWWWWLOKKOOKCFVdFVFVFVkdk344367788877889875432AKkiIlLp",
+      "info": {
+        "txt": "Contant us today for a free consultation on number 555-555-5555"
+      },
+      "style": {},
+      "className": "real-estate-social-sub-headline"
+    },
+    {
+      "type": "container",
+      "_id": "dkdkdxmckx03k9RK934JqVqNGqJH9KOKLPDPFPDFPODPODPOF493POPOF9FF9",
+      "style": {},
+      "className": "real-estate-social-card",
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "V9D9D9DJDJDJ994949939387757575757yfuhr8fh5h7hf7f5h7f7fhsxxxx",
+          "info": { "iconName": "facebook" },
+          "style": {},
+          "className": "real-estate-social-icon"
+        },
+        {
+          "type": "txt",
+          "_id": "xcxXMMXMMXXMXMCCCmccoxxoxoxox999939388575779229838928489247hveik",
+          "info": {
+            "txt": "10000+ Likes"
+          },
+          "style": {},
+          "className": "real-estate-social-txt"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "94935348943895745887huhcduhHHUCDHC8HCD8HDCH8CD",
+      "style": {},
+      "className": "real-estate-social-card",
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "CBDUCCDUCD8C9I92JI2JE2JEJFU8u8u84u84ufhhufhvnbjbnmgbgfnvjsaaaA",
+          "info": { "iconName": "linkedin" },
+          "style": {},
+          "className": "real-estate-social-icon"
+        },
+        {
+          "type": "txt",
+          "_id": "vfviik9i9itgiititiuuiuuiuiiUIUiiuiiUIIUIU8383835548520849SSDdksddsdsmv",
+          "info": {
+            "txt": "800+ Connections"
+          },
+          "style": {},
+          "className": "real-estate-social-txt"
+        }
+      ]
+    },
+    {
+      "type": "container",
+      "_id": "aaajajajjaja9a9a9aja9aCa0RRRRR0Ca0a32RRRR8328167312geuhb32h8uinjk32huinjkas",
+      "style": {},
+      "className": "real-estate-social-card",
+      "cmps": [
+        {
+          "type": "icon",
+          "_id": "CCxx01K1K1K1x0101K1K101K1K1001KK101xK1KODEK01O0O1KO10KO10KOCDCnhkhnohknvx",
+          "info": { "iconName": "instagram" },
+          "style": {},
+          "className": "real-estate-social-icon"
+        },
+        {
+          "type": "txt",
+          "_id": "b666969666gikbgokbgokbgokobgkgoijrgf9e394JNR9UH3NI2NKJ2NJNJKNVUFVIVUNEFVNEFJVENVFjd2998",
+          "info": {
+            "txt": "5000+ Followers"
+          },
+          "style": {},
+          "className": "real-estate-social-txt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+.start-today-section {
+  background: rgb(147, 89, 245);
+  background: radial-gradient(circle, rgba(147, 89, 245, 0.3) 0%, rgba(24, 22, 26, 1) 30%);
+  padding: 5em;
+
+  @media (max-width: 1400px) {
+    padding: 2em 5em;
+  }
+
+  @media (max-width: 1080px) {
+    padding: 1em 3em;
+  }
+
+  .start-today-content {
+    padding: 2em 5em;
+    border-radius: 0.8em;
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transition: all ease 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 1080px) {
+      padding: 1.5em 3em;
+    }
+
+    @media (max-width: 650px) {
+      padding: 1em 2em;
+    }
+
+    .start-today-title {
+      font-size: 3rem;
+      color: $homeClr7;
+      text-align: center;
+      line-height: 1.2;
+      margin: 1em 0 0.5em;
+
+      @media (max-width: 1080px) {
+        margin: 0.5em 0 0.5em;
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 650px) {
+        font-size: 2rem;
+      }
+    }
+
+    .start-today-subtitle {
+      font-size: 1.2rem;
+      color: $homeClr7;
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 2em;
+
+      @media (max-width: 1080px) {
+        font-size: 1rem;
+      }
+
+      @media (max-width: 650px) {
+        font-size: 0.9rem;
+      }
+    }
+
+    button {
+      background-color: $homeClrElements;
+      color: $homeClr7;
+      font-size: 1rem;
+      padding: 0.9em 2em 0.7em;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: $homeClr6;
+        color: $homeClr1;
+      }
+
+      @media (max-width: 1080px) {
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 650px) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
