@@ -20,8 +20,6 @@ async function query(filterBy = {}) {
     users = users.map(user => {
       delete user.password
       user.createdAt = ObjectId(user._id).getTimestamp()
-      // Returning fake fresh data
-      // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
       return user
     })
     return users
@@ -36,13 +34,6 @@ async function getById(userId) {
     const collection = await dbService.getCollection('user')
     const user = await collection.findOne({ _id: ObjectId(userId) })
     delete user.password
-
-    // user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
-    // user.givenReviews = user.givenReviews.map(review => {
-    //   delete review.byUser
-    //   return review
-    // })
-
     return user
   } catch (err) {
     logger.error(`while finding user by id: ${userId}`, err)
@@ -53,6 +44,7 @@ async function getByEmail(email) {
   try {
     const collection = await dbService.getCollection('user')
     const user = await collection.findOne({ email })
+    console.log('user found by email', user)
     return user
   } catch (err) {
     logger.error(`while finding user by email: ${email}`, err)

@@ -5,7 +5,6 @@ export async function getWaps(req, res) {
   try {
     logger.debug('Getting Waps:')
     const waps = await wapService.query()
-    console.log('waps', waps)
     res.json(waps)
   } catch (err) {
     logger.error('Failed to get waps(controller-getWaps)', err)
