@@ -25,39 +25,51 @@ Built with :
 - Real-time collaboration with team members using socket connections.
 - Manage website data and settings through a user-friendly dashboard.
 - Create, edit and publish websites with ease.
+- User login/signup system with auth checks.
 
 ## Demo
 
-[Link to Demo](https://weex.onrender.com/)
+[Try it yourself here !](https://weex.onrender.com/)
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YarinKeren/Weex-frontend.git
+git clone https://github.com/YarinKeren/Weex.git
 ```
 
 2. Install dependencies:
 
 ```bash
-cd Weex-frontend
+cd frontend
+npm install
+```
+
+```bash
+cd backend
 npm install
 ```
 
 3. Start the application:
 
 ```bash
+cd frontend
 npm run dev
+```
+
+```bash
+cd backend
+npm start
 ```
 
 ## Usage
 
 1. Visit `http://localhost:5173` in your web browser.
-2. Sign up or log in to your account.
-3. Create a new website or choose a template to get started.
-4. Customize the website using the drag-and-drop builder.
-5. Collaborate with team members in real-time.
+2. Sign up or log in to your account. (Not mandatory)
+3. Create a new website or choose a pre-made template to get started.
+4. Customize the website adding elements from the sidebar, or editing them with the pop-up editor.
+5. Collaborate with team members in real-time, analyze data in the dashboard.
 6. Save and publish your website when ready.
 
 ## Technologies
@@ -66,6 +78,8 @@ npm run dev
 - Redux
 - MongoDB
 - SASS
+- Node.js
+- Express.js
 - WebSockets
 
 ## Contributors
@@ -79,4 +93,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to contribute and report issues. Happy coding! 🚀
+Feel free to contact us for any questions ! 💻
