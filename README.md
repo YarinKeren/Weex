@@ -1,8 +1,8 @@
 # Weex - A "Wix" Clone
-<img src="https://res.cloudinary.com/ds8ryiaxd/image/upload/v1701116387/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-27_211935_kpayif.jpg" width="400px" height="280px" /> 
-<img src="https://res.cloudinary.com/ds8ryiaxd/image/upload/v1701116513/index_avsntw.jpg" width="400px" height="280px" /> 
+A full-stack web application that replicates the core functionalities of Wix, developed by Yarin Keren, Ido Halbany and Alfie Alfandary.
 
-Full-stack web application that replicates the core functionalities of Wix, developed by Yarin Keren, Ido Halbany and Alfie Alfandary.
+<img src="https://res.cloudinary.com/ds8ryiaxd/image/upload/v1701116387/%D7%A6%D7%99%D7%9C%D7%95%D7%9D_%D7%9E%D7%A1%D7%9A_2023-11-27_211935_kpayif.jpg" width="500px" height="300px" /> <img src="https://res.cloudinary.com/ds8ryiaxd/image/upload/v1701116513/index_avsntw.jpg" width="500px" height="300px" /> 
+
 
 Built with :
 
